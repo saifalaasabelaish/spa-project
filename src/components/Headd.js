@@ -39,7 +39,7 @@ const Headd = () => {
               </div>
               </div>
               </div>
-  )
+  );
   }
   
   //Export
