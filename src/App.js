@@ -1,8 +1,8 @@
 import './App.css';
-
+import topNav from './components/navbsr'
 function App() {
   return (
-<div> </div>   
+<div><topNav></topNav> </div>   
   );
 }
 

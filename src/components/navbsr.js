@@ -1,4 +1,4 @@
-import './components/nav.css'
+import '.src/components/nav.css'
 
 const topNav=[
     {id:1,label:'Home',href:'#'},
@@ -11,7 +11,4 @@ const topNav=[
 
 ];
 
-export const  getTopNav=()=>{
-
-    return topNav;
-};
+export default topNav;
