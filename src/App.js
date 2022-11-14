@@ -1,4 +1,5 @@
 import './App.css';
+<<<<<<< HEAD
 
 
 function App() {
@@ -6,6 +7,11 @@ function App() {
 
  <div> </div> 
  
+=======
+function App() {
+  return (
+<div></div>   
+>>>>>>> areen
   );
 }
 
