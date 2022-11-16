@@ -1,4 +1,4 @@
-import "./Card.css"
+import "./ServicesPageCards.css"
 import img1 from '../images/img1.jpg';
 const Card = (props) => {
 
@@ -6,7 +6,7 @@ const Card = (props) => {
 
     return (
 
-        <div className="col-4">
+        <div className="col-3">
             <div className={classes}>
                 <img src={img1} alt ='image 1'/>
                 <div className="card-body">
