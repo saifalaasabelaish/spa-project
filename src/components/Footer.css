@@ -88,8 +88,15 @@
 @media(max-width: 768px){
     .footer h6{
         text-align: center;
-        margin-top: 10px;
+        margin-top: 20px;
         margin-bottom: 10px;
+    }
+    .footer #Logo{
+        margin-left: 35%;
+        margin-bottom: 25px;
+    }
+    form{
+        margin-bottom: 15px;
     }
     .footer ul{
         text-align: center;
@@ -97,8 +104,8 @@
     .social{
          margin: 0 auto;
         }
-    .box{
+    /*.box{
         left: 5%;
         height: 65%;
-    }
+    }*/
 }
