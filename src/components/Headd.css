@@ -1,47 +1,22 @@
-.headd{
-    background-color:  #F5CFCE;
-    height: 493px;
-    width: 100%;
-    float:left;
-    margin-right: -100%;
-    position: relative;
-    opacity: 1;
-    display: block;
-    z-index: 2;
-}
-.headd img{
-    position: relative;
-    height: 100%;
-    width: 100%;
-    float:left;
-}
-.headd h1{
-    color: #2B2B2B;
-    font-size: 60px;
+@import url(https://fonts.google.com/specimen/Titillium+Web);
+.headd  h1{
+    color: #ffffff;
+    font-size: 40px;
     font-weight: 600;
-    font-family: serif;
-    position: absolute;
-    top: 30%;
-    left:80px;
-    width: 100%;
+    font-family:'TitilliumWeb';
+    text-align: center;
+    position:relative;
+  top : 20px;
 }
 .headd h2{
-    color: #2B2B2B;
+    position:relative;
+    background-color: #78E9D2;
+    color: rgba(255, 255, 255, 0.872);
+    padding: 25px;
+    text-align: center;
+    padding-left: 10px;
     font-size: 20px;
-    font-weight: 600;
-    font-family:serif;
-    position: absolute;
-    width: 700px;
-    top: 60%;
-    left: 30px;
+    letter-spacing: 3px;
+    top: 29px;
+    font-family:'TitilliumWeb';
 }
-.headd p{
-    color: #2B2B2B;
-    font-size: 30px;
-    font-weight: 600;
-    font-family:sans-serif;
-    position: absolute;
-    width: 700px;
-    top: 46%;
-    left: 50px;
-};
