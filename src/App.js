@@ -1,9 +1,13 @@
 import './App.css';
-
-function App() {
+import'./components/About.css';
+import About from './components/About';
+function App() 
+{
   return (
-<div> </div>   
-  );
+<div>
+<About/>
+</div>   
+);
 }
 
 export default App;
