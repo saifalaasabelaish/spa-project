@@ -1,8 +1,11 @@
 import './App.css';
-
+import'./components/Wellness.css';
 function App() {
   return (
-<div> </div>   
+<>
+<Welln/>
+
+</>
   );
 }
 
