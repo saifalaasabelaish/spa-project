@@ -31,6 +31,15 @@
 .footer #offerEmail{
     margin-bottom: 10px;
 }
+.footer form button{
+    background-color: #78e9d2;
+    border-color: #78e9d2;
+}
+.footer form button:hover{
+    border-color: #78e9d2;
+    opacity: 0.8;
+    background-color: #78e9d2;
+}
 .footer h6{
     margin-top: 0;
     margin-bottom: 12px;
