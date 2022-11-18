@@ -1,8 +1,8 @@
-import'./components/about.css';
-const About =()=>
-{ const classes = 'About'
-return
-( <>
+import "../components/about.css"
+const About =()=>{ 
+
+  const classes = 'About'
+return ( <>
    <div className='About'>
    <div className='accordion' id="accordionExample">
    <div id="collapseOne" className='accordion-collapse collapse show' aria-labelledby="headingOne" data-bs-parent="#accordionExample">
