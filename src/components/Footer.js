@@ -1,6 +1,4 @@
 import "./Footer.css"
-import Form from 'react-bootstrap/Form';
-import { Button } from "react-bootstrap";
 
 /* eslint-disable jsx-a11y/anchor-is-valid */
 const Footer=()=>{
@@ -13,11 +11,13 @@ const Footer=()=>{
                        {/* <img id="Logo" src={require('../SPA_logo.png')} alt="Logo"/>*/}                     
                    </div>
                    <div className="col-xs-6 col-md-3">
-                      <Form>
-                           <Form.Label htmlFor="offerEmail">Enter your Email down in the box below so you can get the latest offers</Form.Label>
-                           <Form.Control type={"email"} id="offerEmail" name="offerEmail" placeholder="Name@Example.com"></Form.Control>
-                           <Button as="input" type="submit" value="Submit" />                        
-                     </Form>
+                   <form>
+                        <div className="form-group">
+                           <label htmlFor="offerEmail">Enter your Email down in the box below so you can get the latest offers</label>
+                           <input className="form-control" type="email" id="offerEmail" name="offerEmail" placeholder="Name@Example.com"></input>
+                        </div>
+                           <button type="submit" class="btn btn-primary">Submit</button>                       
+                        </form>
                    </div>                   
                    <div className="col-sm-6 col-md-2">
                      <h6>Contact us</h6>
