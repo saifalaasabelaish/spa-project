@@ -1,22 +1,30 @@
 @import url(https://fonts.google.com/specimen/Titillium+Web);
-.headd  h1{
+
+.headd{
+  display: flex;
+  align-content: center;
+  position:relative;
+}
+.headd h1{
     color: #ffffff;
-    font-size: 40px;
-    font-weight: 600;
+    font-size: 32px;
     font-family:'TitilliumWeb';
+    font-weight: bold;
     text-align: center;
-    position:relative;
-  top : 20px;
 }
 .headd h2{
-    position:relative;
-    background-color: #78E9D2;
-    color: rgba(255, 255, 255, 0.872);
-    padding: 25px;
-    text-align: center;
-    padding-left: 10px;
-    font-size: 20px;
-    letter-spacing: 3px;
-    top: 29px;
-    font-family:'TitilliumWeb';
+  color: #ffffff;
+  background-color: #78e9d2;
+  box-shadow: 0.5px 6px #6cd4bf;
+  padding: 20px;
+  letter-spacing: 1.5px;
+  font-size: 30px;
+  font-family:'TitilliumWeb';
+  text-align: center;
+}
+.headd h2:hover{
+  opacity: 0.9;
+  transform: scale(1.1); 
+  color:#ffffffcb;
+  background-color: #1defc5;
 }
