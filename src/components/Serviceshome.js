@@ -1,26 +1,35 @@
-import './About.css';
-const About =()=>
- { 
-   const classes = 'About'
-  return ( <>
-   <div className ={classes}>
-    
-   <h1>MEET OUR BEAUTIFUL TEAM</h1>
-    
+//import
+import './Serv-home.css'
+import first from './img.f/img.f/crocker.jpeg.jpeg'
+import scond from './img.f/img.f/qq.jpeg'
+import three from './img.f/img.f/qw.jpeg'
+import four from './img.f/photo_20190611_WM0142531_0_20190611.jpg'
 
-     <div id="collapseOne" className='accordion-collapse collapse show' aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-     <div className='accordion' id="accordionExample">
-     <div className='accordion-body'>
-     <p>MEET OUR BEAUTIFUL TEAM</p></div></div></div>
-     <div className='accordion-item'>
-     <div className="card">
-     <img src="img/11.png" className="card-img-top" alt="..."></img></div>
-    
-     <div id="collapseTwo" className='accordion-collapse collapse' aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-     <div className='accordion-body'>
-     <p><h3>NAME1</h3></p><p><h3> position </h3></p><p> الكتابه</p></div> </div>
-    
-     <div className = 'container'>
+
+//function
+const ServicesHome= () =>{
+
+    return(
+        <section>
+        <div className="servises-home">
+        <div className="row-services">
+            <div className="services-title">
+                <h1>MEET OUR BEAUTIFUL TEAM</h1>
+            </div>
+        </div>
+      </div>
+        <div className="container">
+           <div className="row my-3">
+            <div className=" col-sm-6 col-md-4 col-lg-3">
+                <div className="services-card" >
+                    <img src={first} className="card-img-skin" alt="first "></img>
+                    <div className="card-body">
+                      <h5 className="ser-card-title">Shayne Crocker</h5>
+                      <p className="ser-card-text">112 Mason Crt, Boiling Springs, SC 29316-5326 is where Shayne lives. Larry D Parris, Margaret P Parris, and two other persons are also associated with this address. The only phone number to contact Shayne is (864) 764-5978 (Cellco Partnership). Two persons, including James R Miresse, Beth Martin, listed the phone number (864) 764-5978 as their</p>
+                      
+                    </div>
+                  </div>
+                  <div className = 'container'>
      <div id ="social-Media">
      <a className='btn btn-outline-dark' >
       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-facebook" viewBox="0 0 16 16">
@@ -36,18 +45,19 @@ const About =()=>
      <a className='btn btn-outline-dark'>
      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-envelope" viewBox="0 0 16 16">
      <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
-     </svg></a></div></div></div>
-   
-   
-     <div className='accordion-item'>
-     <div className="card">
-     <img src="img/22.jpg" className="card-img-top" alt="..."></img> </div>
-     <div id="collapseTwo" className='accordion-collapse collapse' aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-     <div className='accordion-body'>
-     <p><h3>NAME2</h3></p><p><h3> position </h3></p><p> الكتابه </p></div></div>
-     <div className = 'container'>
-  
-  
+     </svg></a></div></div>
+            </div>
+
+            <div className="col-sm-6 col-md-4 col-lg-3">
+                <div className="services-card" >
+                    <img src={scond} className="card-img-body" alt="scond"></img>
+                    <div className="card-body">
+                      <h5 className="ser-card-title">Megan Martin</h5>
+                      <p className="ser-card-text">is an American actress and singer known for her work in film, television, and theatre. She is best known for her roles as Tess Tyler in the Disney Channel television films Camp Rock and its sequel Camp Rock 2: The Final Jam. Martin starred in the ABC Family television series, 10 Things I Hate About You as series lead Bianca Stratford. She has also had guest starring roles in House and Jessie, and played the recurring role of Julie #2 in multiple seasons of MTV's television series Awkward. Martin is also known for lending her voice for Naminé in the video game series Kingdom Hearts as well as voicing and motion-capturing Jessica from the video game Until Dawn. In 2019, Martin made her professional London stage debut in The Actor's Nightmare at the Park Theatre in London.</p>
+                     
+                    </div>
+                  </div>
+                  
     <div id ="social-Media">
     <a  className='btn btn-outline-dark'>
     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-instagram" viewBox="0 0 16 16">
@@ -57,17 +67,18 @@ const About =()=>
     <a className='btn btn-outline-dark'>
     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-envelope" viewBox="0 0 16 16">
     <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/></svg></a>
-   </div></div> </div>
-   
-   
-    <div className='accordion-item'>
-    <div id="collapseTwo" className='accordion-collapse collapse' aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-   <div className='accordion-body'>
-   
-   <p><h3>NAME3</h3></p><p><h3> position </h3></p><p> الكتابه </p> </div></div>
-   <div className="card" style="width: 18rem;">
-   <img src="img/33.jpg" className="card-img-top" alt="..."></img></div>
-    <div className = 'container'>
+   </div>
+            </div>
+
+            <div className="col-sm-6 col-md-4 col-lg-3">
+                <div className="services-card" >
+                    <img src={three} className="card-img-well" alt="three"></img>
+                    <div className="card-body">
+                      <h5 className="ser-card-title">Amanda Mollett</h5>
+                      <p className="ser-card-text">ssistant Attorney General in the Missouri Attorney General's Office, Governmental Affairs section. I am licensed to practice in Missouri, with a license to practice in Florida pending. My work includes appearances and submissions to the Administrative Hearing Commission, State Agencies, Probate Courts, Circuit Courts, and the Missouri Eastern and Western District Courts of Appeals. I am licensed to practice in the Western Federal District Court of Missouri.I have been co-counsel to a 4 day civil jury trial, taken 2 depositions personally, and have appeared in front of the Eastern District (March 4, 2022) and the Western District (October 6, 2022) Court of Appeals.</p>
+                    </div>
+                  </div>
+                  <div className = 'container'>
     <div id ="social-Media">
     <a className='btn btn-outline-dark' >
     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-facebook" viewBox="0 0 16 16">
@@ -78,15 +89,19 @@ const About =()=>
     <a className='btn btn-outline-dark'><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-twitter" viewBox="0 0 16 16">
     <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/></svg></a>
     <a className='btn btn-outline-dark'><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-envelope" viewBox="0 0 16 16">
-    <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/></svg></a></div>  </div ></div> 
-   <div className='accordion-item'>
-   <div className="card" style="width: 18rem;">
-   <img src="img/staff.jpg" className="card-img-top" alt="..."></img></div>
-   <div id="collapseTwo" className='accordion-collapse collapse' aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-   
-   <div className='accordion-body'>
-    <p><h3>NAME4</h3></p><p><h3> position </h3></p><p> الكتابه </p></div></div> 
-    <div className = 'container'>
+    <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/></svg></a></div>  </div ></div>
+
+
+            <div className="col-sm-6 col-md-4 col-lg-3">
+                <div className="services-card" >
+                    <img src={four} className="card-img-hair" alt="four "></img>
+                    <div className="card-body">
+                      <h5 className="ser-card-title">Lydia Smothers</h5>
+                      <p className="ser-card-text">She was born on 1994-06-1. Lydia’s age is about 28. Lydia’s current address is 5528 Sierra Madre Trails, Kalamazoo, MI 49009. Brian Douglass Elliott, Merle Sylvester Elliott, and four other persons are also associated with this address</p>
+                      
+                    </div>
+                  </div>
+                  <div className = 'container'>
     <div id ="social-Media">
     <a className='btn btn-outline-dark' >
     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"className="bi bi-facebook" viewBox="0 0 16 16">
@@ -94,84 +109,17 @@ const About =()=>
     <a className='btn btn-outline-dark'><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-twitter" viewBox="0 0 16 16">
     <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/></svg></a>
     <a className='btn btn-outline-dark'><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-envelope" viewBox="0 0 16 16"><path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
-   </svg></a> </div></div></div> </div>
- </>
- )
+   </svg></a> </div></div>
+            </div>
+        </div>
+    </div>
+  </section>
+       
+    
+            
+        
+    )
 }
-export default About ;
-//import
 
-// //function
-// import'About.css';
-
-// const ServicesHome= () =>{
-
-//   return(
-//     <>
-//       <section>
-//       <div className="servises-home">
-//       <div className="row-services">
-//           <div className="services-title">
-//               <h1>SERVICES WE PROVIDE</h1>
-//               <p>The spa is first of its kind in palestine in services we provide and profisseinal services we have</p>
-//           </div>
-//       </div>
-//     </div>
-//       <div className="container">
-//          <div className="row my-3">
-//           <div className=" col-sm-6 col-md-4 col-lg-3">
-//               <div className="services-card" >
-//                   <img src="img/images.jpg" className="card-img-skin" alt="skin care"></img>
-//                   <div className="card-body">
-//                     <h5 className="ser-card-title">SKIN CARE</h5>
-//                     <p className="ser-card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    
-//                   </div>
-//                 </div>
-//           </div>
-
-//           <div className="col-sm-6 col-md-4 col-lg-3">
-//               <div className="services-card" >
-//                   <img src="img/body.jpg" className="card-img-body" alt="body care"></img>
-//                   <div className="card-body">
-//                     <h5 className="ser-card-title">BODY CARE</h5>
-//                     <p className="ser-card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                   
-//                   </div>
-//                 </div>
-//           </div>
-
-//           <div className="col-sm-6 col-md-4 col-lg-3">
-//               <div className="services-card" >
-//                   <img src="img/bb.jpg" className="card-img-well" alt="wellness"></img>
-//                   <div className="card-body">
-//                     <h5 className="ser-card-title">WELLNESS</h5>
-//                     <p className="ser-card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    
-//                   </div>
-//                 </div>
-//           </div>
-
-//           <div className="col-sm-6 col-md-4 col-lg-3">
-//               <div className="services-card" >
-//                   <img src="img/images.jpg" className="card-img-hair" alt="hair care"></img>
-//                   <div className="card-body">
-//                     <h5 className="ser-card-title">HAIR CARE</h5>
-//                     <p className="ser-card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    
-//                   </div>
-//                 </div>
-//           </div>
-//       </div>
-//   </div>
-  
-// </section>
-     
-  
-          
-// </>  
-//   )
-// }
-
-// //export
-// export default ServicesHome
+//export
+export default ServicesHome
