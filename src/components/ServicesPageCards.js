@@ -1,12 +1,11 @@
-import "./Card.css"
-import img1 from '../images/img1.jpg';
-const Card = (props) => {
+import img1 from "../images/massage.jpg"
+const SerivcesPageCard = (props) => {
 
     const classes = "card"
 
     return (
 
-        <div className="col-4">
+        <div className="col-3">
             <div className={classes}>
                 <img src={img1} alt ='image 1'/>
                 <div className="card-body">
@@ -23,4 +22,4 @@ const Card = (props) => {
     );
 }
 
-export default Card;
+export default SerivcesPageCard;
