@@ -19,7 +19,6 @@ const Head = (props) => {
  
 <div className="carousel-item active">
 <Header sentence=" Hi there! If you are looking for beauty , you are in the right place! Welcome to SPA center" btntitle="Read More About SPA"/></div>
-{/* if i put position-absolute i can not control the position and if i put fexed the button moved  */}
 
 <div className="carousel-item">
 <Header sentence="You can book at any time! And you only need small deposit of the amount!" btntitle="Book Now!"/></div>
@@ -33,8 +32,8 @@ const Head = (props) => {
 <div className="carousel-item">
 <Header sentence="  What if you took a gift for yourself that includes a variety of everything we own?" btntitle="See our offers"/></div>
 
-    </div>
-   </div>
+  </div>
+  </div>
   </div>
   </div>
   </div>
