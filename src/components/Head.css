@@ -1,5 +1,4 @@
 @import url(https://fonts.google.com/specimen/Titillium+Web);
-
 .head h1{
     color: #ffffff;
     font-family:'TitilliumWeb';
@@ -9,7 +8,6 @@
   color: #ffffff;
   background-color: #78e9d2;
   font-family:'TitilliumWeb';
- top: 320px;
 }
 .head h2:hover{
   color:#ffffffcb;
