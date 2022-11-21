@@ -1,7 +1,6 @@
-import ServicesPage from "./components/ServicesPage";
 function App() {
   return (
-<div><ServicesPage> </ServicesPage></div>   
+<div></div>   
   );
 }
 
