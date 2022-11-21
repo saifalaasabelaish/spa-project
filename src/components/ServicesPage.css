@@ -1,5 +1,8 @@
 .card:hover{
-    box-shadow:5px 10px 20px 1px rgba(0, 0,0, 0.253)!important;
+    box-shadow:10px 10px 20px 10px rgba(0, 0,0, 0.253);
+    transition: all 0.3s ease;
+    transform: scale(1.1);
+    z-index: 2;
 }
 
 .card-text{
@@ -14,10 +17,9 @@
 }
 body{
 
-    background-color: #98cfd8;
+    background-color: #78e9d2;
 }
 
 .header-texts{
-    font-family: 'Titillium Web';
     color:white;
 }

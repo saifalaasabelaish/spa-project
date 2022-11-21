@@ -1,7 +1,11 @@
 import Texts from "./ServicesPageTexts";
 import "./ServicesPage.css"
+import hand from "../images/hand.jpg"
+import hair from "../images/hair.jpg"
+import massage from "../images/massage.jpg"
+import face from "../images/face.jpg"
 
-import SerivcesPageCard from "../components/ServicesPageCards";
+import ServicesPageCard from "../components/ServicesPageCards";
 const ServicesPage = () => {
 
     return (
@@ -9,10 +13,12 @@ const ServicesPage = () => {
             <Texts></Texts>
             <div className="container">
                 <div className="row pt-5">
-                    <SerivcesPageCard></SerivcesPageCard>
-                    <SerivcesPageCard></SerivcesPageCard>
-                    <SerivcesPageCard></SerivcesPageCard>
-                    <SerivcesPageCard></SerivcesPageCard>
+                    <ServicesPageCard imgsrc={massage}></ServicesPageCard>
+                    <ServicesPageCard imgsrc={face}></ServicesPageCard>
+                    <ServicesPageCard imgsrc={hair}></ServicesPageCard>
+                    <ServicesPageCard imgsrc={hand}></ServicesPageCard>
+
+                    
                 </div>
             </div>
 
@@ -24,3 +30,4 @@ const ServicesPage = () => {
 }
 
 export default ServicesPage;
+
