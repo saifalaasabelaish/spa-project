@@ -8,12 +8,12 @@ const Head = (props) => {
         <div className='head'>
         <div id="spaproject" className="carousel slide" data-bs-ride="true">
           
- <div className="carousel-indicators">
-    <button data-bs-target="#spaproject" data-bs-slide-to="0" className="btn active" aria-current="true" aria-label="Slide 1"></button>
-    <button className="btn" data-bs-target="#spaproject" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button className="btn" data-bs-target="#spaproject" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    <button className="btn" data-bs-target="#spaproject" data-bs-slide-to="3" aria-label="Slide 4"></button>
-    <button className="btn" data-bs-target="#spaproject" data-bs-slide-to="4" aria-label="Slide 5"></button>
+  <div className="carousel-indicators">
+    <button data-bs-target="#spaproject" data-bs-slide-to="0" className="btn active p-1" aria-current="true" aria-label="Slide 1"></button>
+    <button className="btn p-1" data-bs-target="#spaproject" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button className="btn p-1" data-bs-target="#spaproject" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button className="btn p-1" data-bs-target="#spaproject" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    <button className="btn p-1" data-bs-target="#spaproject" data-bs-slide-to="4" aria-label="Slide 5"></button>
   </div>
   <div className="carousel-inner d-inline-flex">
  
@@ -31,7 +31,6 @@ const Head = (props) => {
 
 <div className="carousel-item">
 <Header sentence="  What if you took a gift for yourself that includes a variety of everything we own?" btntitle="See our offers"/></div>
-
   </div>
   </div>
   </div>
@@ -39,5 +38,4 @@ const Head = (props) => {
   </div>
     )
 }
-
 export default Head;
