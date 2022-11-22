@@ -1,6 +1,5 @@
-import "./ServicesPageCards.css"
-import img1 from '../images/img1.jpg';
-const Card = (props) => {
+import img1 from "../images/massage.jpg"
+const SerivcesPageCard = (props) => {
 
     const classes = "card"
 
@@ -23,4 +22,4 @@ const Card = (props) => {
     );
 }
 
-export default Card;
+export default SerivcesPageCard;

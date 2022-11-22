@@ -1,0 +1,51 @@
+body 
+{ 
+    background-color: #98CFD8 ;
+}    
+h2
+{       
+    color :#020202;
+
+}
+.u{
+    color :#4d494900;
+}
+#p
+{
+    color :#000000; 
+    size : 55px; 
+
+} 
+.cord
+{
+    border-radius : 60%;
+    width:500px; 
+    height:300px;
+
+}
+.landscape img
+{ 
+    width:400px; 
+    height:300px;
+    display:block;
+    float:right;
+    left :500px; 
+}
+
+#accordion-body
+{
+    text-align: center;
+    color:black; 
+}
+.card
+{
+    border-radius : 60%;
+
+}
+.container
+{ width:40px; 
+    height:30px;
+
+}
+
+
