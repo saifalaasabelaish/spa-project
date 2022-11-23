@@ -1,13 +1,11 @@
 import './App.css';
-import'./components/About.css';
-import About from './components/About';
-function App() 
-{
+import Staf from './components/Staf';
+function App()
+ {
   return (
-<div>
-<About/>
-</div>   
-);
+ <div> 
+  <Staf/>
+ </div> 
+  );
 }
-
-export default App;
+export default App
