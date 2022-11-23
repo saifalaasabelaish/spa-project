@@ -1,5 +1,5 @@
 import './Head.css';
-import headimg from './img/head.png';
+import headimg from 'im';
 const Header= (props) => {
     return(
     <>
