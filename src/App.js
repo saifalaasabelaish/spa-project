@@ -1,6 +1,10 @@
+import Carousel from "./components/Offerpage/Carousel";
+
 function App() {
   return (
-<div>  </div>   
+<div> 
+  <Carousel/>
+   </div>   
   );
 }
 
