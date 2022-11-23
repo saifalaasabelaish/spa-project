@@ -1,10 +1,6 @@
 import './Staf.css'
 import AddStaf from './AddStaf'
 import AdStaf from './AdStaf'
-import first from './img-staff/uu.jpeg'
-import scond from './img-staff/qq.jpg'
-import three from './img-staff/qw.jpg'
-import four from './img-staff/ee.jpg'
 const Staf= (props) =>
 { 
     return(
@@ -22,7 +18,7 @@ const Staf= (props) =>
        
        
     <div className="staf">
-    <img src={first} className="img six-cols" alt="first "></img>
+    <img src='./images/uu.jpeg' className="img six-cols" alt="first "></img>
     <div className="staf-body"><div className="stafftile">
                       <h5 className="title1">Shayne Crocker</h5>
                       <p className="desca">I'm Shane Crocker,48 years old.work in massage </p><AddStaf/>
@@ -33,7 +29,7 @@ const Staf= (props) =>
   
       <div className="staf" >
    
-                    <img src={scond} className="img six-cols" alt="scond"></img>
+                    <img src= './images/qq.jpg' className="img six-cols" alt="scond"></img>
                     <div className="staf-body">
                     <div className="stafftile">
                       <h5 className="title">Megan Martin</h5>
@@ -47,7 +43,7 @@ const Staf= (props) =>
                   
                   <div className="staf" >
                   
-                    <img src={three} className="img six-cols" alt="three"></img>
+                    <img src='./images/qw.jpg' className="img six-cols" alt="three"></img>
                     <div className="staf-body">
                     <div className="stafftile">
                       <h5 className="title">Amanda Mollett</h5>
@@ -61,7 +57,7 @@ const Staf= (props) =>
                   </div>
                   <div className="col-sm-6 col-md-4 col-lg-3">
                   <div className="staf" >
-                    <img src={four} className="img six-cols" alt="four "></img>
+                    <img src='./images/ee.jpg' className="img six-cols" alt="four "></img>
                     <div className="staf-body">
                        <div className="stafftile">
                       <h5 className="title">Lydia Smothers</h5>
