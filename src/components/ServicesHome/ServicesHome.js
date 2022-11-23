@@ -1,6 +1,4 @@
 //import
-import imag1 from './img/care.jpg'
-
 
 //function
 const ServicesHome= (props) =>{
