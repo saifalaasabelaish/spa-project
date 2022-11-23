@@ -8,7 +8,7 @@ const Footer=()=>{
             <div className="container">
                 <div className="row">
                    <div className="col-xs-6 col-md-2">
-                        <img id="Logo" src={require('../../public/images/SPA_Logo.png')} alt="Logo"/>                  
+                        <img id="Logo" src={require('../../../public/images/SPA_Logo.png')} alt="Logo"/>                  
                    </div>
                    <div className="col-xs-6 col-md-3">
                    <form>
