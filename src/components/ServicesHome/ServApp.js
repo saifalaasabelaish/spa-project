@@ -1,4 +1,4 @@
-import './components/Serv-Home.css';
+import './components/ServicesHome.css';
 import ServicesHome from './components/ServicesHome.js';
 
 
