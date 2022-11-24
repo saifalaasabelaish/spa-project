@@ -1,14 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Poppins:wght@400;700&family=Press+Start+2P&display=swap');
 *{
     margin: 0px;
     padding: 0px;
 }
 
 .footer{
-    font-family:'PT serif', sans-serif;
-    background-color: #e78886;
+    font-family:'TitilliumWeb', sans-serif;
+    background-color: #c197d5;
     padding: 3.1em;
     margin-top: 5em;
+    color: white;
 }
 .footer .row{
     margin-left: 0px;
@@ -24,13 +24,21 @@
     border-top-right-radius: 100px;
     border-bottom-left-radius: 100px;
 }*/
-.row p{
-    color: white;
-}
 #Logo{
-    width:100px;
-    height: 90px;
-    margin-bottom: 20px;
+    width:150px;
+    height: 130px;
+}
+.footer #offerEmail{
+    margin-bottom: 10px;
+}
+.footer form button{
+    background-color: #78e9d2;
+    border-color: #78e9d2;
+}
+.footer form button:hover{
+    border-color: #78e9d2;
+    opacity: 0.8;
+    background-color: #78e9d2;
 }
 .footer h6{
     margin-top: 0;
@@ -38,15 +46,16 @@
     font-weight: 700;
     font-size: 18px;
     text-transform: uppercase;
-    color:white;
 }
 .footer ul{
     list-style-type: none;
     line-height: 30px;
     font-size: 18px;
     margin-bottom: 0;
+    padding-left: 15px;
 }
 .footer ul a{
+    text-align: center;
     text-decoration: none;
     color: white;
     transition: 0.3s;
@@ -85,12 +94,18 @@
     font-weight: 500;
     font-size: 16px;
 }
-@media(max-width: 750px){
+@media(max-width: 768px){
     .footer h6{
-        margin: 0 auto;
         text-align: center;
-        margin-top: 10px;
+        margin-top: 20px;
         margin-bottom: 10px;
+    }
+    .footer #Logo{
+        margin-left: 35%;
+        margin-bottom: 25px;
+    }
+    form{
+        margin-bottom: 15px;
     }
     .footer ul{
         text-align: center;
@@ -98,8 +113,8 @@
     .social{
          margin: 0 auto;
         }
-    .box{
+    /*.box{
         left: 5%;
         height: 65%;
-    }
+    }*/
 }
