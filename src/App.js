@@ -1,11 +1,12 @@
 import './App.css';
-import'./components/Wellness.css';
+import Wellpage from './components/Wellpage';
+
 function App() {
   return (
-<>
-<Welln/>
 
-</>
+<Wellpage/>
+
+
   );
 }
 

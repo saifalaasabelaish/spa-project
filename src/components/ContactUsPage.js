@@ -1,5 +1,5 @@
 //import
-import'./Wellpage.css'
+import './Contact.css'
 import background from './img/image.png';
 
 const Wellpage  = () => {
