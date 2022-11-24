@@ -16,7 +16,7 @@ const Footer=()=>{
                            <label htmlFor="offerEmail">Enter your Email down in the box below so you can get the latest offers</label>
                            <input className="form-control" type="email" id="offerEmail" name="offerEmail" placeholder="Name@Example.com"></input>
                         </div>
-                           <button type="submit" class="btn btn-primary">Submit</button>                       
+                           <button type="submit" className="btn btn-primary">Submit</button>                       
                         </form>
                    </div>                   
                    <div className="col-sm-6 col-md-2">
