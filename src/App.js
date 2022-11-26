@@ -1,7 +1,9 @@
+import Contact from "./components/Contact/ContactUsPage";
+
 function App() {
   return (
 <>
-<Head/>
+<Contact/>
 </> 
   );
 }
