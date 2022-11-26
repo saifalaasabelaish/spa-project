@@ -4,7 +4,7 @@ const ServicesPageCards = (props) => {
 
     return (
 
-        <div className="col-md-4">
+        <div className="col-md-3">
             <div className={classes}>
                 <img src={props.imgsrc}/>
                 <div className="card-body">
