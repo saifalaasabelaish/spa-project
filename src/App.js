@@ -1,9 +1,10 @@
 import ServicesPage from "../src/components/SerivcesPage/ServicesPage"
 import Footer from "../src/components/common/Footer"
+import Navbar from "./components/common/Navbar";
 function App() {
   return (
 <>
-<div className="back"></div>
+<Navbar></Navbar>
 <ServicesPage></ServicesPage>
 <Footer></Footer>
 
