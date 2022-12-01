@@ -1,13 +1,12 @@
-import img1 from "../images/massage.jpg"
-const SerivcesPageCard = (props) => {
+const ServicesPageCards = (props) => {
 
     const classes = "card"
 
     return (
 
-        <div className="col-3">
+        <div className="col-md-4">
             <div className={classes}>
-                <img src={img1} alt ='image 1'/>
+                <img src={props.imgsrc}/>
                 <div className="card-body">
                     <h5 className="card-title">{props.title}</h5>
                     <p className="card-text">
@@ -22,4 +21,4 @@ const SerivcesPageCard = (props) => {
     );
 }
 
-export default SerivcesPageCard;
+export default ServicesPageCards;
