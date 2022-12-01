@@ -1,0 +1,29 @@
+
+
+h3  {
+color: white;
+background-color:#c197d5;
+height: 70px;
+font-family: PT serif;
+}
+h6{
+font-family: PT serif;
+font-size: 22px;
+}
+.group{
+margin-top: 30px ;
+margin-left: 120px;
+
+}
+.btn {
+
+    font-family: PT serif;
+    font-size: 19px;
+}
+.countiner {
+
+
+
+    flex-direction: row;
+    flex-flow: wrip;
+}
