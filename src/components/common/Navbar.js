@@ -1,17 +1,27 @@
 import "./Navbar.css";
-
+import "./SPA.png"
 const Navbar=()=>{
     return(
        
-   
-   <ul>
+        <nav class="navbar bg-light">
+        <div class="container">
+          <a class="navbar-brand" href=" ">
+            <img class="SPA.png" alt=" "  >
+                </img>
+          </a>
+          <ul>
+ 
 
-  <li><a href="#contact">CONTACT US</a></li>
-  <li><a href="#services">SERVICES</a></li>
-  <li><a href="#about">ABOUT US</a></li>
-  <li><a href="#home">HOME</a></li>
+ <li><a href="#Contact">CONTACT US</a></li>
+ <li><a href="#Services">SERVICES</a></li>
+ <li><a href="#About">ABOUT US</a></li>
+ <li><a href="#Home">HOME</a></li>
 
 </ul>
+        </div>
+      </nav>
+
+
 
    
     );
