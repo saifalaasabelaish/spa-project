@@ -16,12 +16,12 @@ const Staf= (props) =>
            <div className="row my-3">
              <div className="col-sm-6 col-md-4 col-lg-3">  
        
-       
+     
     <div className="staf">
     <img src='./images/uu.jpeg' className="img six-cols" alt="first "></img>
     <div className="staf-body"><div className="stafftile">
                       <h5 className="title1">Shayne Crocker</h5>
-                      <p className="desca">I'm Shane Crocker,48 years old.work in massage </p><AddStaf/>
+                      <p className="desca">I'm Shane Crocker,48 years old.work in massage</p><AddStaf/>
                      </div>
                     </div> 
    </div> </div>
