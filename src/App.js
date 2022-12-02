@@ -1,4 +1,4 @@
-import BookingPage from "./components/booking-page/Booking";
+import BookingPage from "./components/BookingPage/Booking";
 import Navbar from "./components/common/Navbar";
 import Footer from "./components/common/Footer";
 
