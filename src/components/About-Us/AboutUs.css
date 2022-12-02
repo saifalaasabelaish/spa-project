@@ -1,0 +1,35 @@
+body
+    {
+        background-color: #78E9D2 ;
+    }
+h1{
+    color: #000;    
+   position: absolute;
+   bottom: 2px;
+   font-size: 3.5em;
+   top: 12%;  
+   left: 42%;
+
+}   
+.about{
+    
+    border: 5px outset #fff;
+    background-color:#C197D5;
+    text-align: center;
+    margin: 30px;
+}
+
+
+ .containerr1
+{
+    
+    text-align: center;
+    height: 4px;
+    left: 50px  ;
+    margin-top:   15%;  
+    margin-bottom : 30%;
+   
+} 
+
+
+
