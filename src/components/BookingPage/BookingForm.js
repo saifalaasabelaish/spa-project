@@ -19,8 +19,25 @@ const BookingForm = (props) => {
                     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
                 </div>
                 <div className="mb-3">
-                    <label for="exampleInputEmail1" class="form-label">Email address</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
+                    <label for="exampleInputAddress" class="form-label">Address</label>
+                    <input type="address" class="form-control" id="exampleInputAddress" aria-describedby="addressHelp" />
+                </div>
+                <div>
+                    <label for="services">The service you want to book : </label>
+                    <select name="services" className="col-md-6 mb-3">
+                        <option value="massage">Massage </option>
+                        <option value="face">Face Care </option>
+                        <option value="hand">Hand Care </option>
+                        <option value="wellness">Wellness </option>
+                    </select>
+                </div>
+                <div>
+                    <label for="date">Pick A Day :</label>
+                    <input type="date" name="date" className="col-md-6 mb-3" />
+                </div>
+                <div>
+                    <label for="appt">Select a time:</label>
+                    <input type="time" id="appt" name="appt" />
                 </div>
                 {props.children}
             </form>
