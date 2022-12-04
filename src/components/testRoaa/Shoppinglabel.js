@@ -1,4 +1,3 @@
-import Carousel from "./Carousel";
 import Shopping from "./Shopping";
 import './Shoppinglabel.css'
 import CardContent from "./CardContent"
