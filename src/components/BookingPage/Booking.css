@@ -1,14 +1,10 @@
-
-h1 {
-    color: rgb(63, 63, 63)
-}
-
-h2 {
-
-    color: white
-}
-
 body{
 
     font-family:Titillium Web
+}
+
+.header-texts{
+
+    background-color: #c197d5;
+    color:white
 }
