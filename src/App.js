@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 function App() {
   return (
     <div></div>
@@ -8,3 +9,18 @@ function App() {
 }
 
 export default App;  
+=======
+
+    function App()
+     {
+      return(
+<>
+ 
+</>
+             
+      );
+      
+    }
+    
+    export default App; 
+>>>>>>> wafaa
