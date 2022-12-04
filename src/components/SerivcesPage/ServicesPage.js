@@ -4,7 +4,7 @@ import ServicesPageCards from "../SerivcesPage/ServicesPageCards";
 const ServicesPage = () => {
 
     return (
-        <section>
+        <>
             <Texts></Texts>
             <div className="container">
                 <div className="row pt-5 d-flex justify-content-center">
@@ -16,7 +16,11 @@ const ServicesPage = () => {
                     <ServicesPageCards imgsrc="/images/hand.jpg"></ServicesPageCards>
                 </div>
             </div>
+
+
         </section>
+
+
     )
 }
 
