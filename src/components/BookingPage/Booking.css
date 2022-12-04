@@ -6,5 +6,6 @@ body{
 .header-texts{
 
     background-color: #c197d5;
-    color:white
+    color:white;
+    height: 75px;
 }
