@@ -1,15 +1,15 @@
 import { Link } from "react-router-dom";
 
-const Home =() => {
-    return(
+const Home = () => {
+    return (
         <>
-        <ul>
-        <h1>Home pages</h1>
-        <li>
-            <Link to ="\About" />
-        </li>
+            <ul>
+                <h1>Home pages</h1>
+                <li>
+                    <Link to="\About" />
+                </li>
 
-        </ul>
+            </ul>
 
         </>
     )
