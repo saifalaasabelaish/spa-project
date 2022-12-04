@@ -1,15 +1,19 @@
 import './ServicesPageTemplete.css'
+import Navbar from '../common/Navbar'
+import Footer from '../common/Footer'
 const ServicesPageTemplete3= () =>
 { 
     return(
-    <><div  className='ServicesPage' >
-    <div className="justify-conten d-white  tbg-body  bg-white rounded callout shadow h-100 w-100 p-4 mb-200"> 
-       <div className=' container start-10 col-19 '>
+    <><Navbar/>
+    <div className='ServicesPage w-12 top-50 start-50 bg-white justify-content-center align-items-xl-center align-items-xxl ' >
+    <div className=" shadow h-10 w-100 p-4 mb-200 bg-white rounded justify-conten tbg-body callout "> 
+       <div className=' container start-10 col-12 '>
      <div className="ServicesPageTemplete "> 
 <div className="titil-services">
-        <img src='./images/Hair care.jpg' className="img" alt="Hair care "></img>
+        <img src='./images/Hair care1.png' className="img img-fluid" alt="Hair care "/>
+        {/* <div className='titlepage2'><h4>Hair Care</h4></div> */}
        </div>  </div>  
-          <div className="item-wrapper"><h4>Hair Care</h4>
+         <div className="item-wrapper">
             <div className="title"><h5>About Us</h5></div>
               <p>
               Hair care is an overall term for hygiene and cosmetology involving the hair which grows from the human scalp,
@@ -55,7 +59,8 @@ const ServicesPageTemplete3= () =>
                                    unless the hair roots are damaged, new hair will grow in with natural color and texture.</p>
                                  </div></div></div></div>
                      </div>
-
+                     <Footer/>
+                   
     </>)
 }
 

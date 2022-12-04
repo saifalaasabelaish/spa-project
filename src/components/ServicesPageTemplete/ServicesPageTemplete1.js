@@ -1,18 +1,27 @@
+import Navbar from '../common/Navbar'
+import Footer from '../common/Footer'
 import './ServicesPageTemplete.css'
 const ServicesPageTemplete1= () =>
 { 
     return(
-    <><div  className='ServicesPage' >
-    <div className="justify-conten d-white  tbg-body  bg-white rounded callout shadow h-10 w-100 p-4 mb-200"> 
-       <div className=' container start-4 col-19 '>
+    
+    <>
+   
+<Navbar/>
+
+    <div className='ServicesPage w-12 top-50 start-50 bg-white justify-content-center align-items-xl-center align-items-xxl ' >
+    <div className=" shadow h-10 w-100 p-4 mb-200 bg-white rounded justify-conten tbg-body callout "> 
+       <div className=' container start-4 col-12 '>
      <div className="ServicesPageTemplete "> 
 <div className="titil-services">
-        <img src='./images/skin care.jpg' className="img" alt="skin care"></img>
-       </div>  </div>  
-          <div className="item-wrapper"><h4>skin care</h4>
-           
-            <div className="title"><h5>About Us</h5></div>
-              <p>
+         <img src='./images/skin care2.png' className="img img-fluid" alt="skin care"></img> 
+        {/* <div className='titlepage2'>
+          <h4>skin care</h4></div> */}
+       </div></div>  
+          <div className="item-wrapper">
+            <div className="title">
+              <h5>About Us</h5></div>
+              <p>d-white  
               is a range of practices that support skin integrity, enhance its appearance, and relieve skin conditions. 
               They can include nutrition, avoidance of excessive sun exposure, and appropriate use of emollients.
                Practices that enhance appearance include the use of cosmetics, botulinum, exfoliation, fillers, laser resurfacing,
@@ -44,7 +53,8 @@ const ServicesPageTemplete1= () =>
                                   In breast cancer, calendula cream may reduce the severity of radiation effects on the dark spot corrector.Deodorant use after completing radiation treatment has been controversial but is now recommended for practice.Add from</p>
                                  </div></div></div></div>
                      </div>
-
+                <Footer/>
+                   
     </>)
 }
 

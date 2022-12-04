@@ -40,8 +40,7 @@ const Staff= () =>
    <div className="staff-body">
    <div className="stafftile">
     <h5 className="title">Lydia Smothers</h5>
-    <p className="desca"> I am Lydia Smothers ,30 years old I have been working in massage for 10 years  </p>
-    <AdStaff/>
+    <p className="desca"> I am Lydia Smothers ,30 years old I have been working in massage for 10 years  </p><AdStaff/>
    </div></div></div></div></div></div></div></div>
  </section>
     )

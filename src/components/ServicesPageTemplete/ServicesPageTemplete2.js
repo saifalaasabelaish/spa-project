@@ -1,17 +1,25 @@
 import './ServicesPageTemplete.css'
-
+import Navbar from '../common/Navbar'
+import Footer from '../common/Footer'
 const ServicesPageTemplete2= () =>
 { 
     return(
-    <><div  className='ServicesPage' >
-    <div className="justify-conten d-white  tbg-body  bg-white rounded callout shadow h-100 w-100 p-4 mb-200"> 
-       <div className=' container start-10 col-19 '>
+
+    <>
+    <Navbar/>
+    <div className='ServicesPage w-12 top-50 start-50 bg-white justify-content-center align-items-xl-center align-items-xxl ' >
+    <div className=" shadow h-10 w-100 p-4 mb-200 bg-white rounded justify-conten tbg-body callout "> 
+       <div className=' container start-10 col-12 '>
      <div className="ServicesPageTemplete "> 
-<div className="titil-services">
-        <img src='./images/Body care.jpg' className="img" alt="Body care"></img>
-       </div>  </div>  
-          <div className="item-wrapper"> <h4>Body care</h4>
-            <div className="title"><h5>About Us</h5></div>
+<div className="titil-services"> 
+        <img src='./images/bady care.png' className="img img-fluid" alt="Body care"></img>
+        {/* <div className='titlepage2'> <h4>Body care</h4></div> */}
+        </div>  </div>
+      
+       <div className="item-wrapper ">
+           <div className="title">
+              <h5>About Us</h5>
+              </div>
               <p>
               Whether you have oily, normal, sensitive, or dry skin, Savers have all you need to take care of your body from head to toe. 
               You’ll be able to find everything from body moisturiser, moisturising creams and lotions to body oils, body butter and dry scalp treatments
@@ -42,7 +50,8 @@ const ServicesPageTemplete2= () =>
                                  (hello, soft feet!), letting it absorb before putting your clothes on.</p>
                                  </div></div></div></div>
                      </div>
-
+                     <Footer/>
+                   
     </>)
 }
 
