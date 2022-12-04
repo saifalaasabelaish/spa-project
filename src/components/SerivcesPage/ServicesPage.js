@@ -16,11 +16,7 @@ const ServicesPage = () => {
                     <ServicesPageCards imgsrc="/images/hand.jpg"></ServicesPageCards>
                 </div>
             </div>
-
-
-        </section>
-
-
+            </>
     )
 }
 
