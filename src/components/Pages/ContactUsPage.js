@@ -1,5 +1,5 @@
 //import
-import './Contact.css'
+import "../ContactUs/Contact.css"
 
 const Contact  = () => {
     
