@@ -1,16 +1,12 @@
-import "./Navbar.css";
+import './Shopping.css';
 
-const Navbar=()=>{
-    return(
-    <>
+const Shopping=()=>{
+ return(
    <ul>
   <li><a href="#contact">CONTACT US</a></li>
   <li><a href="#services">SERVICES</a></li>
   <li><a href="#about">ABOUT US</a></li>
   <li><a href="#home">HOME</a></li>
-
-</ul>
-       </>
-    );
+</ul>);
 };
-export default Navbar;
+export default Shopping;
