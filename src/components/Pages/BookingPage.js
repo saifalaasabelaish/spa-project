@@ -1,5 +1,5 @@
 
-import "./Booking.css"
+import "../BookingPage/Booking.css"
 import BookingTexts from "../BookingPage/BookingTexts"
 import BookingForm from "../BookingPage/BookingForm"
 import BookNowButton from "../BookingPage/BookNowButton"
