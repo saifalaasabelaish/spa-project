@@ -1,11 +1,9 @@
-import React from 'react'
-import HomePage from "./components/Pages/HomePage";
-
+import BookingPage from "./components/Pages/BookingPage"
 function App() {
   return (
     <>
-<HomePage/>
-    </>
+    <BookingPage></BookingPage>
+   </>
 
   );
 
