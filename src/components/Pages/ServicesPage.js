@@ -1,5 +1,5 @@
-import Texts from "./ServicesPageTexts"
-import "./ServicesPage.css"
+import Texts from "../SerivcesPage/ServicesPageTexts"
+import "../SerivcesPage/ServicesPage.css"
 import ServicesPageCards from "../SerivcesPage/ServicesPageCards";
 const ServicesPage = () => {
 
