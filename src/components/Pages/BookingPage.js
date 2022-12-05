@@ -1,8 +1,8 @@
 
 import "./Booking.css"
-import BookingTexts from "./BookingTexts"
-import BookingForm from "./BookingForm"
-import BookNowButton from "./BookNowButton"
+import BookingTexts from "../BookingPage/BookingTexts"
+import BookingForm from "../BookingPage/BookingForm"
+import BookNowButton from "../BookingPage/BookNowButton"
 
 const BookingPage = () => {
     return (
