@@ -1,0 +1,51 @@
+
+.contact img{
+   background-size: cover;
+
+}
+#floatingInput,#floatingPassword,#floatingTextarea2{
+    background-color: #c197d5;
+}
+.contact h1{
+    color: #ffffff;
+    font-family:'Titillium Web',sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+.contact h2{
+    color: #ffffff;
+    font-family:'Titillium Web',sans-serif;
+}
+.contact .container{
+    top:130px;
+}
+.contact .containerr{
+    top:200px;
+    left: 350px;
+}
+.contact h3{
+    color: #ffffff ;
+    font-family:'Titillium Web',sans-serif;
+}
+#floatingTextarea2{
+    height: 200px;
+}
+.contact h4{
+    color: #ffffff;
+    background-color: #c197d5;
+    box-shadow: 0.5px 6px #c197d58d;
+    letter-spacing: 1.5px;
+    font-family:'Titillium Web',sans-serif;
+  }
+  .contact h4:hover{
+    opacity: 0.9;
+    transform: scale(1.1); 
+    color:#ffffffcb;
+    background-color: #c197d59d
+  }
+  .contact footer{
+    background-color: #c197d5;
+    color: white;
+    height: 100px;
+    font-family:'Titillium Web',sans-serif;
+}
