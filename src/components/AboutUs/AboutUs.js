@@ -3,18 +3,24 @@ import Footer from '../common/Footer'
 const AboutUs = () =>
 {
  return(
- <>
- <center><h1>History</h1></center>
- 
- <p>Whilst many people associate traditional spas with Roman baths, there is evidence of spa-type therapies dating back thousands of years when there was a belief in the curative powers of mineral waters. Paul Joseph, co-founder of Health and Fitness Travel explains: “Spas, healing waters, thalassotherapy, hydrotherapy and hot springs date back thousands of years - an ancient practice conducted long before the Greeks and Romans!”</p>
-
+ <> 
+ <center>
+ <h1>History</h1>
+ <div className='h-20 w-50'>
+ <p>Whilst many people associate traditional spas with Roman baths,
+  
+   there is evidence of spa-type therapies dating back thousands of years when there was a
+    belief in the curative powers of mineral waters. Paul Joseph, co-founder of Health and
+     Fitness Travel explains: “Spas, healing waters, thalassotherapy, hydrotherapy and hot 
+     springs date back thousands of years - an ancient practice conducted long before the Greeks and Romans!”</p>
+</div></center>
 <div className="about">
 <center> <h1>Team of spa</h1></center>
         <div className="card-group w-50">
   <div className="card">
     <img src='./images/nn.webp' className="card-img-top w-60 " alt="..."></img>
     <div className="card-body">
-      <h5 className="card-title">iyla sam</h5>
+      <h5 className="card-title">Iyla Sam</h5>
       <p className="card-text">grew up on PEI and moved to Halifax to pursue a diploma in Massage Therapy.</p>
       
     </div>
@@ -22,7 +28,7 @@ const AboutUs = () =>
   <div className="card">
     <img src='./images/man3.jpg' className="card-img-top w-60" alt="..."></img>
     <div className="card-body">
-      <h5 className="card-title">othman mohammed</h5>
+      <h5 className="card-title">Othman Ahmad</h5>
       <p className="card-text">is an experienced Registered Massage Therapist.  Having come from away (in most recent years Edmonton, AB).</p>
   
     </div>
@@ -30,7 +36,7 @@ const AboutUs = () =>
   <div className="card">
     <img src='./images/nn2.jpg' className="card-img-top w-60" alt="..."></img>
     <div className="card-body">
-      <h5 className="card-title">cortny dan</h5>
+      <h5 className="card-title">Cortny Dan</h5>
       <p className="card-text">attained her goal in 2017 of completing her studies at the Private Institute of Hair Design and Aesthetics…..</p>
       
     </div>
@@ -41,7 +47,7 @@ const AboutUs = () =>
   <div className="card">
     <img src='./images/nj.jpg ' className="card-img-top w-60 " alt="..."></img>
     <div className="card-body">
-      <h5 className="card-title">lele mart</h5>
+      <h5 className="card-title">Lele Mart</h5>
       <p className="card-text">business woman</p>
       
     </div>
