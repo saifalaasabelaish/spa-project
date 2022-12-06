@@ -1,21 +1,11 @@
-<<<<<<< HEAD
+import HomePage from "./components/HomePage";
 
-    function App()
-     {
-      return(
-<>
- 
-</>
-             
-      );
-      
-    }
-    
-    export default App; 
-=======
 function App() {
   return (
-    <div></div>
+    <div>
+
+      <HomePage/>
+    </div>
 
 
   );
@@ -23,4 +13,3 @@ function App() {
 }
 
 export default App;  
->>>>>>> aab98a730ad0c69cfcb6b13fbf2af3e202d056fe
