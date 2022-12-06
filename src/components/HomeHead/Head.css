@@ -1,7 +1,6 @@
 .head h1{
     color: #ffffff;
     font-family:'Titillium Web',sans-serif;
-    text-align: center;
 }
 .head h2{
   color: #ffffff;
@@ -12,3 +11,6 @@
   color:#ffffffcb;
   background-color: #1defc5c9;
 }
+/* .head img {
+  background-size: cover;
+} */

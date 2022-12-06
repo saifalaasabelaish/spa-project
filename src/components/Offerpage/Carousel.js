@@ -11,16 +11,16 @@ return (
     <div className = "container d-flex justify-content-center "> 
       <div className = "row " >
         <div className = "col-3">
-          <CardOffer imag= ' ./images/im1.jpg'  offers ='offer 1'/> 
+          <CardOffer imag= ' ./images/offers.jpg'  offers ='offer 1'/> 
          </div>
            <div className = "col-3">
-        <CardOffer imag = './images/im2.jpg'  offers ='offer 2'/> 
+        <CardOffer imag = './images/offers.jpg'  offers ='offer 2'/> 
            </div>
          <div className = "col-3">
-          <CardOffer imag ='./images/im3.jpg' offers ='offer 3'/> 
+          <CardOffer imag ='./images/offers.jpg' offers ='offer 3'/> 
             </div>
            <div className = "col-3">
-           <CardOffer imag = './images/im6.jpg'  offers ='offer 4'/> 
+           <CardOffer imag = './images/offers.jpg'  offers ='offer 4'/> 
            </div>
     </div>  
   </div>
@@ -30,16 +30,16 @@ return (
       <div className="countainer d-flex justify-content-center">
       <div className = "row" >
      <div className = "col-3">
-    <CardOffer imag = './images/im7.jpg'  offers ='offer 5'/> 
+    <CardOffer imag = './images/offers.jpg'  offers ='offer 5'/> 
     </div>
     <div className = "col-3">
-    <CardOffer imag = './images/massage.jpg '  offers ='offer 6' /> 
+    <CardOffer imag = './images/offers.jpg '  offers ='offer 6' /> 
     </div>
     <div className = "col-3">
-    <CardOffer imag = ' ./images/picture1.jpg' offers ='offer 7'  /> 
+    <CardOffer imag = ' ./images/offers.jpg' offers ='offer 7'  /> 
     </div>
     <div className = "col-3">
-    <CardOffer imag = './images/picture2.jpg'  offers ='offer 8'/> 
+    <CardOffer imag = './images/offers.jpg'  offers ='offer 8'/> 
          </div>
     </div>
     </div>
