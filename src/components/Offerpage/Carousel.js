@@ -5,7 +5,7 @@ import './Carousel.css'
 
 const Carousel = () => {
 return (
-<div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
+<div id="carouselExampleControls" className="carousel slide" data-bs-ride= "carousel">
   <div className="carousel-inner">
     <div className="carousel-item active ">
     <div className = "container d-flex justify-content-center "> 
