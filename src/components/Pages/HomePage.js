@@ -3,7 +3,7 @@ import Navbar from "../common/Navbar";
 import Head from "../HomeHead/Header";
 import Carousel from "../Offerpage/Carousel";
 import ServApp from "../ServicesHome/ServApp";
-
+import Staff from "../StaffHome/Staff"
 function HomePage() {
   return (
 <>
@@ -11,6 +11,7 @@ function HomePage() {
 <Head/>
 <ServApp/>
 <Carousel/>
+<Staff/>
 <Footer/>
 </> 
   );

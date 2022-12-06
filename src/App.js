@@ -1,10 +1,9 @@
-import HomePage from "./components/HomePage";
-
+import ServicesPageTemplete1 from "./components/ServicesPageTemplete/ServicesPageTemplete1"
 function App() {
   return (
     <>
+    <ServicesPageTemplete1></ServicesPageTemplete1>
 
-      <HomePage/>
     
     </>
 
