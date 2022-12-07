@@ -4,7 +4,6 @@ import "./Footer.css"
 const Footer=()=>{
     return(
         <div className="footer">
-            <div className="box"></div>
             <div className="container">
                 <div className="row">
                    <div className="col-xs-6 col-md-2">
@@ -19,7 +18,7 @@ const Footer=()=>{
                            <button type="submit" className="btn btn-primary">Submit</button>                       
                         </form>
                    </div>                   
-                   <div className="ms-5 col-sm-6 col-md-2">
+                   <div className="ms-5 col-sm-6 col-md-2">{/*remove ms-5*/}
                      <h6>Contact us</h6>
                      <ul>
                         <li><a href="#">Email</a></li>
