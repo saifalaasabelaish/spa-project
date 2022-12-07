@@ -1,0 +1,43 @@
+.head h1{
+    color: #ffffff;
+    font-family:'Titillium Web',sans-serif;
+}
+.head h2{
+  color: #ffffff;
+  background-color: #78e9d2;
+  font-family:'Titillium Web',sans-serif;
+}
+.head h2:hover{
+  color:#ffffffcb;
+  background-color: #1defc5c9;
+}
+.head .container {
+flex-direction: column;
+}
+.head .carousel-item.active h1{
+	animation: fadeInLeft 0.4s ease forwards;
+}
+.head .carousel-item.active h2{
+	animation: fadeInRight 0.4s ease forwards;
+}
+
+@keyframes fadeInLeft{
+	0%{
+		opacity: 0;
+		transform: translateX(-50px);
+	}
+	100%{
+		opacity: 1;
+		transform: translateX(0px);
+	}
+}
+@keyframes fadeInRight{
+	0%{
+		opacity: 0;
+		transform: translateX(50px);
+	}
+	100%{
+		opacity: 1;
+		transform: translateX(0px);
+	}
+}
