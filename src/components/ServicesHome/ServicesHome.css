@@ -1,42 +1,25 @@
-.all-card-services{
+*{
     background-color: #78e9d2;
-    font-family: 'PT Serif', serif;
-    
-
     }
- .services-title{
+    .services-title{
         text-align: center;
         background-color: #78e9d2;
-        padding-top: 50px;
         color: #fff;
-        
     }
-    .services-title p{
-        font-size: 22px;
-    }
-    .services-title:after{
-       display: inline-block;
-        margin: 0 0 4px 20px;
-        height: 3px;
-        content: "  ";
-        background-color: #a2a5a4;
-        width: 150px;
-    }
- #con-services-card{
-        background-color:#78e9d2;
-        
+    .container{
+        background-color: #78e9d2;
     }
 .ser-card-title{
         text-align: center;
         padding-top: 30px ;
         color: #fff;
-        
+        font-family:'Titillium Web',sans-serif;
     }
 .ser-card-text{
         text-align: left;
         padding: 20px;
         color: #fff;
-
+        
     }
 .services-card{
         width: 100%;
@@ -45,15 +28,6 @@
         align-items: center;
         flex-direction: column;
         padding: 20px;
-        margin-bottom: 50px;
-        margin-top: 40px;
-        transition: all 0.5s ease;
-        background-color:#78e9d2 ;
-        border-radius: 30px;
-        box-shadow: 0 5px 25px #047053;
-      
-      
-    
     }
  
 .services-card:hover{
