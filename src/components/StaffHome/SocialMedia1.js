@@ -1,7 +1,7 @@
-const AdStaff = (props) =>{
+const SocialMedia1 = (props) =>{
     return(     
 <div>
-<div className="staff">
+<div className="SocialMedia">
 <div className="container">
 
 <div className="btn-group">
@@ -23,6 +23,7 @@ const AdStaff = (props) =>{
                   <span className="visually-hidden">Button</span>
                 </button>
               </div>
+              
 
     {/* <a  className='btn btn-outline-light mx-2'>
     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-instagram" viewBox="0 0 16 16">
@@ -38,4 +39,4 @@ const AdStaff = (props) =>{
 </div>
     )
 }
-export default AdStaff
+export default SocialMedia1

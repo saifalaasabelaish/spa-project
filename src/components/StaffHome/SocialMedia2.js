@@ -1,7 +1,7 @@
-const AddStaff = (props) =>{
+const SocialMedia2 = (props) =>{
     return(     
 <div> 
-<div className="staff">  
+<div className="sSocialMedia2">  
     <div className="position-relative d-flex">
   <div title1 ="Shayne Crocker" desc1="112 Mason Crt, Boiling Springs, SC 29316-5326 is where Shayne lives. Larry D Parris, Margaret P Parris, and two other persons are also associated with this address. The only phone number to contact Shayne is (864) 764-5978 (Cellco Partnership). Two persons, including James R Miresse, Beth Martin, listed the phone number (864) 764-5978 as their">
   </div>
@@ -29,4 +29,4 @@ const AddStaff = (props) =>{
 </div></div></div></div>
     )
 }
-export default AddStaff
+export default SocialMedia2

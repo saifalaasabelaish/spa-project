@@ -4,39 +4,36 @@ body
 }
 .Staff-title
 {
-    text-align: center;  padding-top: 50px;
+    /* text-align: center;  rounded mx-auto*/
     color: #ffffff;
+    padding-top: 50px; 
     font-family:'Titillium Web',sans-serif;
-}
-.staff ul{
-    width: 50px;
-    background-color: #78E9D2;
-}
-.staff .img{
-    width:150px;height: 150px; border-radius: 90%;  
 }
 .staff .container
 {
     background-color: #78E9D2;
 }
 .desca{
-    text-align: center;
+     /* text-align: center;  rounded mx-auto*/
     background-color: #78E9D2;
     color: #ffffff;
     font-family:'Titillium Web',sans-serif;
 }
 .staff .stafftile{
-    text-align: center; padding: 30px;
+     /* text-align: center;  rounded mx-auto*/ 
+    padding: 30px;
     background-color: #78E9D2;
     color: #fff; 
     font-family:'Titillium Web',sans-serif;
 }
 .staff h1{
-    text-align: center; padding: 20px;
+     /* text-align: center;  rounded mx-auto* padding: 20px;*/
     background-color: #78E9D2;
     color: #fff; 
      font-family:'Titillium Web',sans-serif;
 }
 .staff{
-    width: 100%;display: flex; justify-content: center; align-items: center;flex-direction: column;  padding: 20px;
+    /* width: 100%;justify-content: center; display: flex;align-items: center;align-self-centeralign-items: center;*/ 
+    padding: 20px; 
+    flex-direction: column;  
 }
