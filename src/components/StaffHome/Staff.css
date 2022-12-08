@@ -14,26 +14,22 @@ body
     background-color: #78E9D2;
 }
 .desca{
-     /* text-align: center;  rounded mx-auto*/
     background-color: #78E9D2;
     color: #ffffff;
     font-family:'Titillium Web',sans-serif;
 }
 .staff .stafftile{
-     /* text-align: center;  rounded mx-auto*/ 
     padding: 30px;
     background-color: #78E9D2;
-    color: #fff; 
+    /* color: #fff;  */
     font-family:'Titillium Web',sans-serif;
 }
 .staff h1{
-     /* text-align: center;  rounded mx-auto* padding: 20px;*/
     background-color: #78E9D2;
-    color: #fff; 
+    /* color: #fff;  */
      font-family:'Titillium Web',sans-serif;
 }
 .staff{
-    /* width: 100%;justify-content: center; display: flex;align-items: center;align-self-centeralign-items: center;*/ 
     padding: 20px; 
     flex-direction: column;  
 }
