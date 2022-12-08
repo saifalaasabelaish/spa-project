@@ -1,35 +1,10 @@
-body
-{
-    background-color: #78E9D2;
-}
-.Staff-title
-{
-    /* text-align: center;  rounded mx-auto*/
-    color: #ffffff;
-    padding-top: 50px; 
-    font-family:'Titillium Web',sans-serif;
-}
-.staff .container
-{
-    background-color: #78E9D2;
-}
-.desca{
-    background-color: #78E9D2;
-    color: #ffffff;
-    font-family:'Titillium Web',sans-serif;
-}
-.staff .stafftile{
-    padding: 30px;
-    background-color: #78E9D2;
-    /* color: #fff;  */
-    font-family:'Titillium Web',sans-serif;
-}
-.staff h1{
-    background-color: #78E9D2;
-    /* color: #fff;  */
-     font-family:'Titillium Web',sans-serif;
-}
 .staff{
-    padding: 20px; 
     flex-direction: column;  
+    background-color: #78E9D2;
+    color: #fff;  
+    font-family:'Titillium Web',sans-serif;
+}
+.staff img { 
+    height: 250px;
+    width: 250px;
 }

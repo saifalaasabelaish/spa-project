@@ -1,7 +1,7 @@
 const SocialMedia1 = (props) =>{
     return(     
 <div>
-<div className="SocialMedia">
+<div className="SocialMedia ">
 <div className="container">
 
 <div className="btn-group">
