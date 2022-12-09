@@ -1,9 +1,9 @@
 import React from 'react';
 import Navbar from './components/common/Navbar.js';
-import HomePage from "./components/Pages/HomePage"
-import Contact from "./components/Pages/ContactUsPage";
-import ServicesPage from "./components/Pages/ServicesPage";
-import About from './components/Pages/About.js';
+import HomePage from "./components/pages/HomePage"
+import Contact from "./components/pages/ContactUsPage";
+import ServicesPage from "./components/pages/ServicesPage";
+import About from './components/pages/About';
 
 import {BrowserRouter as Router, Route, Link, Routes} from 'react-router-dom';
 
