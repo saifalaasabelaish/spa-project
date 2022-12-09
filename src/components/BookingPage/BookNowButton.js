@@ -1,9 +1,11 @@
+import './Booking.css'
 const BookNowButton = () => {
 
 
     return (
-        <>
-            <button type="submit" className="btn btn-primary">Book Now</button>
+        <> <div className='booking'>
+            <button type="submit" className="btn btn-spa">Book Now</button>
+            </div>
         </>
     )
 }

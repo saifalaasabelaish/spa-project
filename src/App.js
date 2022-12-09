@@ -1,13 +1,11 @@
-import ShoppingPage from "./components/Pages/ShoppingPage"
-import React  from "react";
+import BookingPage from "./components/Pages/BookingPage";
+
 function App() {
   return (
-    <>
-    <ShoppingPage/>
-    </>
-
+<>
+<BookingPage/>
+</> 
   );
-
 }
 
-export default App; 
+export default App;

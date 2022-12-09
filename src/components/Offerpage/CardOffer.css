@@ -1,15 +1,15 @@
-.card {
+.offers .card {
 width:230px;
 height: 280px;
 transition: 0.5s; 
 margin-top: 30px;
 background-color: #78E9D2;
 }
-.card:hover{
+.offers .card:hover{
 transform: scale(1.1);
 }
-.img-fluid{
-    width: 100%;
+.offers .img-fluid{
+    width:100%;
     height:100%;
     object-fit: cover;
 }
