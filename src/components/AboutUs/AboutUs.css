@@ -2,11 +2,21 @@ body
     {
         background-color: #fff ;
     }
-    
     .card{
-       
         top: 50%;
         left: 50%;
-
-
     }
+  .text-center{
+    font-family:'Titillium Web',sans-serif;
+  }
+  .card-text{
+    font-family:'Titillium Web',sans-serif;
+  }.card-titel{
+    font-family:'Titillium Web',sans-serif;
+  }
+  .gmap_iframe{
+    height: 300px;
+    width: 500px;
+    margin-left: 27.5%;
+ }
+  
