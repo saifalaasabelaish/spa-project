@@ -5,22 +5,19 @@ const ServicesPageTemplete1 = () => {
   return (
 
     <>
-
-      <Navbar />
-
-      <div className='ServicesPage w-12 top-50 start-50 bg-white justify-content-center align-items-xl-center align-items-xxl ' >
+      <Navbar/>
+      <div className='ServicesPage  p-5 w-12   top-50 start-50 bg-white justify-content-center align-items-xl-center align-items-xxl ' >
         <div className=" shadow h-10 w-100 p-4 mb-200 bg-white rounded justify-conten tbg-body callout ">
           <div className=' container start-4 col-12 '>
             <div className="ServicesPageTemplete ">
               <div className="titil-services">
-                <img src='./images/skin care2.png' className="img img-fluid" alt="skin care"></img>
-                {/* <div className='titlepage2'>
-          <h4>skin care</h4></div> */}
+                <img src='./images/skin care2.png' className="img img-fluid " alt="skin care"></img>
+                {/* <div className='titlepage2'><h4>skin care</h4></div> */}
               </div></div>
             <div className="item-wrapper">
               <div className="title">
                 <h5>About Us</h5></div>
-              <p>d-white
+              <p>m-t-2
                 is a range of practices that support skin integrity, enhance its appearance, and relieve skin conditions.
                 They can include nutrition, avoidance of excessive sun exposure, and appropriate use of emollients.
                 Practices that enhance appearance include the use of cosmetics, botulinum, exfoliation, fillers, laser resurfacing,

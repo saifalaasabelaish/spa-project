@@ -7,7 +7,7 @@ const ServicesPageTemplete2= () =>
 
     <>
     <Navbar/>
-    <div className='ServicesPage w-12 top-50 start-50 bg-white justify-content-center align-items-xl-center align-items-xxl ' >
+    <div className='ServicesPage  p-5 w-12   top-50 start-50 bg-white justify-content-center align-items-xl-center align-items-xxl  ' >
     <div className=" shadow h-10 w-100 p-4 mb-200 bg-white rounded justify-conten tbg-body callout "> 
        <div className=' container start-10 col-12 '>
      <div className="ServicesPageTemplete "> 

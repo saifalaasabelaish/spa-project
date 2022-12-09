@@ -1,8 +1,7 @@
- .ServicesPageTemplete
+  .ServicesPageTemplete
 { 
     text-align: center;
-    padding-top: 30px; 
-}
+}  
 .title
 {
     color: #98CFD8; 
@@ -10,20 +9,11 @@
 } 
  .ServicesPage
 {
-     padding: 100px;  
      flex-direction: column;  
 }
 .ServicesPageTemplete img
  {
-   width: webkit-fill-available;  border: 100%;  width:auto; height: auto;    position: relative;   height:400px; 
+   width: webkit-fill-available; 
+   width: 30%;
+   height: 30%;
 }  
-/* 
- @media only screen and (max-width:767px)
-{
-#search 
-{
-    margin-left: 20%;
-    height: 3px;
-    width: 60%;
-}
-}  */
