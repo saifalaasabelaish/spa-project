@@ -10,10 +10,8 @@ import {BrowserRouter as Router, Route, Link, Routes} from 'react-router-dom';
 export default function App() {
   return (
     <Router>
-   
    <Navbar/>
       
-    
       <div>
         <nav>
           <ul>
@@ -42,34 +40,3 @@ export default function App() {
     </Router>
   );
 }
-
-
-<<<<<<< HEAD
-=======
-   
-    
-    function App() {
-      return(
-       <div></div>
-          
-       
-      );
-      
-    }
-    
-    export default App;  
->>>>>>> 27dc8a5d6fbe1bd17a88795a3fb99c3d60639c22
-import Navbar from "./components/Navbar.js";
-
-
-function App() {
-  return (
-    <Navbar>
-      
-<h1>ddd</h1>
-</Navbar>
-  );
-}
-
-export default App;
->>>>>>> fedd5d9dd831faa4aae6c45378a5f4ab62bceff6
