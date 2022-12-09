@@ -1,3 +1,5 @@
+import './Booking.css'
+import ServiceBooking from './ServicesBooking'
 const BookingForm = (props) => {
     return (
         <><div className='booking'>
@@ -20,23 +22,10 @@ const BookingForm = (props) => {
                     <label htmlFor="exampleInputAddress" className="form-label">Address</label>
                     <input type="address" className="form-control" id="exampleInputAddress" aria-describedby="addressHelp" placeholder="Required Address"required/>
                 </div>
-                <div>
-                    <label htmlFor="services">The service you want to book : </label>
-                    <select name="services" className="col-md-6 mb-3 mx-1">
-                        <option value="massage">Massage </option>
-                        <option value="face">Face Care </option>
-                        <option value="hand">Hand Care </option>
-                        <option value="wellness">Wellness </option>
-                    </select>
-                </div>
-                <div>
-                    <label htmlFor="date">Pick A Day :</label>
-                    <input type="date" name="date" className="col-md-6 mb-3 mx-2" />
-                </div>
-                <div>
-                    <label htmlFor="appt">Select a time:</label>
-                    <input type="time" id="appt" name="appt" className="mx-2 mb-3"/>
-                </div>
+                <ServiceBooking/>
+                <div class="form-check form-check-inline">
+         <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1"></input>
+           <label class="form-check-label" for="inlineCheckbox1">remind me</label></div>
                 {props.children}
             </form>
 </div>
