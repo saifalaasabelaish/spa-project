@@ -31,7 +31,6 @@ export default function App() {
             </li>
           </ul>
         </nav>
-
         <Routes>
           <Route path="/About" element={<About />} />
           <Route path="/" element={<HomePage />} />
@@ -43,4 +42,5 @@ export default function App() {
     </Router>
   );
 }
+
 
