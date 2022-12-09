@@ -1,10 +1,11 @@
-import BookingPage from "./components/Pages/BookingPage";
+import HomePage from "./components/Pages/HomePage"
 
 function App() {
   return (
-<>
-<BookingPage/>
-</> 
+    <>
+    <HomePage></HomePage>
+    </>
+
   );
 }
 
