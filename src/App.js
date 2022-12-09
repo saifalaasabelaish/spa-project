@@ -7,18 +7,13 @@ import About from './components/Pages/About.js';
 
 import {BrowserRouter as Router, Route, Link, Routes} from 'react-router-dom';
 
-
-    
 export default function App() {
   return (
     <Router>
    
    <Navbar/>
-      <ServicesPage/>
-      <Contact/>
-      <HomePage/>
-      <About/>
-   
+      
+      
       <div>
         <nav>
           <ul>
