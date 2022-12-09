@@ -1,6 +1,6 @@
 import Footer from "../common/Footer";
 import Navbar from "../common/Navbar";
-import Head from "../HomeHead/Header";
+import HomeHeader from "../HomeHeader/HomeHeader";
 import Carousel from "../Offerpage/Carousel";
 import ServApp from "../ServicesHome/ServApp";
 
@@ -8,7 +8,7 @@ function HomePage() {
   return (
 <>
 <Navbar/>
-<Head/>
+<HomeHeader/>
 <ServApp/>
 <Carousel/>
 <Footer/>

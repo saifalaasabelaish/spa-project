@@ -1,14 +1,10 @@
+function App() {
+  return (
+    <>
+    </>
 
+  );
 
+}
 
-    function App() {
-      return(
-        
-       <div></div>
-        
-      );
-      
-    }
-    
-    
-    export default App;
+export default App; 
