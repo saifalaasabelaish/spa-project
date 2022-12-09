@@ -17,7 +17,7 @@ const BookingPage = () => {
         <BookingForm><div className="text-end"><BookNowButton/></div></BookingForm>
        </div>
        </div></div>
-       <div className="w-100 position-absolute top-100">
+       <div className="mt-5 w-100 position-absolute top-100">
        <Footer/>
        </div>
        </div></>);}
