@@ -1,7 +1,10 @@
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-    height: 57px;
+    height: 60px;
     width: 55px;
     color: #c197d5;
     background-color: #c197d5;
+}
+.offers{
+    background-color: #7cd1c5;
 }

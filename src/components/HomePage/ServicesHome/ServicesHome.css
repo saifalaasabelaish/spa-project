@@ -1,4 +1,4 @@
-.services body {
+.services {
     background-color: #78e9d2;
 }
 
@@ -11,7 +11,7 @@
 
 .services .container {
     width: 100%;
-    background-color: #78e9d2;
+    padding: 10px;
 }
 
 .ser-card-title {
@@ -36,13 +36,18 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 20px;
-    background-color: #78e9d2;
+    padding: 10px;
+}
+
+.services-card:hover {
+    box-shadow: 10px 10px 20px 10px rgba(0, 0, 0, 0.253);
+    transition: all 0.5s ease;
+    transform: scale(1.1);
 }
 
 .services-card img {
     width: 150px;
     height: 150px;
-    border: 6px solid #fff;
+    border: 3px solid #fff;
     border-radius: 50%;
 }

@@ -1,7 +1,7 @@
 //import 
 import './CardOffer.css'
 //function 
-const CardOffer = (props) => { // props For Dynimc Data 
+const CardOffer = (props) => { // props For Dynamic Data 
   return (
     <div className="offers">
       <div className="card border-white d-flex">
