@@ -1,25 +1,44 @@
+import React from 'react';
+import Navbar from './components/common/Navbar.js';
+import HomePage from "./components/pages/HomePage"
+import Contact from "./components/pages/ContactUsPage";
+import ServicesPage from "./components/pages/ServicesPage";
+import About from './components/pages/About';
 
-// import  ServicesPageTemplete1 from "./components/ServicesPageTemplete/ServicesPageTemplete1";
-// import  ServicesPageTemplete3 from "./components/ServicesPageTemplete/ServicesPageTemplete3";
-// import  ServicesPageTemplete2 from "./components/ServicesPageTemplete/ServicesPageTemplete2";
-// import  ServicesPageTemplete4 from "./components/ServicesPageTemplete/ServicesPageTemplete4";
-// import  Staff  from "./components/StaffHome/Staff"
+import {BrowserRouter as Router, Route, Link, Routes} from 'react-router-dom';
 
-import SkinCare from "./components/ServicesPageTemplete/SkinCare";
-
-// import Carousel from "./components/Offerpage/Carousel";
-// import SkinCare from "./components/ServicesPageTemplete/SkinCare";
-// import ServicesPageTemplete5 from "./components/ServicesPageTemplete/tast";
-
-// import Carousel from "./components/Offerpage/Cardousel";
-function App() {
+export default function App() {
   return (
- <>
-<SkinCare/>
- </>
+    <Router>
+   <Navbar/>
+      
+      <div>
+        <nav>
+          <ul>
+            <li>
+              <Link to="/About">About Us</Link>
+            </li>
+            <li>
+              <Link to="/Contact">Contact</Link>
+            </li>
+            <li>
+              <Link to="/ServicesPage">Services</Link>
+            </li>
+            <li>
+              <Link to="/">Home</Link>
+            </li>
+          </ul>
+        </nav>
+        <Routes>
+          <Route path="/About" element={<About />} />
+          <Route path="/" element={<HomePage />} />
+          <Route path="/Contact" element={<Contact />} />
+          <Route path="/ServicesPage" element={<ServicesPage />} />
 
+        </Routes>
+      </div>
+    </Router>
   );
-
 }
 
 export default App; 

@@ -1,11 +1,11 @@
 import Shopping from "../Shopping/Shopping";
-import '../Shopping/Shoppinglabel.css'
+import '../Shopping/Shoppinglabel.css';
 import FaceWash from "../Shopping/FaceWash";
+import React from "react";
 const Shoppinglabel = () => {
   return (
     <>
       <Shopping />
-
       <h3 className=" header2 d-flex justify-content-center" > S H O P P I N G &nbsp; P A G E </h3>
       <div className="container">
         <div className="row">
@@ -30,8 +30,7 @@ const Shoppinglabel = () => {
             <FaceWash />
           </div>
         </div>
-      </div>
-
+      </div>/
     </>
   )
 };
