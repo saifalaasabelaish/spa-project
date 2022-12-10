@@ -18,7 +18,7 @@ const Footer=()=>{
                            <button type="submit" className="btn btn-primary">Submit</button>                       
                         </form>
                    </div>                   
-                   <div className="ms-5 col-sm-6 col-md-2">{/*remove ms-5*/}
+                   <div className="col-sm-6 col-md-2">{/*remove ms-5*/}
                      <h6>Contact us</h6>
                      <ul>
                         <li><a href="#">Email</a></li>
