@@ -12,7 +12,8 @@ const Staff= () =>
       <div className="col-sm-6 col-md-4 col-lg-3">  
       <img src='./images/shayne.jpeg' className=" img-fluid six-col rounded-circle  mx-5" alt="first "></img>
       <h5 className="title text-center mt-3">Shayne Crocker</h5>
-      <p className="desca ">I'm Shane Crocker,48 years old.work in massage ,Skilled in various modalities of massage including Swedish, Deep Tissue/Neuromuscular</p><div className='text-center' ><SocialMedia1/></div>
+      <p className="desca ">I'm Shane Crocker,48 years old.work in massage ,Skilled in various modalities 
+      of massage including Swedish, Deep Tissue/Neuromuscular</p><div className='text-center' ><SocialMedia1/></div>
     </div>
     <div className="col-sm-6 col-md-4 col-lg-3">
     <img src= './images/megan.jpg' className="img-fluid six-col rounded-circle mx-5" alt="scond"></img>
@@ -23,7 +24,8 @@ Practices integrative massage that combines techniques to form. </p> <div classN
     <div className="col-sm-6 col-md-4 col-lg-3">
         <img src='./images/amanda.jpg' className="six-cols img-fluid rounded-circle mx-5 " alt="three"></img>
    <h5 className="title text-center mt-3">Amanda Mollett</h5>
-  <p className="desca">I am Amanda Mollett,35 years old working in massage ,Specialize in Craniosacral, Neuromuscular, Swedish, Deep Tissue, migraine and TMJD work.</p> <div className='text-center' ><SocialMedia1/></div>
+  <p className="desca">I am Amanda Mollett,35 years old working in massage ,Specialize in Craniosacral, Neuromuscular,
+   Swedish, Deep Tissue, migraine and TMJD work.</p> <div className='text-center' ><SocialMedia1/></div>
   </div>
     <div className="col-sm-6 col-md-4 col-lg-3">
    <img src='./images/lydia.jpg' className="six-cols img-fluid rounded-circle  mx-5" alt="four "></img>
