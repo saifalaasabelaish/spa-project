@@ -40,12 +40,4 @@
      color:#ffffffcb;
      background-color: #c197d59d
    }
-   @media only screen and (max-width:767px)
-   {
-   #search 
-   {
-       margin-left: 20%;
-       height: 3px;
-       width: 60%;
-   }
-   }
+  
