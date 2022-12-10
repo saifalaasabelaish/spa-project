@@ -6,7 +6,7 @@ const ServicesPageCards = (props) => {
 
         <div className="col-md-3">
             <div className={classes}>
-                <img src={props.imgsrc} />
+                <img src={props.imgsrc} alt ="services-cards"/>
             </div>
         </div>
 

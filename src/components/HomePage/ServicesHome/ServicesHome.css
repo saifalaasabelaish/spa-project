@@ -1,0 +1,48 @@
+.services body {
+    background-color: #78e9d2;
+}
+
+.services-title {
+    text-align: center;
+    background-color: #78e9d2;
+    color: #fff;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.services .container {
+    width: 100%;
+    background-color: #78e9d2;
+}
+
+.ser-card-title {
+    text-align: center;
+    padding-top: 30px;
+    background-color: #78e9d2;
+    color: #fff;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.ser-card-text {
+    text-align: center;
+    background-color: #78e9d2;
+    padding: 20px;
+    color: #fff;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.services-card {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #78e9d2;
+}
+
+.services-card img {
+    width: 150px;
+    height: 150px;
+    border: 6px solid #fff;
+    border-radius: 50%;
+}

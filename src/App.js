@@ -1,11 +1,10 @@
-import Footer from "./components/common/Footer";
-import BookingPage from "./components/Pages/BookingPage";
+import HomePage from "./components/Pages/HomePage";
 
 function App() {
   return (
-<>
-<Footer/>
-</> 
+    <>
+      <HomePage/>
+    </>
   );
 }
 
