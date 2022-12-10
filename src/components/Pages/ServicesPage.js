@@ -1,15 +1,16 @@
-import Texts from "../SerivcesPage/ServicesPageTexts"
-import "../SerivcesPage/ServicesPage.css"
-import ServicesPageCards from "../SerivcesPage/ServicesPageCards";
+
+import "../ServicesPage/ServicesPage.css"
+import ServicesPageCards from "../ServicesPage/ServicesPageCards";
 import Navbar from "../common/Navbar";
 import HeaderPage from "../common/HeaderPage";
+import ServicesPageTexts from "../ServicesPage/ServicesPageTexts";
 const ServicesPage = () => {
 
     return (
         <>
         <Navbar/>
         <HeaderPage title = "Services we provide"/>
-            <Texts></Texts>
+           <ServicesPageTexts/>
             <div className="container">
                 <div className="row pt-5 d-flex justify-content-center">
                     <ServicesPageCards imgsrc="/images/face.jpg" ></ServicesPageCards>
