@@ -1,21 +1,19 @@
 import React from 'react';
-import Navbar from './components/common/Navbar';
-import HomePage from "./components/Pages/ContactUsPage"
-import Contact from "./components/Pages/ServicesPage";
-import ServicesPage from "./components/Pages/About";
-import About from './components/Pages/HomePage';
-
-import {BrowserRouter as Router, Route, Link, Routes} from 'react-router-dom';
+import HomePage from "./components/Pages/HomePage"
+import ContactPage from './components/Pages/ContactUsPage';
+import ServicesPage from "./components/Pages/ServicesPage";
+import AboutUsPage  from './components/Pages/AboutUsPage';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 export default function App() {
   return (
     <Router>
+      <div>
         <Routes>
-          <Route path="/About" element={<About />} />
+          <Route path="/About" element={<AboutUsPage  />} />
           <Route path="/" element={<HomePage />} />
-          <Route path="/Contact" element={<Contact />} />
+          <Route path="/Contact" element={<ContactPage />} />
           <Route path="/ServicesPage" element={<ServicesPage />} />
-
         </Routes>
     
     </Router>

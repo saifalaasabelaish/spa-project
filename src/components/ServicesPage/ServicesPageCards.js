@@ -9,8 +9,6 @@ const ServicesPageCards = (props) => {
                 <img src={props.imgsrc} alt ="services-cards"/>
             </div>
         </div>
-
-
     );
 }
 
