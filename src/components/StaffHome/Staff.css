@@ -2,11 +2,7 @@
 
     flex-direction: column;  
     background-color: #78E9D2;
-   
     font-family:'Titillium Web',sans-serif;
+    color: #fff;
 }
-.staff img { 
-    height: 250px;
-    width: 250px;
 
-}
