@@ -2,14 +2,13 @@
 .footer{
     font-family:'TitilliumWeb', sans-serif;
     background-color: #c197d5;
-    padding: 3.1em;
-    margin-top: 5em;
+    padding: 1.5em;
     color: white;
     font-family:'Titillium Web',sans-serif;
 }
 #Logo{
-    width: 11.25em;;
-    height: 7.5em;
+    width: 8em;;
+    height: 5em;
 }
 .footer form button{
     background-color: #78e9d2;
@@ -46,7 +45,7 @@
     width: 100%;
     text-align: center;
     padding: 2em;
-    margin-top: 3.1em;
+    margin-top: 1.5em;
     border-top: solid white;
 }
 .footer .social a{
@@ -58,7 +57,7 @@
     width: 45px;
     height: 45px;
     box-shadow: 0px 0px 0px 1px white;
-    margin: 0.6em;
+    margin: 0.4em;
     opacity: 0.8;
     transition: 0.3 ease-in-out;
 }
