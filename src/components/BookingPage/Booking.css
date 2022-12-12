@@ -1,11 +1,10 @@
-body{
-
-    font-family:Titillium Web
+.booking .btn-spa{
+    background-color: #C197D5;
 }
-
-.header-texts{
-
-    background-color: #c197d5;
-    color:white;
-    height: 75px;
+.booking .btn-spa:hover{
+    background-color: #965bb1;
+    color: #fff;
+}
+.booking{
+    font-family:Titillium Web;
 }

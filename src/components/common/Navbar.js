@@ -1,16 +1,13 @@
 import "./Navbar.css";
-
 const Navbar=()=>{
     return(
-    <>
-   <ul>
-  <li><a href="#contact">CONTACT US</a></li>
-  <li><a href="#services">SERVICES</a></li>
-  <li><a href="#about">ABOUT US</a></li>
-  <li><a href="#home">HOME</a></li>
+       
+        
+      <div className="col-xs-6 col-md-2">
+      <img id="Logo" src="/images/SPA_Logo.png" alt="Logo"/>                  
+ </div>
+ 
 
-</ul>
-       </>
     );
 };
 export default Navbar;
