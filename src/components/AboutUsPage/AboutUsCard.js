@@ -1,21 +1,15 @@
 import './AboutPage.css'
-const AboutUsCard = (props) => {
+const AboutCard = (props) => {
   return (
     <>
-      <div className='container'>
-        <div className='center'>
-
-          <div className="card">
-            <img src={props.img1} className="img card-img-top w-60" alt={props.img1}></img>
-            <div className='write'>
-
+       <div className='about-card col-lg-3 col-md-3 col-sm-3 mx-4'>
+           <img src={props.img1} className="img card-img-topsix-col img-fluid " alt={props.img1}></img>
+           <div  className='write'>
               <h5 className="card-title">{props.title}</h5>
               <p className="card-text">{props.Paragraph}</p>
-            </div>
-          </div>
-        </div>
+             </div>
       </div>
     </>
   )
 }
-export default AboutUsCard
+export default AboutCard

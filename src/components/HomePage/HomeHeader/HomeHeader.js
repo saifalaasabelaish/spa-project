@@ -13,16 +13,16 @@ const HomeHeader = () => {
         </div>
         <div className="carousel-inner d-flex">
           <div className="carousel-item active col-sm-3 col-xs-3">
-            <HeadCarousel sentence="Hi there! If you are looking for beauty , you are in the right place! Welcome to SPA center" btntitle="Read More About SPA" /></div>
+            <HeadCarousel sentence="Hi there! If you are looking for beauty , you are in the right place! Welcome to SPA center" btntitle="Read More About SPA" link = "/About"/></div>
 
           <div className="carousel-item">
-            <HeadCarousel sentence="You can book at any time! And you only need small deposit of the amount!" btntitle="Book Now!" /></div>
+            <HeadCarousel sentence="You can book at any time! And you only need small deposit of the amount!" btntitle="Book Now!" link = "/BookingPage"/></div>
 
           <div className="carousel-item">
-            <HeadCarousel sentence="Enjoy a Facial Treatment at Our Day Spa and Enhance Your Look with Our Salon Services" btntitle="See Oue Services" /></div>
+            <HeadCarousel sentence="Enjoy a Facial Treatment at Our Day Spa and Enhance Your Look with Our Salon Services" btntitle="See Oue Services" link = "/ServicesPage"/></div>
 
           <div className="carousel-item">
-            <HeadCarousel sentence="We have a lot of reliable global products that will suit everyone!" btntitle="See Our Products" /></div>
+            <HeadCarousel sentence="We have a lot of reliable global products that will suit everyone!" btntitle="See Our Products"  link = "/ShoppingPage"/></div>
 
           <div className="carousel-item">
             <HeadCarousel sentence="What if you took a gift for yourself that includes a variety of everything we own?" btntitle="See our offers" /></div>

@@ -1,0 +1,21 @@
+.btncart{
+
+    background-color : #c197d5;
+    border:#c281e0;
+    width:150px;
+    height: 30px;
+    color: rgb(255, 255, 255); /*color of Font*/
+    font-size:18px;
+    border-radius: 3px;
+   font-family:PT Serif; 
+}
+.btncart:hover{ /* th change state of button*/
+
+    
+        background-color: #ab80be;;
+        transition: 0.4s; /* To make the change less sudden*/
+   
+
+
+
+}
