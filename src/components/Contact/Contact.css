@@ -1,44 +1,62 @@
-.btn{
+.btn {
     background-color: #c197d5;
 }
 
-.write{
+.write {
 
-    font-family:'Titillium Web',sans-serif;
-}
-.socialmed{
-color: #c197d5;
+    font-family: 'Titillium Web', sans-serif;
 }
 
-.icons{
-    margin-left: 68%;
-    margin-top: -27%;
+.socialmed {
+    color: #c197d5;
 }
-.textt{
-margin-top:20% ;
-margin-left: 70%;
-}
-.texttt{
-    margin-top: 25% ;
-    margin-left: 70%;
-}
-.text1{
-    margin-top:28% ;
-    margin-left: 70%;
-}
-.text2{
-    margin-top:31% ;
-    margin-left: 70%;
-}
-.text3{
-    margin-top:33% ;
-    margin-left: 70%;
-}
-.text4{
-    margin-top:35% ;
-    margin-left: 70%;
-}
-.gmap_iframe{
-    margin-top:50% ;
+
+.icons {
+   margin-top: -24%;  
+   margin-left:71%;
    
+}
+
+.textt {
+    margin-top: -29%;
+    margin-left: 70%;
+}
+
+.texttt {
+    margin-top: -20%;
+    margin-left: 70%;
+}
+
+.text1 {
+    margin-top: -16%;
+    margin-left: 70%;
+}
+
+.text2 {
+    margin-top: -13%;
+    margin-left: 70%;
+}
+
+.text3 {
+    margin-top: -10%;
+    margin-left: 70%;
+}
+
+.text4 {
+    margin-top: -7%;
+    margin-left: 70%;
+}
+
+.gmap_iframe {
+    margin-top: 50%;
+
+}
+.containerr{
+
+margin-top:4% ;
+margin-left: 15%;
+}
+.text{
+    margin-top: 2%;
+    margin-left: 15%;
 }
