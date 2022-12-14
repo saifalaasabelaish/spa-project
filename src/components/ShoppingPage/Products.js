@@ -16,7 +16,9 @@ const Products = (props) =>
           {
               return (
               <div className ="col-12 col-md-6 col-lg-4 col-xxl-3 ">
+                <div className = "mb-3">
               <ShoppingCard ImgShoping={product.photo} key= {product.id} Content={product.name} Price ={product.price} />
+              </div>
               </div>
                )
           }

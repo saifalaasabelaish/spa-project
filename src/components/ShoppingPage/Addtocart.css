@@ -7,15 +7,9 @@
     color: rgb(255, 255, 255); /*color of Font*/
     font-size:18px;
     border-radius: 3px;
-   font-family:PT Serif; 
+   font-family: 'Titillium Web', sans-serif;
 }
 .btncart:hover{ /* th change state of button*/
-
-    
         background-color: #ab80be;;
         transition: 0.4s; /* To make the change less sudden*/
-   
-
-
-
 }
