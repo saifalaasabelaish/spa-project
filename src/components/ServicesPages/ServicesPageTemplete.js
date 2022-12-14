@@ -10,7 +10,7 @@ const ServicesPageTemplete = (props) =>
                 <img src={props.imgg} className="img img-fluid " alt={props.img}></img>
               </div></div>
             <div className="item-wrapper text-start">
-              <div className="title ">
+              <div className="title font-weight-bold">
                 <h5>{props.title1}</h5></div>
               <p>{props.Paragraph1}
               </p></div>
@@ -28,8 +28,13 @@ const ServicesPageTemplete = (props) =>
               <div className="title"><h5>{props.title4}</h5></div>
               <div className="text-area">
                 <p>{props.Paragraph4 }
-                 </p>
-              </div></div></div></div>
+                 </p> 
+</div>
+
+
+              </div></div></div>  
+
+
     </>
     )
     }

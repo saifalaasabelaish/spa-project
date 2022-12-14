@@ -19,7 +19,7 @@ const BadyCare = () =>
         title3="Hair Care Routine" Paragraph3=" When we said you need to take care of the skin on your body from top to toe, we meant it! Our scalp health is just as important as any other 
         area on the body, and those who are suffering from dry and flaky scalps can find just what you need at Savers.
          Choose from a range of dry scalp treatments to offer relief and combat flakes and itchiness ."
-        title4="Hydrate From Head To Toe" Paragraph4="   Cleansing, exfoliating, and shaving all have one thing in common—you should moisturize afterward. While your skin is still wet from your shower activities,
+        title4="Hydrate From Head To Toe" Paragraph4=" Cleansing, exfoliating, and shaving all have one thing in common—you should moisturize afterward. While your skin is still wet from your shower activities,
         it’s an ideal time to hydrate your skin. Smooth a hydrating cream or lotion over your body from your neck to your toes 
        (hello, soft feet!), letting it absorb before putting your clothes on."/> 
     <Footer/> </div>
