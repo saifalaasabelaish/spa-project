@@ -1,13 +1,18 @@
-import HomePage from "./components/Pages/HomePage"
+import Shoppinglabel from "./components/Pages/ShoppingPage";
 
-function App() {
-  return (
-    <>
-    <HomePage></HomePage>
-    </>
 
-  );
 
-}
 
-export default App;
+
+
+    function App() {
+      return(
+      <div>
+        <Shoppinglabel/>
+      </div>
+      );
+      
+    }
+      
+    
+    export default App;

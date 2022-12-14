@@ -11,6 +11,9 @@ const BookingPage = () => {
         <HeaderPage title ="BOOKING PAGE"/>
         <div className="row w-100 align-items-center justify-content-center">
         <div className="mt-2 col-md-8 col-sm-8 col-lg-7 rounded bg-white p-4 shadow">
+
         <BookingForm><div className="text-end"><BookNowButton/></div></BookingForm>
-       </div> </div></div></div></>);}
+       </div> </div></div>
+       </div>
+       </>);}
  export default BookingPage;

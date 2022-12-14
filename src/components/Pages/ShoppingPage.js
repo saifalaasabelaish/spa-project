@@ -2,6 +2,8 @@ import Shopping from "../Shopping/Shopping";
 import '../Shopping/Shoppinglabel.css';
 import FaceWash from "../Shopping/FaceWash";
 import React from "react";
+
+
 const Shoppinglabel = () => {
   return (
     <>
