@@ -1,12 +1,11 @@
-import './ServicesPageTemplete.css'
+
 import ServicesPageTemplete from './ServicesPageTemplete'
-import Navbar from '../common/Navbar'
-import Footer from '../common/Footer'
+
 const TurkishBath= () =>
 { 
     return(
     <>
-     <div className="ServicesPageTemplete "> <Navbar/>
+     <div className="ServicesPageTemplete ">
     < ServicesPageTemplete imgg= './images/turkish bath.png'  alt="TurkishBath"
         title1="What is a Turkish Bath?" Paragraph1="A Turkish bath is called a hamam. It usually includes massage and a tea bar. 
         Some hamams in Istanbul are over 250 years old and some upscale hotels there also offer a similar experience. "
@@ -22,7 +21,7 @@ const TurkishBath= () =>
         The idea of a Turkish bath is to sweat, much like in a sauna.
         The idea behind the Turkish bath is to sweat much like one does in a sauna, but with the added elements of water, cleansing and massage. The hamam has been part of the Turkish
          culture for hundreds of years and connects with the Muslim appreciation for water and for cleanliness. This treatment is for people of all ages and social classes."/> 
-    <Footer/> </div>
+ </div>
      
     </>)
             }

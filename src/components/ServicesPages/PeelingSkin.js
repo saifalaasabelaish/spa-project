@@ -1,12 +1,11 @@
-import './ServicesPageTemplete.css'
+
 import ServicesPageTemplete from './ServicesPageTemplete'
-import Navbar from '../common/Navbar'
-import Footer from '../common/Footer'
+
 const PeelingSkin= () =>
 { 
     return(
     <>
-     <div className="ServicesPageTemplete "> <Navbar/>
+     <div className="ServicesPageTemplete "> 
     < ServicesPageTemplete imgg= './images/PeelingSkin.png'  alt=" PeelingSkin"
         title1="Causes" Paragraph1="Your skin is regularly exposed to environmental elements that can irritate 
         and damage it. These include sun, wind, heat, dryness and high humidity. Repeated irritation can lead to
@@ -34,7 +33,7 @@ const PeelingSkin= () =>
         *Stevens-Johnson syndrome
         *Sunburn"
        /> 
-    <Footer/> </div>
+    </div>
      
     </>)
             }

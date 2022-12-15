@@ -1,12 +1,11 @@
-import './ServicesPageTemplete.css'
+
 import ServicesPageTemplete from './ServicesPageTemplete'
-import Navbar from '../common/Navbar'
-import Footer from '../common/Footer'
+
 const HandsLaser = () =>
 { 
     return(
     <>
-     <div className="ServicesPageTemplete "> <Navbar/>
+     <div className="ServicesPageTemplete "> 
     < ServicesPageTemplete imgg= './images/HandsLaser.png'  alt="BackMassge"
         title1="Hands Laser Hair Removal" Paragraph1=" 
         Are you sick of hair growing on the back of your hands or your knuckles? If so, laser hair removal from the hands might be for you!
@@ -26,7 +25,7 @@ const HandsLaser = () =>
         Shaving and waxing don’t last. If you go the professional route for waxing, a single session is only a touch less expensive than a laser appointment. The difference is that with laser, you’ll only need 6-12 sessions, while with waxing you’ll have to keep going for the rest of your life.
         
         So are you ready to say goodbye to hairy hands? Book your appointment for laser hair removal at your nearest SEV Laser location."/> 
-    <Footer/> </div>
+    </div>
      
     </>)
             }

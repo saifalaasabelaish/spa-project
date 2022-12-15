@@ -1,12 +1,11 @@
-import './ServicesPageTemplete.css'
+
 import ServicesPageTemplete from './ServicesPageTemplete'
-import Navbar from '../common/Navbar'
-import Footer from '../common/Footer'
+
 const MoroccanBath= () =>
 { 
     return(
     <>
-     <div className="ServicesPageTemplete "> <Navbar/>
+     <div className="ServicesPageTemplete "> 
     < ServicesPageTemplete imgg= './images/Moroccan Bath.png'  alt=" MoroccanBath"
         title1="RELAX AND REJUVENATE" Paragraph1=" Experience massage therapy at Serenity Spa, the perfect way to relax,
         unwind and rejuvenate the body and mind. All our treatments are performed by our expert therapists within a tranquil
@@ -18,7 +17,7 @@ const MoroccanBath= () =>
         Black Soap cleanse, your Therapists will then start a full body exfoliation using a traditional Kessa Mitt which will remove 
         all dead skin cells leaving you feeling refreshed and your skin smooth."
        /> 
-    <Footer/> </div>
+     </div>
      
     </>)
             }

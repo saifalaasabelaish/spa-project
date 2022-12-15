@@ -1,13 +1,12 @@
-import './ServicesPageTemplete.css'
+
 import ServicesPageTemplete from './ServicesPageTemplete'
-import Navbar from '../common/Navbar'
-import Footer from '../common/Footer'
+
 const BadyCare = () =>
 { 
     return(
     <>
   
-    <div className="ServicesPageTemplete "> <Navbar/>
+    <div className="ServicesPageTemplete "> 
     < ServicesPageTemplete imgg= './images/bady care.png'  alt="Body care"
         title1="About Us" Paragraph1="  Whether you have oily, normal, sensitive, or dry skin, Savers have all you need to take care of your body from head to toe. 
         You’ll be able to find everything from body moisturiser, moisturising creams and lotions to body oils, body butter and dry scalp treatments
@@ -22,7 +21,7 @@ const BadyCare = () =>
         title4="Hydrate From Head To Toe" Paragraph4=" Cleansing, exfoliating, and shaving all have one thing in common—you should moisturize afterward. While your skin is still wet from your shower activities,
         it’s an ideal time to hydrate your skin. Smooth a hydrating cream or lotion over your body from your neck to your toes 
        (hello, soft feet!), letting it absorb before putting your clothes on."/> 
-    <Footer/> </div>
+    </div>
      
                </>)
             }

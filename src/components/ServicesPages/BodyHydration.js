@@ -1,12 +1,11 @@
-import './ServicesPageTemplete.css'
+
 import ServicesPageTemplete from './ServicesPageTemplete'
-import Navbar from '../common/Navbar'
-import Footer from '../common/Footer'
+
 const BodyHydration= () =>
 { 
     return(
     <>
-     <div className="ServicesPageTemplete "> <Navbar/>
+     <div className="ServicesPageTemplete ">
     < ServicesPageTemplete imgg= './images/BodyHydration.png'  alt="BodyHydration"
         title1="About Us" Paragraph1="The human body consists of more than sixty percent of water. This is a good indication as
          to bow important water is for the survival of mankind. How much water is taken into the body and how much water is expelled 
@@ -29,7 +28,7 @@ const BodyHydration= () =>
         look like a deflated balloon; our skin will get a parched look and feel like sandpaper. Our skin will shrivel up and split as it loses suppleness. 
         It is hydration that helps us to be what we are both inside and out. In addition, water is highly efficient in lubricating joints and the brain for proper 
         functioning. Adequate hydration when young will ensure a healthy look preventing visible signs of aging."/> 
-    <Footer/> </div>
+   </div>
      
     </>)
             }
