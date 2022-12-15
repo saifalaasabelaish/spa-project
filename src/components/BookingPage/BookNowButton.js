@@ -5,7 +5,7 @@ const BookNowButton = () => {
     return (
         <> <div className='booking'>
             <button type="submit" className="btn btn-spa">Book Now</button>
-            </div>
+        </div>
         </>
     )
 }
