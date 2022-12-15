@@ -7,7 +7,7 @@ const servicesData = [
         number: 1,
         servimg: "/images/skinclean.jpg",
         altt: "Skin Clean",
-        linkpage: "/BookingPage"
+        pagelink: "/SkinCarePage"
     }
     ,
     {
@@ -18,7 +18,7 @@ const servicesData = [
         number: 2,
         servimg: "/images/peelingskin.jpg",
         altt: "Peeling Skin",
-        linkpage: "/BookingPage"
+        pagelink: "/PeelingSkinPage"
     }
     ,
     {
@@ -29,7 +29,7 @@ const servicesData = [
         number: 3,
         servimg: "/images/mesotherapy.jpg",
         altt: "Mesotherapy",
-        linkpage: "/BookingPage"
+        pagelink: "/MesotherapyPage"
     }
     ,
     {
@@ -40,7 +40,7 @@ const servicesData = [
         number: 4,
         servimg: "/images/cell.jpg",
         altt: "Cell Regeneration ",
-        linkpage: "/BookingPage"
+        pagelink: "/CellRegenerationPage"
     },
     // salon services
     {
@@ -51,7 +51,7 @@ const servicesData = [
         number: 5,
         servimg: "/images/HairCutStyle.jpg",
         altt: "Hair Cut & Style",
-        linkpage: "/BookingPage"
+        pagelink: "/SkinCarePage"
     }
     ,
     {
@@ -62,7 +62,7 @@ const servicesData = [
         number: 6,
         servimg: "/images/haircolor.jpg",
         altt: "Hair Color",
-        linkpage: "/BookingPage"
+        pagelink: "/SkinCarePage"
     }
     ,
     {
@@ -73,7 +73,7 @@ const servicesData = [
         number: 7,
         servimg: "/images/makeup.jpg",
         altt: "Makeup",
-        linkpage: "/BookingPage"
+        pagelink: "/MakeupPage"
     }
     ,
     {
@@ -84,7 +84,7 @@ const servicesData = [
         number: 8,
         servimg: "/images/nails.jpg",
         altt: "Nails",
-        linkpage: "/BookingPage"
+        pagelink: "/SkinCarePage"
     }
     //message
     ,
@@ -96,7 +96,7 @@ const servicesData = [
         number: 9,
         servimg: "/images/TherapeuticMassage.jpg",
         altt: "Therapeutic Massage",
-        linkpage: "/BookingPage"
+        pagelink: "/TherapeuticMassagePage"
     }
     ,
     {
@@ -107,7 +107,7 @@ const servicesData = [
         number: 10,
         servimg: "/images/BackandNeckMassage.jpg",
         altt: "Back & Neck Massage",
-        linkpage: "/BookingPage"
+        pagelink: "/BackandNeckMassagePage"
     }
 
     ,
@@ -119,7 +119,7 @@ const servicesData = [
         number: 11,
         servimg: "/images/BodyMassage.jpg",
         altt: "Body Massage",
-        linkpage: "/BookingPage"
+        pagelink: "/SkinCarePage"
     }
     ,
     {
@@ -130,7 +130,7 @@ const servicesData = [
         number: 12,
         servimg: "/images/FootMassage.jpg",
         altt: "Foot Massage",
-        linkpage: "/BookingPage"
+        pagelink: "/SkinCarePage"
     }
     // body care
     ,
@@ -142,7 +142,7 @@ const servicesData = [
         number: 13,
         servimg: "/images/BodyHydration.jpg",
         altt: "Body Hydration",
-        linkpage: "/BookingPage"
+        pagelink: "/BodyHydrationPage"
     }
     ,
     {
@@ -153,7 +153,7 @@ const servicesData = [
         number: 14,
         servimg: "/images/Sauna.jpg",
         altt: "Sauna",
-        linkpage: "/BookingPage"
+        pagelink: "/SaunaPage"
     }
     ,
     {
@@ -164,7 +164,7 @@ const servicesData = [
         number: 15,
         servimg: "/images/TurkishBath.jpg",
         altt: "Turkish Bath",
-        linkpage: "/BookingPage"
+        pagelink: "/TurkishBathPage"
     }
     ,
     {
@@ -175,7 +175,7 @@ const servicesData = [
         number: 16,
         servimg: "/images/MoroccaBath.jpg",
         altt: "Moroccan Bath",
-        linkpage: "/BookingPage"
+        pagelink: "/MoroccanBathPage"
     }
     //laser services
     ,
@@ -187,7 +187,7 @@ const servicesData = [
         number: 17,
         servimg: "/images/FaceLaser.jpg",
         altt: "Face Laser",
-        linkpage: "/BookingPage"
+        pagelink: "/FaceLaserPage"
     }
     ,
     {
@@ -198,7 +198,7 @@ const servicesData = [
         number: 18,
         servimg: "/images/HandsLaser.jpg",
         altt: "Hands Laser ",
-        linkpage: "/BookingPage"
+        pagelink: "/HandsLaserPage"
     }
     ,
     {
@@ -209,7 +209,7 @@ const servicesData = [
         number: 19,
         servimg: "/images/legslaser.jpg",
         altt: "Legs Laser",
-        linkpage: "/BookingPage"
+        pagelink: "/LegsLaserPage"
     }
     ,
     {
@@ -220,10 +220,7 @@ const servicesData = [
         number: 20,
         servimg: "/images/laserbody.jpg",
         sername: "Full Body Laser",
-        linkpage: "/BookingPage"
+        pagelink: "/FullBodyPage"
     }
-
-
-
 ]
 export default servicesData;

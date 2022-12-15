@@ -1,7 +1,7 @@
 
 import ServicesPageTemplete from './ServicesPageTemplete'
 
-const BackMassge = () =>
+const BackMassage = () =>
 { 
     return(
     <>
@@ -31,4 +31,4 @@ const BackMassge = () =>
     </>)
             }
             
- export default  BackMassge
+ export default  BackMassage

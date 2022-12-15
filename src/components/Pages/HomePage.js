@@ -3,7 +3,8 @@ import Navbar from "../common/Navbar";
 import HomeHeader from "../HomePage/HomeHeader/HomeHeader";
 import Carousel from "../Offerpage/Carousel";
 import ServApp from "../HomePage/ServicesHome/ServicesHome";
-import Staff from "../StaffHome/Staff"
+import StaffCards from "../HomePage/StaffHome/StaffCards";
+
 function HomePage() {
   return (
 <>
@@ -11,7 +12,7 @@ function HomePage() {
 <HomeHeader/>
 <ServApp/>
 <Carousel/>
-<Staff/>
+<StaffCards/>
 <Footer/>
 </> 
   );

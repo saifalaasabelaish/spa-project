@@ -1,7 +1,7 @@
 
 import ServicesPageTemplete from './ServicesPageTemplete'
 
-const BadyCare = () =>
+const BodyCare = () =>
 { 
     return(
     <>
@@ -26,5 +26,5 @@ const BadyCare = () =>
                </>)
             }
             
-            export default  BadyCare
+            export default  BodyCare
             
