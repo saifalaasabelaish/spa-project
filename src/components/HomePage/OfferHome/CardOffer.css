@@ -1,16 +1,15 @@
-.cardoffer {
+.offers .cardoffer {
     width: 230px;
     height: 280px;
     transition: 0.5s;
     margin-top: 30px;
-
 }
 
-.cardoffer:hover {
+.offers .cardoffer:hover {
     transform: scale(1.1);
 }
 
-.img-fluid {
+.offers .img-fluid {
     width: 100%;
     height:100%;
     object-fit: cover;

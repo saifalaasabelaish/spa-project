@@ -1,7 +1,7 @@
 import CardOffer from "./CardOffer"
 import './OfferCarousel.css'
 
-const Carousel = () => {
+const OfferCarousel = () => {
   return (
     <div className="offers">
     <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
@@ -55,8 +55,7 @@ const Carousel = () => {
       </button>
     </div>
     </div>
-
   )
 }
 
-export default Carousel
+export default OfferCarousel;

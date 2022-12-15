@@ -23,9 +23,9 @@ const BookingForm = (props) => {
                     <input type="address" className="form-control" id="exampleInputAddress" aria-describedby="addressHelp" placeholder="Required Address" required />
                 </div>
                 <ServiceBooking />
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1"></input>
-                    <label class="form-check-label" for="inlineCheckbox1">remind me</label></div>
+                <div className="form-check form-check-inline">
+                    <input className="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1"></input>
+                    <label className="form-check-label" htmlFor="inlineCheckbox1">remind me</label></div>
                 {props.children}
             </form>
         </div>

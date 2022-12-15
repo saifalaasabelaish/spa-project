@@ -15,8 +15,8 @@ const Services = (props) =>
             (service) => 
           {
               return (
-              <div className ="col-12 col-md-6 col-lg-4 col-xxl-3 ">
-              <ServicesCard  ImgServices={service.servimg} key= {service.number} title = {service.sername} content={service.description} price ={service.rate} serlink = {service.pagelink}/>
+              <div className ="col-12 col-md-6 col-lg-6 col-xxl-8 mb-5">
+              <ServicesCard  ImgServices={service.servimg} altt={service.altt} key= {service.number} title = {service.sername} content={service.description} price ={service.rate} serlink = {service.pagelink}/>
               </div>
                )
           }
