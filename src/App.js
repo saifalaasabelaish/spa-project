@@ -10,33 +10,17 @@ import BookingPage from './components/Pages/BookingPage';
 export default function App() {
   return (
     <Router>
-   <Navbar/>
       
-      <div>
-        <nav>
-          <ul>
-            <li>
-              <Link to="/About">About Us</Link>
-            </li>
-            <li>
-              <Link to="/Contact">Contact</Link>
-            </li>
-            <li>
-              <Link to="/ServicesPage">Services</Link>
-            </li>
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-          </ul>
-        </nav>
         <Routes>
-          <Route path="/About" element={<About />} />
+          <Route path="/About" element={<AboutUsPage  />} />
           <Route path="/" element={<HomePage />} />
-          <Route path="/Contact" element={<Contact />} />
+          <Route path="/Contact" element={<ContactPage />} />
           <Route path="/ServicesPage" element={<ServicesPage />} />
-
+          <Route path="/ShoppingPage" element={<ShoppingPage />} />
+          <Route path="/BookingPage" element={<BookingPage/>} />
         </Routes>
-      </div>
+    
     </Router>
   );
 }
+
