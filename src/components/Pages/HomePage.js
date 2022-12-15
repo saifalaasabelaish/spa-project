@@ -1,8 +1,8 @@
 import Footer from "../common/Footer";
 import Navbar from "../common/Navbar";
-import HomeHeader from "../HomeHeader/HomeHeader";
+import HomeHeader from "../HomePage/HomeHeader/HomeHeader";
 import Carousel from "../Offerpage/Carousel";
-import ServApp from "../ServicesHome/ServApp";
+import ServApp from "../HomePage/ServicesHome/ServicesHome";
 import Staff from "../StaffHome/Staff"
 function HomePage() {
   return (
