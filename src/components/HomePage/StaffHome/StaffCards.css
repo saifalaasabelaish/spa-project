@@ -1,10 +1,16 @@
-.staff{
+.staff {
+
     flex-direction: column;  
     background-color: #78E9D2;
-    color: #fff;  
+   color: #fff;
     font-family:'Titillium Web',sans-serif;
 }
 .staff img { 
     height: 250px;
     width: 250px;
+
+}
+
+.staff .card {
+    background-color: #78E9D2;
 }

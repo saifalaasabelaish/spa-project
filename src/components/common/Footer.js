@@ -1,40 +1,41 @@
+import { Link } from "react-router-dom";
 import "./Footer.css"
 // Areen removed herf "we must work in link routing insread of using [a] here"
-
 const Footer = () => {
    return (
       <div className="footer">
          <div className="container">
             <div className="row">
-               <div className="col-xs-6 col-md-2">
+               <div className="col-xs-6 col-md-3 d-flex">
                   <img id="Logo" src="/images/spalogo.png" alt="Logo" />
                </div>
                <div className="col-xs-6 col-md-3">
                   <form>
                      <div className="form-group">
-                        <label htmlFor="offerEmail">Enter your Email down in the box below so you can get the latest offers</label>
-                        <input className="form-control mb-5" type="email" id="offerEmail" name="offerEmail" placeholder="Name@Example.com"></input>
+                        <label htmlFor="offerEmail" className="mb-2">Enter your Email down in the box below so you can get the latest offers</label>
+                        <input className="form-control mb-3" type="email" id="offerEmail" name="offerEmail" placeholder="Name@Example.com"></input>
                      </div>
                      <button type="submit" className="btn btn-primary">Submit</button>
                   </form>
                </div>
                <div className="col-sm-6 col-md-2">{/*remove ms-5*/}
-                  <h6>Contact us</h6>
                   <ul>
+                  <li><h6><Link to="/Contact">Contact us</Link></h6></li>
                      <li><a>Email</a></li>
                      <li><a>0123456789</a></li>
+                     <li><a>Our Location</a></li>
                   </ul>
                </div>
                <div className="col-sm-6 col-md-2">
-                  <h6>About us</h6>
                   <ul>
+                  <li><h6><Link to="/About">About us</Link></h6></li>
                      <li><a>Our story</a></li>
                      <li><a>Meet our staff</a></li>
                   </ul>
                </div>
                <div className="col-sm-6 col-md-2">
-                  <h6>Legal</h6>
                   <ul>
+                  <li><h6>Legal</h6></li>
                      <li><a>Terms & Conditions</a></li>
                      <li><a>Privacy Policy</a></li>
                      <li><a>Terms of Use</a></li>

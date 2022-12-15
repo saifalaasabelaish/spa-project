@@ -1,4 +1,5 @@
 .cardoffer {
+<<<<<<< HEAD
 width:230px;
 height: 280px;
 transition: 0.5s; 
@@ -9,6 +10,20 @@ margin-top: 30px;
 transform: scale(1.1);
 }
 .img-fluid{
+=======
+    width: 230px;
+    height: 280px;
+    transition: 0.5s;
+    margin-top: 30px;
+
+}
+
+.cardoffer:hover {
+    transform: scale(1.1);
+}
+
+.img-fluid {
+>>>>>>> 825715e5411043ff4ea149b36410634e935202f8
     width: 100%;
     height:100%;
     object-fit: cover;

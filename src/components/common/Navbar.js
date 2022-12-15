@@ -3,15 +3,18 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     // Areen work 
-    <div className="navbarr col-12 ">
-      <nav>
+    <nav className="navbarr navbar-expand-lg ">
+  {/* <div class="container-fluid"> */}
         <ul>
           <div className='navbar-brand logo position-absolute start-0 m-3'>
-            <img img src="/images/spalogo.png" alt="Logo"></img>
+            <img src="/images/spalogo.png" alt="Logo"/>
           </div>
           <div className="rightfloat">
             <li>
               <Link to="/Contact">Contact</Link>
+            </li>
+            <li>
+              <Link to="/ShoppingPage">Shopping</Link>
             </li>
             <li>
               <Link to="/ServicesPage">Services</Link>
@@ -24,8 +27,8 @@ const Navbar = () => {
             </li>
           </div>
         </ul>
-      </nav>
-    </div>
+    {/* </div> */}
+    </nav>
   );
 };
 export default Navbar;
