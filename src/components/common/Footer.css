@@ -5,9 +5,8 @@
     color: white;
     font-family: 'Titillium Web', sans-serif;
 }
-
-#Logo {
-    width: 8em;
+#Logo{
+    width: 8em;;
     height: 5em;
 }
 
@@ -55,8 +54,7 @@
     margin-top: 1.5em;
     border-top: solid white;
 }
-
-.footer .social a {
+.footer .social a{
     font-size: 1.3rem;
     line-height: 2.5rem;
     display: inline-block;
@@ -93,16 +91,14 @@
         margin-left: 35%;
         margin-bottom: 1.5em;
     }
-
-    form {
+    form{
         margin-bottom: 0.9em;
     }
 
     .footer ul {
         text-align: center;
     }
-
-    .social {
-        margin: 0 auto;
-    }
+    .social{
+         margin: 0 auto;
+        }
 }
