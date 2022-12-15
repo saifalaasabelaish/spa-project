@@ -1,12 +1,12 @@
-import './ServicesPageTemplete.css'
+
 import ServicesPageTemplete from './ServicesPageTemplete'
-import Navbar from '../common/Navbar'
-import Footer from '../common/Footer'
+
+
 const HairBye = () =>
 { 
     return(
     <>
-     <div className="ServicesPageTemplete "> <Navbar/>
+     <div className="ServicesPageTemplete "> 
     < ServicesPageTemplete imgg= './images/Hair dye .png'  alt="Hair dye"
         title1=" Abstract" Paragraph1="Hair dye cosmetic products are used for colouring hair. These products are mainly classified into
          two categories according to their duration in the hair, i.e., temporary and permanent. This classification
@@ -37,7 +37,7 @@ const HairBye = () =>
         The oxidizing agents used in hair colorants do damage the hair fibers. Moreover, the rapid kinetics of oxidation can cause uneven coloring of the hair, especially
          when long preparation procedures are involved such as in selective highlighting. Encapsulation of the oxidation precursors with polymethacrylates, poly(vinylacetate)s, 
          or shellac allows the coloring process to be more uniform"/> 
-    <Footer/> </div>
+    </div>
      
     </>)
             }

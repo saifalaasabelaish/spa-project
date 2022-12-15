@@ -1,13 +1,12 @@
-import './ServicesPageTemplete.css'
+
 import ServicesPageTemplete from './ServicesPageTemplete'
-import Navbar from '../common/Navbar'
-import Footer from '../common/Footer'
+
 const HairCare = () =>
 { 
     return(
     <>
    
-    <div className="ServicesPageTemplete "> <Navbar/>
+    <div className="ServicesPageTemplete "> 
     < ServicesPageTemplete imgg= './images/Hair care1.png'  alt="Hair care"
         title1="About Us" Paragraph1="   Hair care is an overall term for hygiene and cosmetology involving the hair which grows from the human scalp,
         and to a lesser extent facial, pubic and other body hair. Hair care routines differ according to an individual's
@@ -37,7 +36,7 @@ const HairCare = () =>
         title4="Chemical Alteration" Paragraph4="  Chemical alterations like perming, coloring can be carried out to change the perceived color and texture of hair. All of these are temporary
         alterations because permanent alterations are not possible at this time.Chemical alteration of hair only affects the hair above the scalp;
          unless the hair roots are damaged, new hair will grow in with natural color and texture."/> 
-    <Footer/> </div>
+  </div>
                </>)
             }
             

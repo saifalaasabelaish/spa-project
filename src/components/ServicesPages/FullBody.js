@@ -1,12 +1,11 @@
-import './ServicesPageTemplete.css'
+
 import ServicesPageTemplete from './ServicesPageTemplete'
-import Navbar from '../common/Navbar'
-import Footer from '../common/Footer'
+
 const FullBody= () =>
 { 
     return(
     <>
-     <div className="ServicesPageTemplete "> <Navbar/>
+     <div className="ServicesPageTemplete ">
     < ServicesPageTemplete imgg= './images/full body laser.png'  alt="FullBody"
         title1="Why Might Someone Opt For Full Body Hair Removal?" Paragraph1="Laser hair removal is a fairly new hair removal method. Although it is increasingly popular, still too few research has been conducted on many aspects of the procedure. That is why we advise pregnant women not to undergo laser treatments. Indeed, we do not know how it could impact the fetus.
 
@@ -39,7 +38,7 @@ const FullBody= () =>
         
         full body laser hair removal cost in usa for individual treatment session are generally in the range of $100 to $800.” In 2020, the average cost of laser hair removal with no other related expenses was $389, according to the American Society of Plastic Surgeons." 
       /> 
-    <Footer/> </div>
+    </div>
      
     </>)
             }

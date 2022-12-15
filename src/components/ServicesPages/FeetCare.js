@@ -1,12 +1,11 @@
-import './ServicesPageTemplete.css'
+
 import ServicesPageTemplete from './ServicesPageTemplete'
-import Navbar from '../common/Navbar'
-import Footer from '../common/Footer'
+
 const FeetCare = () =>
 { 
     return(
     <>
-     <div className="ServicesPageTemplete "> <Navbar/>
+     <div className="ServicesPageTemplete "> 
     < ServicesPageTemplete imgg= './images/FeetCare.png '  alt="FeetCare"
         title1="Feet Care Fundings" Paragraph1="All approved services will be funded through the National Disability Insurance Scheme. 
         Our company has a ‘no gap’ payment scheme. This guarantees that every Client can benefit from our services. "
@@ -27,7 +26,7 @@ const FeetCare = () =>
         title4="Getting your heel pain treated" Paragraph4="Did you know that heel pain is a common foot problem. Pain usually occurs under the heel or just behind it.
 
         Here’s where we can help."/> 
-    <Footer/> </div>
+     </div>
      
     </>)
             }

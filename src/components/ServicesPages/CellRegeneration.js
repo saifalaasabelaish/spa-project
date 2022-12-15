@@ -1,13 +1,11 @@
 
-import './ServicesPageTemplete.css'
 import ServicesPageTemplete from './ServicesPageTemplete'
-import Navbar from '../common/Navbar'
-import Footer from '../common/Footer'
+
 const CellRegeneration= () =>
 { 
     return(
     <>
-     <div className="ServicesPageTemplete "> <Navbar/>
+     <div className="ServicesPageTemplete ">
     < ServicesPageTemplete imgg= './images/CellRegeneration.png'  alt="CellRegeneration"
         title1="What is Derma Ben?" Paragraph1="Dermapen is a microneedling treatment to improve scars, acne scars, stretch marks, wrinkles, discoloration, and skin rejuvenation.The benefits of Derma Pen for the face begin the skin's self-healing process by supporting wound-free skin healing and natural collagen production. Derma Pen, a small pen-like device used to treat patients with skin problems. More than 6,000 doctors around the world use Dermapen specifically for skin rejuvenation and treatment of wrinkles, hair loss, skin blemishes and uneven skin tone.
         The effect lies in the active systemic effect of the introduced mesochotilate or mono-preparations. Depending on the composition, they have a regenerating effect or reduce the volume of subcutaneous adipose tissue, stimulate cellular metabolism, improve local blood circulation and participate in lymphatic exchange. The depth of the hole ensures its penetration and effective effect into all layers of the skin.
@@ -20,7 +18,7 @@ After applying a DermaPen facial session, the person looks younger than their ag
         title3="Indications for Derma Penn?" Paragraph3="
         Special needles produce fine holes in the skin at a high frequency. Through the holes, special active preparations, previously applied to the treated skin, penetrate into the regeneration process, and their action is aimed at activating the regeneration process, and micro-holes in the skin promote regeneration processes and collagen production. In addition, due to microtrauma from the needle holes, the skin is smoothed."
        /> 
-    <Footer/> </div>
+</div>
      
     </>)
             }

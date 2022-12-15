@@ -1,13 +1,11 @@
 
-import './ServicesPageTemplete.css'
 import ServicesPageTemplete from './ServicesPageTemplete'
-import Navbar from '../common/Navbar'
-import Footer from '../common/Footer'
+
 const TherapeuticMassage= () =>
 { 
     return(
     <>
-     <div className="ServicesPageTemplete "> <Navbar/>
+     <div className="ServicesPageTemplete "> 
     < ServicesPageTemplete imgg= './images/TherapeuticMassage.png'  alt="TherapeuticMassage"
         title1="What Is Therapeutic Massage?" Paragraph1="Therapeutic massage is a type of complementary and alternative medicine (CAM) practice that is often used to treat muscle pain, injury, and stiffness. Massage therapy has also been used for the treatment of mental and emotional problems, including stress, anxiety, and depression.1
 
@@ -23,7 +21,7 @@ const TherapeuticMassage= () =>
         Friction: In this technique, the massage therapist applies small, circular, focused pressure to specific points on the body.
         Massage therapists use their hands, forearms, and even elbows to work through various groups of muscles.4 Some massage therapists will also include aromatherapy oils and tranquil music to help create a peaceful and deeply relaxing experience."
         title4="What Therapeutic Massage Can Help With" Paragraph4="Therapeutic massage is often used to help relieve muscle tension and pain. It may be used on its own, but it is also often used in conjunction with other traditional pain treatments"/> 
-    <Footer/> </div>
+  </div>
      
     </>)
             }

@@ -1,12 +1,11 @@
-import './ServicesPageTemplete.css'
+
 import ServicesPageTemplete from './ServicesPageTemplete'
-import Navbar from '../common/Navbar'
-import Footer from '../common/Footer'
+
 const MassageServices= () =>
 { 
     return(
     <>
-     <div className="ServicesPageTemplete "> <Navbar/>
+     <div className="ServicesPageTemplete "> 
     < ServicesPageTemplete imgg='./images/Moroccan Bath.png'  alt="MassageServices"
         title1="There’s a difference between feeling better and living better" Paragraph1="Have a kink in your neck that refuses to leave?
          We’ll help evict it.Our unique approach to massage therapy will help your body work better so you can live better. "
@@ -18,7 +17,7 @@ const MassageServices= () =>
         title3="Aromatherapy" Paragraph3="Add even more rest and relaxation to your massage with an aromatherapy enhancement.
          These essential oils extracted from herbs, fruits, and flowers can enhance 
         your physical and emotional wellbeing by soothing the mind, body, and spirit."/> 
-    <Footer/> </div>
+    </div>
      
     </>)
             }

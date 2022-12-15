@@ -1,12 +1,11 @@
-import './ServicesPageTemplete.css'
+
 import ServicesPageTemplete from './ServicesPageTemplete'
-import Navbar from '../common/Navbar'
-import Footer from '../common/Footer'
+
 const LegsLaser = () =>
 { 
     return(
     <>
-     <div className="ServicesPageTemplete "> <Navbar/>
+     <div className="ServicesPageTemplete ">
     < ServicesPageTemplete imgg= './images/legs.png'  alt="legs laser"
         title4="Shorts or Skirt Ready Always" Paragraph4=" No more last minute shaving or having to wear pants because you ran out of time to shave. 
         You’re always ready to show off your smooth legs! "
@@ -19,7 +18,7 @@ const LegsLaser = () =>
         Our lasers target your hair follicle to eliminate the root of the hair without damaging or irritating your skin. After a highly-trained medical professional pulses the laser, a cooling mist is immediately released to ease any discomfort. With the root destroyed, that hair will never regrow...giving you hair-free legs. See Demo
         
         Treatments are quick and you must shave beforehand. Unlike electrolysis or waxing, there’s no need for you to walk around with a pair hairy legs prior to your appointment."/> 
-    <Footer/> </div>
+     </div>
      
     </>)
             }

@@ -1,12 +1,11 @@
-import './ServicesPageTemplete.css'
+
 import ServicesPageTemplete from './ServicesPageTemplete'
-import Navbar from '../common/Navbar'
-import Footer from '../common/Footer'
+
 const Hands = () =>
 { 
     return(
     <>
-     <div className="ServicesPageTemplete "> <Navbar/>
+     <div className="ServicesPageTemplete "> 
     < ServicesPageTemplete imgg= './images/hands.png'  alt="Hands"
         title1="What is a Manicure?" Paragraph1="A manicure involves trimming, shaping and polishing fingernails. 
         That said, an at-home manicure can be just as effective if done correctly using proper tools such as nail 
@@ -26,9 +25,9 @@ const Hands = () =>
         fingernails and toes looking spectacular. A manicure or pedicure will help rid your nails of any imperfections, which ultimately leads to healthier looking nails. 
         While getting a manicure or pedicure is considered to be a luxury, there are many health benefits of having your nails cared for by someone else – as well as the 
         fact that you’re giving yourself a treat."/> 
-    <Footer/> </div>
+     </div>
      
-    </>)
+         </>)
             }
             
  export default  Hands
