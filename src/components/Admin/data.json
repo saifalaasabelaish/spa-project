@@ -1,0 +1,107 @@
+[
+
+    {
+        "no":1,
+        "name":"Akshit",
+        "email":"aksri.random@gmail.com",
+        "pay":"Cash",
+        "address": "Nablus",
+        "phone" : "051279498",
+        "service":"Massage",
+        "serviceTime":"9:00 AM"
+
+    },
+    
+    {
+        "no":2,
+        "name":"Nikita",
+        "email":"aksri.random@gmail.com",
+        "pay":"Cash",
+        "address": "Nablus",
+        "phone" : "051279498",
+        "service":"Massage",
+        "serviceTime":"9:00 AM"
+
+    },
+    
+    {
+        "no":3,
+        "name":"Deeksha",
+        "email":"aksri.random@gmail.com",
+        "address": "Nablus",
+        "service":"Massage",
+        "serviceTime":"9:00 AM",
+        "pay":"Cash",
+        "phone" : "051279498"
+        
+    },
+    
+    {
+        "no":4,
+        "name":"Ritesh",
+        "email":"aksri.random@gmail.com",
+        "address": "Nablus",
+        "service":"Massage",
+        "pay":"Visa Card",
+        "serviceTime":"9:00 AM",
+        "phone" : "051279498"
+    },
+    
+    {
+        "no":5,
+        "name":"Somya",
+        "email":"aksri.random@gmail.com",
+        "address": "Nablus",
+        "pay":"Cash",
+        "service":"Massage",
+        "serviceTime":"9:00 AM",
+        "phone" : "051279498"
+
+    },
+    
+    {
+        "no":6,
+        "name":"Eshika",
+        "email":"aksri.random@gmail.com",
+        "address": "Nablus",
+        "service":"Massage",
+        "serviceTime":"9:00 AM",
+        "pay":"Visa Card",
+        "phone" : "051279498"
+
+    },
+    {
+        "no":7,
+        "name":"Kalpana",
+        "email":"aksri.random@gmail.com",
+        "address": "Nablus",
+        "service":"Massage",
+        "serviceTime":"9:00 AM",
+        "pay":"Cash",
+        "phone" : "051279498"
+
+    },
+    
+    {
+        "no":8,
+        "name":"Parul",
+        "email":"aksri.random@gmail.com",
+        "address": "Nablus",
+        "service":"Massage",
+        "pay":"Cash",
+        "serviceTime":"9:00 AM",
+        "phone" : "051279498"
+    },
+    
+    {
+        "no":9,
+        "name":"Himani",
+        "email":"aksri.random@gmail.com",
+        "address": "Nablus",
+        "pay":"Cash",
+        "service":"Massage",
+        "serviceTime":"9:00 AM",
+        "phone" : "051279498"
+
+    }
+]
