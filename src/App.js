@@ -10,7 +10,7 @@ import BookingPage from './components/Pages/BookingPage';
 export default function App() {
   return (
     <Router>
-      <div>
+      
         <Routes>
           <Route path="/About" element={<AboutUsPage  />} />
           <Route path="/" element={<HomePage />} />
@@ -19,7 +19,8 @@ export default function App() {
           <Route path="/ShoppingPage" element={<ShoppingPage />} />
           <Route path="/BookingPage" element={<BookingPage/>} />
         </Routes>
-      </div>
+    
     </Router>
   );
 }
+
