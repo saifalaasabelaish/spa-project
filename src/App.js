@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from 'react';
 import HomePage from "./components/Pages/HomePage"
 import ContactPage from './components/Pages/ContactUsPage';
@@ -23,3 +24,23 @@ export default function App() {
     </Router>
   );
 }
+=======
+import Shoppinglabel from "./components/Pages/ShoppingPage";
+
+
+
+
+
+
+    function App() {
+      return(
+      <div>
+        <Shoppinglabel/>
+      </div>
+      );
+      
+    }
+      
+    
+    export default App;
+>>>>>>> 37ac6e06a0896a87d69da9407fd804c13e0bfa0f

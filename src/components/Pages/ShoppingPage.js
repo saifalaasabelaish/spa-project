@@ -1,33 +1,13 @@
-// import Shopping from "../Shopping";
-import '../Shopping/ShoppingPage.css'
-import React, { useState } from "react";
-import Products from "../Shopping/Products";
-import Footer from "../common/Footer";
+import Shopping from "../Shopping/Shopping";
+import '../Shopping/Shoppinglabel.css';
+import FaceWash from "../Shopping/FaceWash";
+import React from "react";
 
-const Cart = (onClick , props) =>
-  {
+
+const Shoppinglabel = () => {
   return (
     <>
-    <div className="cart  justify-content-end d-flex me-4 mt-3">
-      <button  className ="cart-btn " onClick={() => onClick()}>
-      <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAdJJREFUWEftl70uBFEYhp9N0KJW+GloJOIG0GjFFfgp6GQvgJBwAego/NwBrQY3IBENjZ9Cr0ZCXjmzOTO7M3PmzBm7xU63O+f7vme+95v3nKnRYVetw3joAuUpkuzQDvBjBd0At3lJQt5PAtkwUZ0zYCVk0axcLkCKXwQu/gOqlWRR3SlgwfyQdHPtALJrjgAv1h+jwGvVUHmvveZnyUCcA8vtBpoFrg3EB7BfAZAetNH5vA6pvhYPVwASpVR+jcPf5QIkmU4rBHoDNK/OQAOmS/0VQR0A9SJAWmsPd2iu2NvrIpkAkhYQCuoekN81LlcgBcgcZ0KRmDzaktR9L6AqhnsQkJ14ASkopAW0NNoikglIx5PtQLK13LCLAoUa7pj3lJEslAXEvKcskL2/+aqXenIoKlkEUGa4m7ynbIcUX8YCmrwnBFAE1dgUHbVTZ2NGmIzzlcyxfvFlZYCOzNfIM7ABXKWUnwcOgTFzjFnPwvQF0hycWImfgImUQo/AuHVvNet85Qu0CexaRb6AvhSgT6DXurcF7KV1yRdoErgDekziYyBNCkm7ZtZ9A9PAQ2gg5ROUvtveHY64kngIuMyCUVLfDhV/fRwjukB5jeq4Dv0CIkZFJZM8NK0AAAAASUVORK5CYII=" />
-      <span className="badge text-bg-secondary border-5">  { props.datap } </span>
-      </button>
-    </div>
-    </>
-    
-  )
-}
-const ShoppingPage = () => {
-  const [category, setCategory] = useState("skincare");
-  const eventHandler = (event) =>
-  {
-    setCategory (event.target.id);
-  }
-
-  return (
-    <>
-      {/* <Shopping /> */}
+      <Shopping />
       <h3 className=" header2 d-flex justify-content-center" > S H O P P I N G &nbsp; P A G E </h3>
       <Cart/>
       <div className="container">
