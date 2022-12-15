@@ -1,16 +1,16 @@
 const productsData = [
 {
 name : "Face Wash" ,
-price : "43.00$" , 
+price : 43 , 
 cat : "skincare" ,
 id : 1 ,
-photo : "./mask3.jpg"
+photo : "./mask3.png"
 
 }
 ,
 {
     name : "Face Toner" ,
-    price : "28.00$" , 
+    price : 28 , 
     cat : "skincare",
     id : 2 , 
     photo : "./mask5.jpg"
@@ -18,7 +18,7 @@ photo : "./mask3.jpg"
 ,
 {
     name : "Face Cream" ,
-    price : "50.00$" , 
+    price : 50 , 
     cat : "skincare",
     id : 3 , 
     photo : "./mask7.jpg"
@@ -26,7 +26,7 @@ photo : "./mask3.jpg"
 ,
 {
     name : "Face Serum" ,
-    price : "18.00$" , 
+    price : 18 , 
     cat : "skincare",
     id : 4 , 
     photo : "./maskg1.jpg"
@@ -34,7 +34,7 @@ photo : "./mask3.jpg"
 ,
 {
     name : "Face Scrab" ,
-    price : "30.00$" , 
+    price : 30 , 
     cat : "skincare",
     id : 5 , 
     photo : "./mask6.jpg"
@@ -42,7 +42,7 @@ photo : "./mask3.jpg"
 ,
 {
     name : "Face Oli" ,
-    price : "53.00$" , 
+    price : 53 , 
     cat : "skincare",
     id : 6 , 
     photo : "./mask4.jpg"
@@ -50,7 +50,7 @@ photo : "./mask3.jpg"
 , ///makeup
 {
     name : "Mario Lipstick" ,
-    price : "43.00$" , 
+    price : 43 , 
     cat : "makeup" ,
     id : 7 ,
     photo : "./makeup22.webp"
@@ -59,7 +59,7 @@ photo : "./mask3.jpg"
     ,
     {
         name : "Bronzer" ,
-        price : "28.00$" , 
+        price : 28 , 
         cat : "makeup",
         id : 8 , 
         photo : "./brozer.webp"
@@ -67,7 +67,7 @@ photo : "./mask3.jpg"
     ,
     {
         name : "Foundation" ,
-        price : "50.00$" , 
+        price : 50 , 
         cat : "makeup",
         id : 9 , 
         photo : "./foundation.webp"
@@ -75,7 +75,7 @@ photo : "./mask3.jpg"
     ,
     {
         name : "Eye Liner" ,
-        price : "18.00$" , 
+        price : 18 , 
         cat : "makeup",
         id : 10 , 
         photo : "./eyeliner.webp"
@@ -83,7 +83,7 @@ photo : "./mask3.jpg"
     ,
     {
         name : "Lip Gloss" ,
-        price : "30.00$" , 
+        price : 30 , 
         cat : "makeup",
         id : 11, 
         photo : "./makeup88.webp"
@@ -91,7 +91,7 @@ photo : "./mask3.jpg"
     ,
     {
         name : "Lip Liner" ,
-        price : "53.00$" , 
+        price : 53 , 
         cat : "makeup",
         id : 12 , 
         photo : "./makeup111.webp"
@@ -99,7 +99,7 @@ photo : "./mask3.jpg"
     ///body
     {
         name : "Body Wash" ,
-        price : "43.00$" , 
+        price : 43 , 
         cat : "body-products" ,
         id : 13 ,
         photo : "./body2.jpg"
@@ -108,7 +108,7 @@ photo : "./mask3.jpg"
         ,
         {
             name : "Body Splash" ,
-            price : "20.00$" , 
+            price : 20 , 
             cat : "body-products",
             id : 14 , 
             photo : "./body3.jpg"
@@ -116,7 +116,7 @@ photo : "./mask3.jpg"
         ,
         {
             name : "Body Serum" ,
-            price : "30.00$" , 
+            price : 30 , 
             cat : "body-products",
             id : 15 , 
             photo : "./body5.jpg"
@@ -124,7 +124,7 @@ photo : "./mask3.jpg"
         ,
         {
             name : "Body Cream" ,
-            price : "18.00$" , 
+            price : 18 , 
             cat : "body-products",
             id : 16 , 
             photo : "./body6.jpg"
@@ -132,7 +132,7 @@ photo : "./mask3.jpg"
         ,
         {
             name : "Body Scrab" ,
-            price : "32.00$" , 
+            price : 32 , 
             cat : "body-products",
             id : 17, 
             photo : "./body7.webp"
@@ -140,7 +140,7 @@ photo : "./mask3.jpg"
         ,
         {
             name : "Body Oli" ,
-            price : "53.00$" , 
+            price : 53 , 
             cat : "body-products",
             id : 18 , 
             photo : "./body9.webp"
@@ -149,7 +149,7 @@ photo : "./mask3.jpg"
     //perfumes
     {
         name : "CoCo Mademoiselle" ,
-        price : "43.00$" , 
+        price : 43 , 
         cat : "perfumes" ,
         id : 19 ,
         photo : "./perfume1.webp"
@@ -158,7 +158,7 @@ photo : "./mask3.jpg"
         ,
         {
             name : "Chance" ,
-            price : "20.00$" , 
+            price : 20 , 
             cat : "perfumes",
             id : 20 , 
             photo : "./perfume2.webp"
@@ -166,7 +166,7 @@ photo : "./mask3.jpg"
         ,
         {
             name : "CoCo" ,
-            price : "30.00$" , 
+            price : 30 , 
             cat : "perfumes",
             id : 21 , 
             photo : "./perfume5.webp"
@@ -174,7 +174,7 @@ photo : "./mask3.jpg"
         ,
         {
             name : "Chance Eau Fraîche" ,
-            price : "18.00$" , 
+            price : 18 , 
             cat : "perfumes",
             id : 22 , 
             photo : "./perfume77.webp"
@@ -182,7 +182,7 @@ photo : "./mask3.jpg"
         ,
         {
             name : "N°5" ,
-            price : "32.00$" , 
+            price : 32 , 
             cat : "perfumes",
             id : 23, 
             photo : "./perfume99.webp"
@@ -190,7 +190,7 @@ photo : "./mask3.jpg"
         ,
         {
             name : "Gabrielle Chanel" ,
-            price : "53.00$" , 
+            price : 53 , 
             cat : "perfumes",
             id : 24 , 
             photo : "./perfume55.webp"
@@ -198,7 +198,7 @@ photo : "./mask3.jpg"
     //Hair 
     {
         name : "Hair Cream" ,
-        price : "43.00$" , 
+        price : 43 , 
         cat : "hair-products" ,
         id : 25 ,
         photo : "./Hair1.jpg"
@@ -207,7 +207,7 @@ photo : "./mask3.jpg"
         ,
         {
             name : "Hair Oli" ,
-            price : "20.00$" , 
+            price : 20 , 
             cat : "hair-products",
             id : 26 , 
             photo : "./Hair2.jpg"
@@ -215,7 +215,7 @@ photo : "./mask3.jpg"
         ,
         {
             name : "Hair Shampoo" ,
-            price : "30.00$" , 
+            price : 30 , 
             cat : "hair-products",
             id : 27 , 
             photo : "./Hair3.jpg"
@@ -223,7 +223,7 @@ photo : "./mask3.jpg"
         ,
         {
             name : "Hair Conditioner" ,
-            price : "18.00$" , 
+            price : 18 , 
             cat : "hair-products",
             id : 28 , 
             photo : "./hair4.jpg"
@@ -231,7 +231,7 @@ photo : "./mask3.jpg"
         ,
         {
             name : "Hair Mask" ,
-            price : "32.00$" , 
+            price : 32 , 
             cat : "hair-products",
             id : 29, 
             photo : "./hair5.jpg"
@@ -239,7 +239,7 @@ photo : "./mask3.jpg"
         ,
         {
             name : "Hair Scrub" ,
-            price : "53.00$" , 
+            price : 53 , 
             cat : "hair-products",
             id : 30 , 
             photo : "./hair7.jpg"
