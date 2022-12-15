@@ -1,12 +1,11 @@
-import './ServicesPageTemplete.css'
+
 import ServicesPageTemplete from './ServicesPageTemplete'
-import Navbar from '../common/Navbar'
-import Footer from '../common/Footer'
 const SkinClean= () =>
 { 
     return(
     <>
-     <div className="ServicesPageTemplete "> <Navbar/>
+     <div className="ServicesPageTemplete "> 
+     
     < ServicesPageTemplete imgg= './images/SkinClean.png'  alt="SkinClean"
         title1="Want to Get Clear Skin? " Paragraph1=" Sometimes it’s hard to know what your skin really needs to be as healthy as possible. Every day we’re bombarded by marketing hype for various skin care and cosmetic products, as well as advice from social media influencers and other beauty gurus.
 
@@ -30,7 +29,7 @@ const SkinClean= () =>
         
         A mild cleanser without a lot of ingredients and fragrances can work just as well as more expensive options."
         title4="Apply an acne-fighting agent" Paragraph4="According to the American Academy of Dermatology (AAD), many topical therapies can help fight acne. The key to finding the most effective one for you is knowing what type of acne you have."/> 
-    <Footer/> </div>
+ </div>
      
     </>)
             }

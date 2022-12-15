@@ -1,12 +1,11 @@
-import './ServicesPageTemplete.css'
+
 import ServicesPageTemplete from './ServicesPageTemplete'
-import Navbar from '../common/Navbar'
-import Footer from '../common/Footer'
+
 const Makeup = () =>
 { 
     return(
     <>
-     <div className="ServicesPageTemplete "> <Navbar/>
+     <div className="ServicesPageTemplete "> 
     < ServicesPageTemplete imgg= './images/makeup.png'  alt="makeup"
         title1="Makeup" Paragraph1=" Whatever the occasion, makeup is always our ally. Whether you’re a makeup lover or learner, 
         you’ll find all you need to look good, feel even better - all day, everyday. Think freshly 
@@ -28,7 +27,7 @@ const Makeup = () =>
           but that’s what it’s all about - your skin, just that little bit more radiant than usual. Tinted moisturiser deserves a place in everyone's makeup collection 
           - it’s gentle on congested complexions, hydrating on dry skin types, perfect for the barely-there look and it offers the all-important dewy glow. Whether you wear 
           it daily or save it for those uber-lazy moments, tinted face moisturiser is a beauty essential."/> 
-    <Footer/> </div>
+     </div>
      
     </>)
             }

@@ -1,12 +1,11 @@
-import './ServicesPageTemplete.css'
+
 import ServicesPageTemplete from './ServicesPageTemplete'
-import Navbar from '../common/Navbar'
-import Footer from '../common/Footer'
+
 const FaceLaser= () =>
 { 
     return(
     <>
-     <div className="ServicesPageTemplete "> <Navbar/>
+     <div className="ServicesPageTemplete "> 
     < ServicesPageTemplete imgg= './images/FaceLaser.png'  alt="face laser"
         title1="What is a laser facial?" Paragraph1="It's a treatment that elevates the basic facial, providing a safe and effective means of
          stimulating collagen and evening skin tone. At Skin Laundry, the laser and light facial provides the benefits that one might typically 
@@ -24,7 +23,7 @@ const FaceLaser= () =>
         suppleness to the skin but if someone has severely dry skin, I wouldn't recommend this as a direct treatment for dryness. Steps can be added to provide 
         a hydration boost, but in general lasers are more focused on pores, wrinkles, texture, tone, and firming of the skin rather than hydration."
         title4="Are there products that you should stop using in the days leading up to a laser facial?" Paragraph4="When you're going in for a facial, it's best to keep your skin as hydrated as possible. I do usually recommend stopping retinoids, like Retin-A, or Retinol, at least three days before the treatment (ideally up to a week). It's not a mandate, but if someone has very sensitive skin, it's a good idea to stop the retinoid before going in for a laser treatment."/> 
-    <Footer/> </div>
+    </div>
      
     </>)
             }

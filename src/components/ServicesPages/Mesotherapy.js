@@ -1,12 +1,11 @@
-import './ServicesPageTemplete.css'
+
 import ServicesPageTemplete from './ServicesPageTemplete'
-import Navbar from '../common/Navbar'
-import Footer from '../common/Footer'
+
 const Mesotherapy= () =>
 { 
     return(
     <>
-     <div className="ServicesPageTemplete "> <Navbar/>
+     <div className="ServicesPageTemplete ">
     < ServicesPageTemplete imgg= './images/Mesotherapy.png'  alt="Mesotherapy"
         title1="What is mesotherapy?" Paragraph1=" Mesotherapy is a technique that uses injections of vitamins, enzymes, hormones, and plant extracts to rejuvenate and tighten skin, as well as remove excess fat.
         Michel Pistor, a doctor in France, developed the technique in 1952. It was originally used to relieve pain. In the years since, it has gained popularity in the United States and other parts of the world."
@@ -24,7 +23,7 @@ const Mesotherapy= () =>
         title4="How do you prepare?" Paragraph4="You’ll meet with the doctor ahead of time to find out what to expect. 
         You might have to avoid aspirin (Bufferin) and other nonsteroidal anti-inflammatory drugs
          (NSAIDs) for one week before the procedure. These pain relievers can increase your risk of bleeding and bruising during mesotherapy."/> 
-    <Footer/> </div>
+    </div>
      
     </>)
             }

@@ -1,12 +1,11 @@
-import './ServicesPageTemplete.css'
+
 import ServicesPageTemplete from './ServicesPageTemplete'
-import Navbar from '../common/Navbar'
-import Footer from '../common/Footer'
+
 const BackMassge = () =>
 { 
     return(
     <>
-     <div className="ServicesPageTemplete "> <Navbar/>
+     <div className="ServicesPageTemplete ">
     < ServicesPageTemplete imgg= './images/BackMassge.png'  alt="BackMassge"
         title1="What is a Back Massage? " Paragraph1="Put simply, a Back Massage
          is any type of massage that is performed on the back of an individual. 
@@ -27,7 +26,7 @@ const BackMassge = () =>
         Relaxation and Swedish massage are recommended for those seeking a more relaxing, slow and stress relieving massage. These types of massage don’t typically 
         apply masses of pressure, but are a great way to relax the body."
        /> 
-    <Footer/> </div>
+   </div>
      
     </>)
             }

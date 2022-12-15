@@ -1,12 +1,11 @@
-import './ServicesPageTemplete.css'
+
 import ServicesPageTemplete from './ServicesPageTemplete'
-import Navbar from '../common/Navbar'
-import Footer from '../common/Footer'
+
 const FacialCare = () =>
 { 
     return(
     <>
-     <div className="ServicesPageTemplete "> <Navbar/>
+     <div className="ServicesPageTemplete "> 
     < ServicesPageTemplete imgg= './images/FacialCare.png'  alt="FacialCare"
         title1="TREATMENTS TO ACHIEVE YOUR SKIN GOALS" Paragraph1=" Wish you could reverse unwanted lines and wrinkles?
          Bothered by hyperpigmented skin caused by years of fun in the sun? Facial Care Centre’s holistic facials, 
@@ -19,7 +18,7 @@ const FacialCare = () =>
         Is your face looking dull and dehydrated? Restore your natural youth and beauty with our skin rejuvenating treatments. Get the glowing and re-energized skin you deserve after each session.
         "
         title4="Slimmer Face" Paragraph4=" Can you achieve your ideal face shape minus the pain and risk of surgery? Definitely! Our face slimming treatments will bring out the natural contours of your face without the need for needles or downtime."/> 
-    <Footer/> </div>
+  </div>
      
     </>)
             }

@@ -1,13 +1,12 @@
-import './ServicesPageTemplete.css'
+
 import ServicesPageTemplete from './ServicesPageTemplete'
-import Navbar from '../common/Navbar'
-import Footer from '../common/Footer'
+
 const Wellness = () =>
 { 
     return(
     <>
    
-    <div className="ServicesPageTemplete "> <Navbar/>
+    <div className="ServicesPageTemplete "> 
     < ServicesPageTemplete imgg= './images/wellness2.png'  alt="wellness"
         title1="About Us" Paragraph1="  Wellness involves the awareness of our current state of health in multiple
         dimensions with the initiative, 
@@ -21,7 +20,7 @@ const Wellness = () =>
         Only available after initial consultation."
         title4="WELLNESS PACKAGE" Paragraph4="  Includes a 60-minute consultation on topics of your choice and four follow-up sessions that can be scheduled
         at your convenience (weekly, bi-monthly, monthly)"/> 
-    <Footer/> </div>
+     </div>
                    
                </>)
             }

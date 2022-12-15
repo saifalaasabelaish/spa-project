@@ -5,9 +5,7 @@
 .title
 {
     color: #98CFD8; 
-    font-family:'Titillium Web',sans-serif;
-  
-    
+    font-family:'Titillium Web',sans-serif;   
 } 
  .ServicesPage
 {
@@ -19,4 +17,10 @@
    width: webkit-fill-available; 
    width: 30%;
    height: 30%;
-}  
+} 
+.buttonn
+{
+	color: #ffffff;
+	background-color: #78e9d2;
+	font-family: 'Titillium Web', sans-serif;
+} 
