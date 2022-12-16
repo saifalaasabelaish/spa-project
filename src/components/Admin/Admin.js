@@ -1,12 +1,23 @@
-
+import { useState } from "react";
+import UserData from "./UserData";
 import "./Admin.css"
 import AdminDataTable from "./AdminDataTable";
 import AdminNavbar from "./AdminNavbar"
 import AdminSideNavbar from "./AdminSideNavbar"
 import AreaChart from "./AreaChart"
 import BarChart from "./BarChart"
-const Admin = () => {
 
+const Admin = () => {
+const  [userData ,setUserData] =useState({
+labels: UserData.map((data)=>data.id),
+datasets:[{
+    label: "UserName",
+    data:UserData.map((data)=>data.name)
+
+
+}],
+
+});
     return (
         <div className="sb-nav-fixed">
           <AdminNavbar></AdminNavbar>
@@ -26,7 +37,7 @@ const Admin = () => {
                                     <AreaChart></AreaChart>
                                 </div>
                                 <div className="col-xl-6">
-                                   <BarChart></BarChart>
+                                   <BarChart ChartData={userData}/>
                                 </div>
                             </div>
                             <div className="card mb-4">

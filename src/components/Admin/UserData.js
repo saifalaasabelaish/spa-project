@@ -1,7 +1,7 @@
-[
+export const UserData =[
 
     {
-        "no":1,
+        "id":1,
         "name":"Akshit",
         "email":"aksri.random@gmail.com",
         "pay":"Cash",
@@ -13,7 +13,7 @@
     },
     
     {
-        "no":2,
+        "id":2,
         "name":"Nikita",
         "email":"aksri.random@gmail.com",
         "pay":"Cash",
@@ -25,7 +25,7 @@
     },
     
     {
-        "no":3,
+        "id":3,
         "name":"Deeksha",
         "email":"aksri.random@gmail.com",
         "address": "Nablus",
@@ -37,7 +37,7 @@
     },
     
     {
-        "no":4,
+        "id":4,
         "name":"Ritesh",
         "email":"aksri.random@gmail.com",
         "address": "Nablus",
@@ -48,7 +48,7 @@
     },
     
     {
-        "no":5,
+        "id":5,
         "name":"Somya",
         "email":"aksri.random@gmail.com",
         "address": "Nablus",
@@ -60,7 +60,7 @@
     },
     
     {
-        "no":6,
+        "id":6,
         "name":"Eshika",
         "email":"aksri.random@gmail.com",
         "address": "Nablus",
@@ -71,7 +71,7 @@
 
     },
     {
-        "no":7,
+        "id":7,
         "name":"Kalpana",
         "email":"aksri.random@gmail.com",
         "address": "Nablus",
@@ -83,7 +83,7 @@
     },
     
     {
-        "no":8,
+        "id":8,
         "name":"Parul",
         "email":"aksri.random@gmail.com",
         "address": "Nablus",
@@ -94,7 +94,7 @@
     },
     
     {
-        "no":9,
+        "id":9,
         "name":"Himani",
         "email":"aksri.random@gmail.com",
         "address": "Nablus",
@@ -105,3 +105,4 @@
 
     }
 ]
+export default UserData

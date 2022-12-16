@@ -1,7 +1,6 @@
-import React from 'react'
-import JsonData from './data.json'
+import UserData from './UserData'
 function AdminDataTable() {
-    const DisplayData = JsonData.map((info) => {
+    const DisplayData = UserData.map((info) => {
         return (
             <tr>
                 <td>{info.no}</td>

@@ -1,14 +1,17 @@
-const BarChart=()=>{
+import { Bar } from "react-chartjs-2";
+import {Chart as ChartJS} from "chart.js/auto"
+const BarChart = ({ChartData}) => {
 
-    return(
+    return (
 
         <div className="card mb-4">
-        <div className="card-header">
-            <i className="fas fa-chart-bar me-1" />
-            Bar Chart Example
+            <div className="card-header">
+                Bar Chart Example
+            </div>
+            <div className="card-body">
+            <Bar data={ChartData}/>
+            </div>
         </div>
-        <div className="card-body"><canvas id="myBarChart" width="100%" height={40} /></div>
-    </div>
     )
 }
 export default BarChart;
