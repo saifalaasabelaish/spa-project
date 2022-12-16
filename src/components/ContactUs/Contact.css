@@ -1,66 +1,32 @@
 .contact img {
-    background-size: cover;
-
-}
-
-#floatingInput,
-#floatingPassword,
-#floatingTextarea2 {
-    background-color: #c197d5;
-}
-
-.contact {
-    background-color: #78E9D2;
+    height: 330px;
 }
 
 .contact h1 {
-    color: #ffffff;
-    font-family: 'Titillium Web', sans-serif;
+    color: #C197D5;
     font-weight: bold;
-    text-align: center;
 }
 
-.contact h2 {
-    color: #ffffff;
+.contact {
     font-family: 'Titillium Web', sans-serif;
 }
 
-.contact .container {
-    top: 230px;
+.contact .contactbtn {
+    background-color: #C197D5;
+    color: #fff;
+    border-radius: 0%;
 }
 
-.contact .containerr {
-    top: 330px;
-    left: 350px;
+.contact .contactbtn:hover {
+ transform: scale(1.1);
 }
 
-.contact h3 {
-    color: #ffffff;
-    font-family: 'Titillium Web', sans-serif;
+.contact .contactform {
+    box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.253);
+    border: 1px solid #c197d5;
 }
 
-#floatingTextarea2 {
-    height: 200px;
-}
-
-.contact h4 {
-    color: #ffffff;
-    background-color: #c197d5;
-    box-shadow: 0.5px 6px #c197d58d;
-    letter-spacing: 1.5px;
-    font-family: 'Titillium Web', sans-serif;
-}
-
-.contact h4:hover {
-    opacity: 0.9;
-    transform: scale(1.1);
-    color: #ffffffcb;
-    background-color: #c197d59d
-}
-
-.contact footer {
-    background-color: #c197d5;
-    color: white;
-    height: 100px;
-    font-family: 'Titillium Web', sans-serif;
+.contact .mapframe {
+    box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.253);
+    border: 1px solid #c197d5;
 }
