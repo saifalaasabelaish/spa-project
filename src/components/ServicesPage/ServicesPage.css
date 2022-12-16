@@ -1,19 +1,29 @@
-.btnser {
+.ser .btnser {
     background-color: #c197d5;
-    border: #c281e0;
-    width: 150px;
-    height: 30px;
     color: rgb(255, 255, 255);
-    /*color of Font*/
-    font-size: 18px;
     border-radius: 3px;
-    font-family: PT Serif;
+    font-family: 'Titillium Web', sans-serif;
+    float:right;
 }
 
-.btnser:hover {
+.ser .btnser:hover {
     /* th change state of button*/
-    background-color: #ab80be;
-    ;
+    background-color: #a97abd;
     transition: 0.4s;
     /* To make the change less sudden*/
+}
+.ser .filser{
+    background-color: #c197d5;
+    font-family: 'Titillium Web', sans-serif;
+}
+.ser button {
+    color: #fff;
+}
+
+.ser button:hover {
+    color:rgb(225, 216, 249);
+}
+.ser .img-fluid{
+    height: 200px;
+    width: 200px;
 }

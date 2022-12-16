@@ -1,14 +1,14 @@
 import CardOffer from "./CardOffer"
 import './OfferCarousel.css'
 
-const Carousel = () => {
+const OfferCarousel = () => {
   return (
     <div className="offers">
-    <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
+    <div id="carouselOffers" className="carousel slide" data-bs-ride="carousel">
       <div className="carousel-inner">
         <div className="carousel-item active">
-          <div className="container d-flex justify-content-center">
-            <div className="row align-items-center " >
+          <div className="container d-flex justify-content-center mb-5">
+            <div className="row align-items-center ">
               <div className="col-12 col-md-4 col-lg-3  col-sm-6 col-xxl-2">
                 <CardOffer imag='images\offer1.jpg ' offers='offer 1' />
               </div>
@@ -26,7 +26,7 @@ const Carousel = () => {
         </div>
 
         <div className="carousel-item">
-          <div className="countainer d-flex justify-content-center align-items-center">
+          <div className="container d-flex justify-content-center align-items-center mb-5">
             <div className="row " >
               <div className="col-12 col-md-4 col-lg-3 col-sm-6 col-xxl-2">
                 <CardOffer imag='images\offer5.jpg' offers='offer 5' />
@@ -45,18 +45,17 @@ const Carousel = () => {
         </div>
       </div>
 
-      <button className="carousel-control-prev " type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <button className="carousel-control-prev " type="button" data-bs-target="#carouselOffers" data-bs-slide="prev">
         <span className="carousel-control-prev-icon border-white rounded-circle  " aria-hidden="true"></span>
         <span className="visually-hidden">Previous</span>
       </button>
-      <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <button className="carousel-control-next" type="button" data-bs-target="#carouselOffers" data-bs-slide="next">
         <span className="carousel-control-next-icon rounded-circle border-white  " aria-hidden="true"></span>
         <span className="visually-hidden">Next</span>
       </button>
     </div>
     </div>
-
   )
 }
 
-export default Carousel
+export default OfferCarousel;

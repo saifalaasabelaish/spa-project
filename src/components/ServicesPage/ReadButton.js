@@ -4,7 +4,7 @@ import './ServicesPage.css';
 const ReadButton = (props) => {
     return (
         <>
-             <Link to={props.link} className="btnser btn mb-2" type="submit">Read More </Link>
+             <Link to={props.link} className="btnser btn m-2 fs-6">Read More </Link>
         </>
     )
 }
