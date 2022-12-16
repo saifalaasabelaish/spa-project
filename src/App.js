@@ -26,7 +26,6 @@ import TurkishBath from './components/ServicesPages/TurkishBath';
 export default function App() {
   return (
     <Router>
-      
         <Routes>
           <Route path="/About" element={<AboutUsPage  />} />
           <Route path="/" element={<HomePage />} />
