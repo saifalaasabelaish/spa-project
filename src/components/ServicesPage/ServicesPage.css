@@ -30,5 +30,9 @@
 }
 .ser .servicecard{
     font-family: 'Titillium Web', sans-serif;
-    box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.253);
+    border: 1px solid #c197d5;
+}
+
+.ser .servicecard:hover{
+    box-shadow: 1px 5px 5px 5px rgba(0, 0, 0, 0.253);
 }
