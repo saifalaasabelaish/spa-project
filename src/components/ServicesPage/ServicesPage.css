@@ -28,3 +28,7 @@
     height: 200px;
     width: 200px;
 }
+.ser .servicecard{
+    font-family: 'Titillium Web', sans-serif;
+    box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.253);
+}
