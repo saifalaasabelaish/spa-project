@@ -1,5 +1,3 @@
-// import Shopping from "../Shopping";
-import '../Shopping/ShoppingPage.css'
 import React, { useState } from "react";
 import Footer from "../common/Footer";
 import Services from '../ServicesPage/Services';
@@ -17,14 +15,13 @@ const ServicesPage = () => {
     <>
    <Navbar/>
       <HeaderPage title =" Services "/>
-
       <div className="ser container">
         <div className="row">
        
           <div className="col-12 ">
             <div className="filser w-100 border shadow p-1 group d-flex ">
               <div className="card-body ">
-                <div className=" btn-group d-flex justify-content-center" role="group" aria-label="Vertical button group" >
+                <div className=" btn-group d-flex justify-content-center" role="group" aria-label="button group" >
                   <button onClick={eventHandler} className="btn p-4 " id="skin-care">Skin Care </button>
                   <button onClick={eventHandler} className="btn p-4" id="salon-services">Salon Services </button>
                   <button onClick={eventHandler} className="btn p-4" id="massage">Massage </button>

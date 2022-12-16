@@ -7,9 +7,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import ShoppingPage from './components/Pages/ShoppingPage';
 import BookingPage from './components/Pages/BookingPage';
 import BackandNeckMassage from './components/ServicesPages/BackandNeckMassage';
-import BackMassage from './components/ServicesPages/BackMassagePage';
 import BodyHydration from './components/ServicesPages/BodyHydration';
-import BodyCare from './components/ServicesPages/BodyCarePage';
 import CellRegeneration from './components/ServicesPages/CellRegeneration';
 import FaceLaser from './components/ServicesPages/FaceLaser';
 import FullBody from './components/ServicesPages/FullBody';
@@ -23,6 +21,7 @@ import Sauna from './components/ServicesPages/Sauna';
 import SkinCare from './components/ServicesPages/SkinCarePage';
 import TherapeuticMassage from './components/ServicesPages/TherapeuticMassage';
 import TurkishBath from './components/ServicesPages/TurkishBath';
+// import OfferCarousel from './components/HomePage/OfferHome/OfferCarousel';
 
 export default function App() {
   return (
@@ -35,10 +34,9 @@ export default function App() {
           <Route path="/ServicesPage" element={<ServicesPage />} />
           <Route path="/ShoppingPage" element={<ShoppingPage />} />
           <Route path="/BookingPage" element={<BookingPage/>} />
+          {/* <Route path="/carouselOffers" element={<OfferCarousel/>} /> */}
           {/* Services Pages */}
           <Route path="/BackandNeckMassagePage" element={<BackandNeckMassage/>} />
-        //  <Route path="/BackMassagePage" element={<BackMassage />} />
-        //  <Route path="/BodyCarePage" element={<BodyCare/>} />
           <Route path="/BodyHydrationPage" element={<BodyHydration />} />
           <Route path="/CellRegenerationPage" element={<CellRegeneration />} />
           <Route path="/FaceLaserPage" element={<FaceLaser />} />
