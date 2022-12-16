@@ -11,6 +11,10 @@ const Contact = () => {
       <Navbar />
       <HeaderPage title="CONTACT US" />
     
+      <div className="container">
+        <div className="row">
+          {/* categories */}
+          <div className="col-12 col-md-4 col-lg-3 col-xxl-2">
         <form class="row g-3 needs-validation" novalidate>
   <div class="col-md-4">
     <label for="validationCustom01" class="form-label">First name</label>
@@ -75,7 +79,14 @@ const Contact = () => {
     <button class="btn btn-primary" type="submit">Submit form</button>
   </div>
 </form>
-  
+  </div>
+  </div>
+  <div className="col-12 col-md-8 col-lg-9 col-xxl-10 ">
+  <div className="row mt-5">
+
+    
+    </div>
+  </div></div>
         <Footer/>
    </>)
 }
