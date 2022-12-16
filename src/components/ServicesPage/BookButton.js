@@ -4,7 +4,7 @@ import './ServicesPage.css';
 const BookButton = () => {
     return (
         <>
-            <Link to="/BookingPage" className="btnser btn mb-2" type="submit">Book Now </Link>
+            <Link to="/BookingPage" className="btnser btn m-2 fs-6">Book Now </Link>
         </>
     )
 }

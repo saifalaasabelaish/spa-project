@@ -3,6 +3,8 @@ import '../Shopping/ShoppingPage.css'
 import React, { useState } from "react";
 import Products from "../Shopping/Products";
 import Footer from "../common/Footer";
+import Navbar from '../common/Navbar';
+import HeaderPage from '../common/HeaderPage';
 
 const Cart = (onClick , props) =>
   {
@@ -28,7 +30,8 @@ const ShoppingPage = () => {
   return (
     <>
       {/* <Shopping /> */}
-      <h3 className=" header2 d-flex justify-content-center" > S H O P P I N G &nbsp; P A G E </h3>
+<Navbar/>
+<HeaderPage title =" Shopping Page"/>
       <Cart/>
       <div className="container">
         <div className="row">

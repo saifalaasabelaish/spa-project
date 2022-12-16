@@ -1,7 +1,7 @@
 .about {
   font-family:'Titillium Web',sans-serif;
 }
-.img-fluid {
+.about .img-fluid {
   height: 350px;
   width: 350px;
 }

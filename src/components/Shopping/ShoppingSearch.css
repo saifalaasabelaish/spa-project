@@ -1,0 +1,42 @@
+.search-part {
+    font-family: 'PT Serif', serif;
+    max-width: 350px;
+    height: 50px;
+    background: #c197d5;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 850px;
+    border-radius: 60px;
+    padding: 15px 20px;
+}
+
+.search-part input {
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 10px;
+    font-size: 20px;
+    color: #fff;
+
+}
+
+::placeholder {
+    color: #fff;
+}
+
+.search-part button img {
+    width: 30px;
+    margin-right: 15px;
+}
+
+.search-part button {
+
+    border: 0;
+    border-radius: 50%;
+    width: 60px;
+    height: 50px;
+    background: #c197d5;
+    cursor: pointer;
+}
