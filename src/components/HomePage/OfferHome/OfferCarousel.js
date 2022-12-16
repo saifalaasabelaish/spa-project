@@ -1,13 +1,13 @@
 import CardOffer from "./CardOffer"
 import './OfferCarousel.css'
 
-const Carousel = () => {
+const OfferCarousel = () => {
   return (
     <div className="offers">
     <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
       <div className="carousel-inner">
         <div className="carousel-item active">
-          <div className="container d-flex justify-content-center">
+          <div className="container d-flex justify-content-center mb-5">
             <div className="row align-items-center " >
               <div className="col-12 col-md-4 col-lg-3  col-sm-6 col-xxl-2">
                 <CardOffer imag='images\offer1.jpg ' offers='offer 1' />
@@ -26,7 +26,7 @@ const Carousel = () => {
         </div>
 
         <div className="carousel-item">
-          <div className="countainer d-flex justify-content-center align-items-center">
+          <div className="container d-flex justify-content-center align-items-center mb-5">
             <div className="row " >
               <div className="col-12 col-md-4 col-lg-3 col-sm-6 col-xxl-2">
                 <CardOffer imag='images\offer5.jpg' offers='offer 5' />
@@ -55,8 +55,7 @@ const Carousel = () => {
       </button>
     </div>
     </div>
-
   )
 }
 
-export default Carousel
+export default OfferCarousel;
