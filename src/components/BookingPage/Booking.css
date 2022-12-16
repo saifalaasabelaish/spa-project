@@ -1,10 +1,11 @@
-.booking .btn-spa{
+.booking .btn-spa {
     background-color: #C197D5;
 }
-.booking .btn-spa:hover{
+
+.booking .btn-spa:hover {
     background-color: #965bb1;
     color: #fff;
 }
 .booking{
-    font-family:Titillium Web;
+    font-family:'Titillium Web';
 }

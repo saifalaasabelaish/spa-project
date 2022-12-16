@@ -1,17 +1,18 @@
 import Footer from "../common/Footer";
 import Navbar from "../common/Navbar";
-import HomeHeader from "../HomeHeader/HomeHeader";
-import Carousel from "../Offerpage/Carousel";
-import ServApp from "../ServicesHome/ServApp";
-import Staff from "../StaffHome/Staff"
+import HomeHeader from "../HomePage/HomeHeader/HomeHeader";
+import ServApp from "../HomePage/ServicesHome/ServicesHome";
+import StaffCards from "../HomePage/StaffHome/StaffCards";
+import OfferCarousel from "../HomePage/OfferHome/OfferCarousel";
+
 function HomePage() {
   return (
 <>
 <Navbar/>
 <HomeHeader/>
 <ServApp/>
-<Carousel/>
-<Staff/>
+<OfferCarousel/>
+<StaffCards/>
 <Footer/>
 </> 
   );
