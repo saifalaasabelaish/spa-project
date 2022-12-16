@@ -6,7 +6,12 @@ const ServicesPageTemplete = (props) => {
   return (
     <>
     <Navbar/>
-   
+    {/* <nav aria-label="breadcrumb">
+  <ol className="breadcrumb">
+   <Link to="/ServicesPage"><li className="breadcrumb-item text-dark"><a>Services </a></li></Link>
+    <li className="breadcrumb-item active" aria-current="page">{props.servicename}</li>
+  </ol>
+</nav> */}
       <div className='ServicesPage p-5 w-12 top-50 start-50 bg-white justify-content-center align-items-xl-center align-items-xxl ' >
         <div className="  shadow h-10 w-100 p-4 mb-200 bg-white rounded justify-conten tbg-body callout">
           <div className=' container start-4 col-12 '>
@@ -34,16 +39,10 @@ const ServicesPageTemplete = (props) => {
               <p>{props.Paragraph4}
               </p>
             </div>
-           
-
-          </div> <button onclick="button" className='buttonn'>Do you want to experiment, go ahead?</button></div></div>
+          </div>{/* <Link to = "/BookingPage"className='btn buttonn p-3'>Do you want to experiment, go ahead?</Link>*/}</div></div>
           <Footer/>
-
-
     </>
   )
 }
-
-
 export default ServicesPageTemplete
 

@@ -15,10 +15,10 @@ return (
           <CardOffer imag= 'images\offer1.jpg '  offers ='offer 1'/> 
          </div>
            <div className = "col-12 col-md-4 col-lg-3 col-xxl-2">
-        <CardOffer imag = './offer2.jpg'  offers ='offer 2'/> 
+           <CardOffer imag = './offer2.jpg'  offers ='offer 2'/> 
            </div>
-         <div className = "col-12 col-md-4 col-lg-3 col-xxl-2">
-          <CardOffer imag ='./offer3.jpg' offers ='offer 3'/> 
+           <div className = "col-12 col-md-4 col-lg-3 col-xxl-2">
+           <CardOffer imag ='./offer3.jpg' offers ='offer 3'/> 
             </div>
            <div className = "col-12 col-md-4 col-lg-3 col-xxl-2">
            <CardOffer imag = './offer5.jpg'  offers ='offer 4'/> 
