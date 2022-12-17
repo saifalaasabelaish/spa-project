@@ -4,15 +4,15 @@ import "./Admin.css"
 import AdminDataTable from "./AdminDataTable";
 import AdminNavbar from "./AdminNavbar"
 import AdminSideNavbar from "./AdminSideNavbar"
-import AreaChart from "./AreaChart"
+import LineChart from "./LineChart"
 import BarChart from "./BarChart"
 
 const Admin = () => {
 const  [userData ,setUserData] =useState({
-labels: UserData.map((data)=>data.id),
+labels: UserData.map((data)=>data.service),
 datasets:[{
     label: "UserName",
-    data:UserData.map((data)=>data.name)
+    data:UserData.map((data)=>data.id)
 
 
 }],
@@ -28,13 +28,13 @@ datasets:[{
                 <div id="layoutSidenav_content">
                     <main>
                         <div className="container-fluid px-4">
-                            <h1 className="mt-4">Dashboard</h1>
+                            <h1 className="mt-4">Last Month Statistics</h1>
                             <ol className="breadcrumb mb-4">
                                 <li className="breadcrumb-item active">Dashboard</li>
                             </ol>
                             <div className="row">
                                 <div className="col-xl-6">
-                                    <AreaChart></AreaChart>
+                                    <LineChart ChartData={userData}/>
                                 </div>
                                 <div className="col-xl-6">
                                    <BarChart ChartData={userData}/>
