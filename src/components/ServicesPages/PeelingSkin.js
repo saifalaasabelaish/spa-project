@@ -1,10 +1,13 @@
-
+import Navbar from '../common/Navbar'
+import HeaderPage from '../common/HeaderPage'
 import ServicesPageTemplete from './ServicesPageTemplete'
 
 const PeelingSkin= () =>
 { 
     return(
     <>
+      <Navbar/>
+    <HeaderPage title=" Peeling Skin"/>
      <div className="ServicesPageTemplete "> 
     < ServicesPageTemplete imgg= './images/PeelingSkin.png'  alt=" PeelingSkin"
         title1="Causes" Paragraph1="Your skin is regularly exposed to environmental elements that can irritate 

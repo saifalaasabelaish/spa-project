@@ -1,10 +1,13 @@
-
+import Navbar from '../common/Navbar'
+import HeaderPage from '../common/HeaderPage'
 import ServicesPageTemplete from './ServicesPageTemplete'
 
 const MassageServices= () =>
 { 
     return(
     <>
+      <Navbar/>
+    <HeaderPage title="Massage Services"/>
      <div className="ServicesPageTemplete "> 
     < ServicesPageTemplete imgg='./images/Moroccan Bath.png'  alt="MassageServices"
         title1="There’s a difference between feeling better and living better" Paragraph1="Have a kink in your neck that refuses to leave?

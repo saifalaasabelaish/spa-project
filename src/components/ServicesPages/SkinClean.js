@@ -1,12 +1,16 @@
-
+import Navbar from '../common/Navbar'
+import HeaderPage from '../common/HeaderPage'
 import ServicesPageTemplete from './ServicesPageTemplete'
 const SkinClean= () =>
-{ 
-    return(
+{ return(
+    
     <>
+      <Navbar/>
+    <HeaderPage title="Skin Clean"/>
      <div className="ServicesPageTemplete "> 
      
     < ServicesPageTemplete imgg= './images/SkinClean.png'  alt="SkinClean"
+  
         title1="Want to Get Clear Skin? " Paragraph1=" Sometimes it’s hard to know what your skin really needs to be as healthy as possible. Every day we’re bombarded by marketing hype for various skin care and cosmetic products, as well as advice from social media influencers and other beauty gurus.
 
         So, what does the research say your skin actually needs? What helps and what doesn’t in the quest for clear, radiant skin?

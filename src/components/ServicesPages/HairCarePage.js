@@ -1,11 +1,13 @@
-
+import Navbar from '../common/Navbar'
+import HeaderPage from '../common/HeaderPage'
 import ServicesPageTemplete from './ServicesPageTemplete'
 
 const HairCare = () =>
 { 
     return(
     <>
-   
+     <Navbar/>
+    <HeaderPage title="Hair Care"/>
     <div className="ServicesPageTemplete "> 
     < ServicesPageTemplete imgg= './images/Hair care1.png'  alt="Hair care"
         title1="About Us" Paragraph1="   Hair care is an overall term for hygiene and cosmetology involving the hair which grows from the human scalp,

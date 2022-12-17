@@ -1,11 +1,13 @@
-
+import Navbar from '../common/Navbar'
+import HeaderPage from '../common/HeaderPage'
 import ServicesPageTemplete from './ServicesPageTemplete'
 
 const Wellness = () =>
 { 
     return(
     <>
-   
+     <Navbar/>
+    <HeaderPage title="Wellness"/>
     <div className="ServicesPageTemplete "> 
     < ServicesPageTemplete imgg= './images/wellness2.png'  alt="wellness"
         title1="About Us" Paragraph1="  Wellness involves the awareness of our current state of health in multiple

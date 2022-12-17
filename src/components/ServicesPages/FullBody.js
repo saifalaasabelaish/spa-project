@@ -1,10 +1,13 @@
-
+import Navbar from '../common/Navbar'
+import HeaderPage from '../common/HeaderPage'
 import ServicesPageTemplete from './ServicesPageTemplete'
 
 const FullBody= () =>
 { 
     return(
     <>
+      <Navbar/>
+    <HeaderPage title="Full Body"/>
      <div className="ServicesPageTemplete ">
     < ServicesPageTemplete imgg= './images/full body laser.png'  alt="FullBody"
         title1="Why Might Someone Opt For Full Body Hair Removal?" Paragraph1="Laser hair removal is a fairly new hair removal method. Although it is increasingly popular, still too few research has been conducted on many aspects of the procedure. That is why we advise pregnant women not to undergo laser treatments. Indeed, we do not know how it could impact the fetus.

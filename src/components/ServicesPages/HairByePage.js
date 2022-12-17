@@ -1,4 +1,5 @@
-
+import Navbar from '../common/Navbar'
+import HeaderPage from '../common/HeaderPage'
 import ServicesPageTemplete from './ServicesPageTemplete'
 
 
@@ -6,6 +7,8 @@ const HairBye = () =>
 { 
     return(
     <>
+      <Navbar/>
+    <HeaderPage title="Hair Bye"/>
      <div className="ServicesPageTemplete "> 
     < ServicesPageTemplete imgg= './images/Hair dye .png'  alt="Hair dye"
         title1=" Abstract" Paragraph1="Hair dye cosmetic products are used for colouring hair. These products are mainly classified into

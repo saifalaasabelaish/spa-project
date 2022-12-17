@@ -1,10 +1,13 @@
-
+import Navbar from '../common/Navbar'
+import HeaderPage from '../common/HeaderPage'
 import ServicesPageTemplete from './ServicesPageTemplete'
 
 const FaceLaser= () =>
 { 
     return(
     <>
+      <Navbar/>
+    <HeaderPage title="Face Laser"/>
      <div className="ServicesPageTemplete "> 
     < ServicesPageTemplete imgg= './images/FaceLaser.png'  alt="face laser"
         title1="What is a laser facial?" Paragraph1="It's a treatment that elevates the basic facial, providing a safe and effective means of

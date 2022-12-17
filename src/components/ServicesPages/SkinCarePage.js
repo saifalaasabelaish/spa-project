@@ -1,11 +1,13 @@
-
+import Navbar from '../common/Navbar'
+import HeaderPage from '../common/HeaderPage'
 import ServicesPageTemplete from './ServicesPageTemplete'
 
 const SkinCare = () =>
 { 
     return(
     <>
-   
+     <Navbar/>
+    <HeaderPage title="Skin Care"/>
     <div className="ServicesPageTemplete "> 
     < ServicesPageTemplete imgg= './images/skin care2.png'  alt="skin care"
         title1="About Us" Paragraph1=" is a range of practices that support skin integrity, enhance its appearance, and relieve skin conditions.

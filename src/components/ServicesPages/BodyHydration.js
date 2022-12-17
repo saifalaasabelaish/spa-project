@@ -1,10 +1,13 @@
-
+import Navbar from '../common/Navbar'
+import HeaderPage from '../common/HeaderPage'
 import ServicesPageTemplete from './ServicesPageTemplete'
 
 const BodyHydration= () =>
 { 
     return(
     <>
+      <Navbar/>
+    <HeaderPage title="Body Hydration"/>
      <div className="ServicesPageTemplete ">
     < ServicesPageTemplete imgg= './images/BodyHydration.png'  alt="BodyHydration"
         title1="About Us" Paragraph1="The human body consists of more than sixty percent of water. This is a good indication as

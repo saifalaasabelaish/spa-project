@@ -1,11 +1,13 @@
-
+import Navbar from '../common/Navbar'
+import HeaderPage from '../common/HeaderPage'
 import ServicesPageTemplete from './ServicesPageTemplete'
 
 const BadyCare = () =>
 { 
     return(
     <>
-  
+    <Navbar/>
+    <HeaderPage title="Bady Care"/>
     <div className="ServicesPageTemplete "> 
     < ServicesPageTemplete imgg= './images/bady care.png'  alt="Body care"
         title1="About Us" Paragraph1="  Whether you have oily, normal, sensitive, or dry skin, Savers have all you need to take care of your body from head to toe. 

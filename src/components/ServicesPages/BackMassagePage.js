@@ -1,10 +1,13 @@
-
+import Navbar from '../common/Navbar'
+import HeaderPage from '../common/HeaderPage'
 import ServicesPageTemplete from './ServicesPageTemplete'
 
 const BackMassge = () =>
 { 
     return(
     <>
+      <Navbar/>
+    <HeaderPage title="Back Massge"/>
      <div className="ServicesPageTemplete ">
     < ServicesPageTemplete imgg= './images/BackMassge.png'  alt="BackMassge"
         title1="What is a Back Massage? " Paragraph1="Put simply, a Back Massage

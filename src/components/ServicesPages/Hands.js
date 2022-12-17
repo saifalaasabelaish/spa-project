@@ -1,10 +1,13 @@
-
+import Navbar from '../common/Navbar'
+import HeaderPage from '../common/HeaderPage'
 import ServicesPageTemplete from './ServicesPageTemplete'
 
 const Hands = () =>
 { 
     return(
     <>
+      <Navbar/>
+    <HeaderPage title="Hands"/>
      <div className="ServicesPageTemplete "> 
     < ServicesPageTemplete imgg= './images/hands.png'  alt="Hands"
         title1="What is a Manicure?" Paragraph1="A manicure involves trimming, shaping and polishing fingernails. 

@@ -1,10 +1,13 @@
-
+import Navbar from '../common/Navbar'
+import HeaderPage from '../common/HeaderPage'
 import ServicesPageTemplete from './ServicesPageTemplete'
 
 const Mesotherapy= () =>
 { 
     return(
     <>
+      <Navbar/>
+    <HeaderPage title="Mesotherapy"/>
      <div className="ServicesPageTemplete ">
     < ServicesPageTemplete imgg= './images/Mesotherapy.png'  alt="Mesotherapy"
         title1="What is mesotherapy?" Paragraph1=" Mesotherapy is a technique that uses injections of vitamins, enzymes, hormones, and plant extracts to rejuvenate and tighten skin, as well as remove excess fat.

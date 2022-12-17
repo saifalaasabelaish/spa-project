@@ -1,10 +1,13 @@
-
+import Navbar from '../common/Navbar'
+import HeaderPage from '../common/HeaderPage'
 import ServicesPageTemplete from './ServicesPageTemplete'
 
 const FacialCare = () =>
 { 
     return(
     <>
+      <Navbar/>
+    <HeaderPage title="Facial Care"/>
      <div className="ServicesPageTemplete "> 
     < ServicesPageTemplete imgg= './images/FacialCare.png'  alt="FacialCare"
         title1="TREATMENTS TO ACHIEVE YOUR SKIN GOALS" Paragraph1=" Wish you could reverse unwanted lines and wrinkles?

@@ -1,10 +1,13 @@
-
+import Navbar from '../common/Navbar'
+import HeaderPage from '../common/HeaderPage'
 import ServicesPageTemplete from './ServicesPageTemplete'
 
 const Makeup = () =>
 { 
     return(
     <>
+      <Navbar/>
+    <HeaderPage title="Makeup"/>
      <div className="ServicesPageTemplete "> 
     < ServicesPageTemplete imgg= './images/makeup.png'  alt="makeup"
         title1="Makeup" Paragraph1=" Whatever the occasion, makeup is always our ally. Whether you’re a makeup lover or learner, 

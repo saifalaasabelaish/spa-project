@@ -1,10 +1,13 @@
-
+import Navbar from '../common/Navbar'
+import HeaderPage from '../common/HeaderPage'
 import ServicesPageTemplete from './ServicesPageTemplete'
 
 const FeetCare = () =>
 { 
     return(
     <>
+      <Navbar/>
+    <HeaderPage title="Feet Care"/>
      <div className="ServicesPageTemplete "> 
     < ServicesPageTemplete imgg= './images/FeetCare.png '  alt="FeetCare"
         title1="Feet Care Fundings" Paragraph1="All approved services will be funded through the National Disability Insurance Scheme. 

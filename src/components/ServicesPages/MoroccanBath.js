@@ -1,10 +1,13 @@
-
+import Navbar from '../common/Navbar'
+import HeaderPage from '../common/HeaderPage'
 import ServicesPageTemplete from './ServicesPageTemplete'
 
 const MoroccanBath= () =>
 { 
     return(
     <>
+      <Navbar/>
+    <HeaderPage title="Moroccan Bath"/>
      <div className="ServicesPageTemplete "> 
     < ServicesPageTemplete imgg= './images/Moroccan Bath.png'  alt=" MoroccanBath"
         title1="RELAX AND REJUVENATE" Paragraph1=" Experience massage therapy at Serenity Spa, the perfect way to relax,

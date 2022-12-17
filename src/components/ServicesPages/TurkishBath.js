@@ -1,10 +1,13 @@
-
+import Navbar from '../common/Navbar'
+import HeaderPage from '../common/HeaderPage'
 import ServicesPageTemplete from './ServicesPageTemplete'
 
 const TurkishBath= () =>
 { 
     return(
     <>
+      <Navbar/>
+    <HeaderPage title=" Turkish Bath"/>
      <div className="ServicesPageTemplete ">
     < ServicesPageTemplete imgg= './images/turkish bath.png'  alt="TurkishBath"
         title1="What is a Turkish Bath?" Paragraph1="A Turkish bath is called a hamam. It usually includes massage and a tea bar. 

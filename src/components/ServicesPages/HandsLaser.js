@@ -1,10 +1,13 @@
-
+import Navbar from '../common/Navbar'
+import HeaderPage from '../common/HeaderPage'
 import ServicesPageTemplete from './ServicesPageTemplete'
 
 const HandsLaser = () =>
 { 
     return(
     <>
+      <Navbar/>
+    <HeaderPage title="Hands Laser"/>
      <div className="ServicesPageTemplete "> 
     < ServicesPageTemplete imgg= './images/HandsLaser.png'  alt="BackMassge"
         title1="Hands Laser Hair Removal" Paragraph1=" 

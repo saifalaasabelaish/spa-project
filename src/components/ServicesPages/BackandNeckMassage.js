@@ -1,10 +1,13 @@
-
+import Navbar from '../common/Navbar'
+import HeaderPage from '../common/HeaderPage'
 import ServicesPageTemplete from './ServicesPageTemplete'
 
 const BackandNeckMassage= () =>
 { 
     return(
     <>
+      <Navbar/>
+    <HeaderPage title="Backand Neck Massage"/>
      <div className="ServicesPageTemplete ">
     < ServicesPageTemplete imgg= './images/BackandNeckMassage.png'  alt="BackandNeckMassage"
         title1="What is the back, neck and shoulders massage?" Paragraph1="Most spas offer their own take on this popular massage style, which targets the upper body and is loosely based around the technique used in Swedish massage.  At around 30 to 40 minutes, a back, neck and shoulders massage is a shorter treatment than a full body massage.  These are normally between 50 and 90 minutes and include arms, legs, hands and occasionally even your face, scalp and feet.

@@ -1,10 +1,13 @@
-
+import Navbar from '../common/Navbar'
+import HeaderPage from '../common/HeaderPage'
 import ServicesPageTemplete from './ServicesPageTemplete'
 
 const LegsLaser = () =>
 { 
     return(
     <>
+      <Navbar/>
+    <HeaderPage title="Legs Laser"/>
      <div className="ServicesPageTemplete ">
     < ServicesPageTemplete imgg= './images/legs.png'  alt="legs laser"
         title4="Shorts or Skirt Ready Always" Paragraph4=" No more last minute shaving or having to wear pants because you ran out of time to shave. 
