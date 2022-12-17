@@ -4,7 +4,7 @@ name : "Face Wash" ,
 price : 43 , 
 cat : "skincare" ,
 id : 1 ,
-photo : "./mask3.png"
+photo : "./images/mask3.jpg"
 
 }
 ,
@@ -13,7 +13,7 @@ photo : "./mask3.png"
     price : 28 , 
     cat : "skincare",
     id : 2 , 
-    photo : "./mask5.jpg"
+    photo : "./images/mask5.jpg"
 }
 ,
 {
@@ -21,7 +21,7 @@ photo : "./mask3.png"
     price : 50 , 
     cat : "skincare",
     id : 3 , 
-    photo : "./mask7.jpg"
+    photo : "./images/mask7.jpg"
 }
 ,
 {
@@ -29,7 +29,7 @@ photo : "./mask3.png"
     price : 18 , 
     cat : "skincare",
     id : 4 , 
-    photo : "./maskg1.jpg"
+    photo : "./images/maskg1.jpg"
 }
 ,
 {
@@ -37,7 +37,7 @@ photo : "./mask3.png"
     price : 30 , 
     cat : "skincare",
     id : 5 , 
-    photo : "./mask6.jpg"
+    photo : "./images/mask6.jpg"
 }
 ,
 {
@@ -45,7 +45,7 @@ photo : "./mask3.png"
     price : 53 , 
     cat : "skincare",
     id : 6 , 
-    photo : "./mask4.jpg"
+    photo : "./images/mask4.jpg"
 }
 , ///makeup
 {
@@ -53,7 +53,7 @@ photo : "./mask3.png"
     price : 43 , 
     cat : "makeup" ,
     id : 7 ,
-    photo : "./makeup22.webp"
+    photo : "./images/makeup22.webp"
     
     }
     ,
@@ -62,7 +62,7 @@ photo : "./mask3.png"
         price : 28 , 
         cat : "makeup",
         id : 8 , 
-        photo : "./brozer.webp"
+        photo : "./images/brozer.webp"
     }
     ,
     {
@@ -70,7 +70,7 @@ photo : "./mask3.png"
         price : 50 , 
         cat : "makeup",
         id : 9 , 
-        photo : "./foundation.webp"
+        photo : "./images/foundation.webp"
     }
     ,
     {
@@ -78,7 +78,7 @@ photo : "./mask3.png"
         price : 18 , 
         cat : "makeup",
         id : 10 , 
-        photo : "./eyeliner.webp"
+        photo : "./images/eyeliner.webp"
     }
     ,
     {
@@ -86,7 +86,7 @@ photo : "./mask3.png"
         price : 30 , 
         cat : "makeup",
         id : 11, 
-        photo : "./makeup88.webp"
+        photo : "./images/makeup88.webp"
     }
     ,
     {
@@ -94,7 +94,7 @@ photo : "./mask3.png"
         price : 53 , 
         cat : "makeup",
         id : 12 , 
-        photo : "./makeup111.webp"
+        photo : "./images/makeup111.webp"
     },
     ///body
     {
@@ -102,7 +102,7 @@ photo : "./mask3.png"
         price : 43 , 
         cat : "body-products" ,
         id : 13 ,
-        photo : "./body2.jpg"
+        photo : "./images/body2.jpg"
         
         }
         ,
@@ -111,7 +111,7 @@ photo : "./mask3.png"
             price : 20 , 
             cat : "body-products",
             id : 14 , 
-            photo : "./body3.jpg"
+            photo : "./images/body3.jpg"
         }
         ,
         {
@@ -119,7 +119,7 @@ photo : "./mask3.png"
             price : 30 , 
             cat : "body-products",
             id : 15 , 
-            photo : "./body5.jpg"
+            photo : "./images/body5.jpg"
         }
         ,
         {
@@ -127,7 +127,7 @@ photo : "./mask3.png"
             price : 18 , 
             cat : "body-products",
             id : 16 , 
-            photo : "./body6.jpg"
+            photo : "./images/body6.jpg"
         }
         ,
         {
@@ -135,7 +135,7 @@ photo : "./mask3.png"
             price : 32 , 
             cat : "body-products",
             id : 17, 
-            photo : "./body7.webp"
+            photo : "./images/body7.webp"
         }
         ,
         {
@@ -143,7 +143,7 @@ photo : "./mask3.png"
             price : 53 , 
             cat : "body-products",
             id : 18 , 
-            photo : "./body9.webp"
+            photo : "./images/body9.webp"
     }
     ,
     //perfumes
@@ -152,7 +152,7 @@ photo : "./mask3.png"
         price : 43 , 
         cat : "perfumes" ,
         id : 19 ,
-        photo : "./perfume1.webp"
+        photo : "./images/perfume1.webp"
         
         }
         ,
@@ -161,7 +161,7 @@ photo : "./mask3.png"
             price : 20 , 
             cat : "perfumes",
             id : 20 , 
-            photo : "./perfume2.webp"
+            photo : "./images/perfume2.webp"
         }
         ,
         {
@@ -169,7 +169,7 @@ photo : "./mask3.png"
             price : 30 , 
             cat : "perfumes",
             id : 21 , 
-            photo : "./perfume5.webp"
+            photo : "./images/perfume5.webp"
         }
         ,
         {
@@ -177,7 +177,7 @@ photo : "./mask3.png"
             price : 18 , 
             cat : "perfumes",
             id : 22 , 
-            photo : "./perfume77.webp"
+            photo : "./images/perfume77.webp"
         }
         ,
         {
@@ -185,7 +185,7 @@ photo : "./mask3.png"
             price : 32 , 
             cat : "perfumes",
             id : 23, 
-            photo : "./perfume99.webp"
+            photo : "./images/perfume99.webp"
         }
         ,
         {
@@ -193,7 +193,7 @@ photo : "./mask3.png"
             price : 53 , 
             cat : "perfumes",
             id : 24 , 
-            photo : "./perfume55.webp"
+            photo : "./images/perfume55.webp"
     },
     //Hair 
     {
@@ -201,7 +201,7 @@ photo : "./mask3.png"
         price : 43 , 
         cat : "hair-products" ,
         id : 25 ,
-        photo : "./Hair1.jpg"
+        photo : "./images/Hair1.jpg"
         
         }
         ,
@@ -210,7 +210,7 @@ photo : "./mask3.png"
             price : 20 , 
             cat : "hair-products",
             id : 26 , 
-            photo : "./Hair2.jpg"
+            photo : "./images/Hair2.jpg"
         }
         ,
         {
@@ -218,7 +218,7 @@ photo : "./mask3.png"
             price : 30 , 
             cat : "hair-products",
             id : 27 , 
-            photo : "./Hair3.jpg"
+            photo : "./images/Hair3.jpg"
         }
         ,
         {
@@ -226,7 +226,7 @@ photo : "./mask3.png"
             price : 18 , 
             cat : "hair-products",
             id : 28 , 
-            photo : "./hair4.jpg"
+            photo : "./images/hair4.jpg"
         }
         ,
         {
@@ -234,7 +234,7 @@ photo : "./mask3.png"
             price : 32 , 
             cat : "hair-products",
             id : 29, 
-            photo : "./hair5.jpg"
+            photo : "./images/hair5.jpg"
         }
         ,
         {
@@ -242,7 +242,7 @@ photo : "./mask3.png"
             price : 53 , 
             cat : "hair-products",
             id : 30 , 
-            photo : "./hair7.jpg"
+            photo : "./images/hair7.jpg"
         }
 ]
 export default productsData;

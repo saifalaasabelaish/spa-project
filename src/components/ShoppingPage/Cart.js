@@ -31,10 +31,10 @@ const Cart=()=>{
                 return(
                     <>
                     <div className="hstack gap-2 mb-2">
-                        <div className="d-flex align-items-center mb-4">
-                                <img id="CartImage" src={product.photo} alt={product.name}/>
+                        <div className="mb-1">
+                                <img className="img-fluid" id="CartImage" src={product.photo} alt={product.name}/>
                         </div>
-                        <div className="me-auto col-lg-5 col-md-4 col-xl-3">
+                        <div className="me-auto">
                             <div>
                                 {product.name}
                                 {product.quantity >1 && (
@@ -47,10 +47,9 @@ const Cart=()=>{
                             </div>
                         </div> 
                         <div>{Intl.NumberFormat(undefined,{currency:"ILS" ,style:"currency"}).format(product.price*product.quantity)}</div>
-                        <div className="vstack gap-2 mx-1">
-                            <button className="btn" onClick={()=>updateItemQuantity(product.id, product.quantity+1)}><i className="fas fa-plus"></i></button>
+                        
+                            <button className="btn mb-1" onClick={()=>updateItemQuantity(product.id, product.quantity+1)}><i className="fas fa-plus"></i></button>
                             <button className="btn" onClick={()=>updateItemQuantity(product.id, product.quantity-1)}><i className="fas fa-minus"></i></button>
-                        </div>
                             <button className="btn btn-danger" onClick={()=>removeItem(product.id)}><i className="fas fa-trash"></i></button>
                     </div> 
                 </>

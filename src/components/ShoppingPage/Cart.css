@@ -1,10 +1,6 @@
 #offcanvas{
     font-family: 'Titillium Web', sans-serif;
-    width: 35vw;
 }
-    
 #CartImage{
-    width: 125px;
-    height: 75px;
-    object-fit: cover;
+    height: 120px;
 }
