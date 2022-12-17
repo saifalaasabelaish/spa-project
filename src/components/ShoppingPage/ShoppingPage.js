@@ -6,7 +6,6 @@ import { useCart } from 'react-use-cart';
 import Cart from './Cart';
 
 const ShoppingPage = () => {
-  console.warn(Products)
   const {totalItems}=useCart();
   const [category, setCategory] = useState("skincare");
   const eventHandler = (event) =>
