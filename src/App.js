@@ -25,6 +25,7 @@ import TurkishBath from './components/ServicesPages/TurkishBath';
 
 export default function App() {
   return (
+  
     <Router>
       
         <Routes>
