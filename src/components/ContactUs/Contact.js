@@ -24,14 +24,11 @@ const Contact = () => {
           <div className="row">
             <div className="col-12 col-md-6 col-lg-6 col-xxl-6">
               <form className="contactform p-3">
-                <div className="row">
                   <div className="col">
-                    <input type="text" className="form-control" placeholder="Name" name="name" />
-                  </div>
+                    <input type="text" className="form-control" placeholder="Name" name="name" /></div>
                   <div className="col">
                     <input type="phone" className="form-control mb-4" placeholder="Phone" name="phone" />
                   </div>
-                </div>
                 <input type="email" className="form-control mb-4" id="exampleFormControlInput1" placeholder="Email" />
                 <textarea className="form-control mb-4" id="exampleFormControlTextarea1" placeholder="How may we help you?" rows="7"></textarea>
                 <button className="btn contactbtn mb-5" type="submit">SEND MESSAGE</button>
