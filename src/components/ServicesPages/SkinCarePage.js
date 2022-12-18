@@ -9,7 +9,7 @@ const SkinCare = () =>
      <Navbar/>
     <HeaderPage title="Skin Care"/>
     <div className="ServicesPageTemplete "> 
-    < ServicesPageTemplete imgg= './images/skin care2.png'  alt="skin care"
+    < ServicesPageTemplete imgg= './images/skin care2.png'  alt="skin care" servicename="-Skin Care"
         title1="About Us" Paragraph1=" is a range of practices that support skin integrity, enhance its appearance, and relieve skin conditions.
         They can include nutrition, avoidance of excessive sun exposure, and appropriate use of emollients.
         Practices that enhance appearance include the use of cosmetics, botulinum, exfoliation, fillers, laser resurfacing,

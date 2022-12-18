@@ -9,7 +9,7 @@ const Wellness = () =>
      <Navbar/>
     <HeaderPage title="Wellness"/>
     <div className="ServicesPageTemplete "> 
-    < ServicesPageTemplete imgg= './images/wellness2.png'  alt="wellness"
+    < ServicesPageTemplete imgg= './images/wellness2.png'  alt="wellness" servicename="-Skin Care"
         title1="About Us" Paragraph1="  Wellness involves the awareness of our current state of health in multiple
         dimensions with the initiative, 
        tools and support to make lasting changes towards a more optimal life."

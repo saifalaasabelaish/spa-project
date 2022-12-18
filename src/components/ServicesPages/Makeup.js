@@ -9,7 +9,7 @@ const Makeup = () =>
       <Navbar/>
     <HeaderPage title="Makeup"/>
      <div className="ServicesPageTemplete "> 
-    < ServicesPageTemplete imgg= './images/makeup.png'  alt="makeup"
+    < ServicesPageTemplete imgg= './images/makeup.png'  alt="makeup" servicename="-Salon Services"
         title1="Makeup" Paragraph1=" Whatever the occasion, makeup is always our ally. Whether you’re a makeup lover or learner, 
         you’ll find all you need to look good, feel even better - all day, everyday. Think freshly 
         glossed lips and dewy complexions to the latest twist on smokey eyes. No matter who you are

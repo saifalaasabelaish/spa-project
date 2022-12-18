@@ -9,7 +9,7 @@ const MassageServices= () =>
       <Navbar/>
     <HeaderPage title="Massage Services"/>
      <div className="ServicesPageTemplete "> 
-    < ServicesPageTemplete imgg='./images/Moroccan Bath.png'  alt="MassageServices"
+    < ServicesPageTemplete imgg='./images/Moroccan Bath.png'  alt="MassageServices" servicename="-Skin Care"
         title1="There’s a difference between feeling better and living better" Paragraph1="Have a kink in your neck that refuses to leave?
          We’ll help evict it.Our unique approach to massage therapy will help your body work better so you can live better. "
         title2="  Sometimes you just need a little somethin' extra" Paragraph2="

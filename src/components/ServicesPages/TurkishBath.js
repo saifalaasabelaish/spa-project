@@ -9,7 +9,7 @@ const TurkishBath= () =>
       <Navbar/>
     <HeaderPage title=" Turkish Bath"/>
      <div className="ServicesPageTemplete ">
-    < ServicesPageTemplete imgg= './images/turkish bath.png'  alt="TurkishBath"
+    < ServicesPageTemplete imgg= './images/turkish bath.png'  alt="TurkishBath" servicename="-Body Care"
         title1="What is a Turkish Bath?" Paragraph1="A Turkish bath is called a hamam. It usually includes massage and a tea bar. 
         Some hamams in Istanbul are over 250 years old and some upscale hotels there also offer a similar experience. "
         Paragraph2="The first step in experiencing a traditional Turkish bath is getting ready in the camekan, 

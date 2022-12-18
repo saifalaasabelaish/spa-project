@@ -2,14 +2,14 @@ import Navbar from '../common/Navbar'
 import HeaderPage from '../common/HeaderPage'
 import ServicesPageTemplete from './ServicesPageTemplete'
 
-const Hands = () =>
+const Nails = () =>
 { 
     return(
     <>
       <Navbar/>
-    <HeaderPage title="Hands"/>
+    <HeaderPage title="Nails"/>
      <div className="ServicesPageTemplete "> 
-    < ServicesPageTemplete imgg= './images/hands.png'  alt="Hands"
+    < ServicesPageTemplete imgg= './images/hands.png'  alt="Nails" servicename="-Salon Services"
         title1="What is a Manicure?" Paragraph1="A manicure involves trimming, shaping and polishing fingernails. 
         That said, an at-home manicure can be just as effective if done correctly using proper tools such as nail 
         clippers (manicurist grade), cuticle pushers (to push back your cuticles) and nail files 
@@ -33,4 +33,4 @@ const Hands = () =>
          </>)
             }
             
- export default  Hands
+ export default  Nails

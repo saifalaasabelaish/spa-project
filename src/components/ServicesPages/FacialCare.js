@@ -9,7 +9,7 @@ const FacialCare = () =>
       <Navbar/>
     <HeaderPage title="Facial Care"/>
      <div className="ServicesPageTemplete "> 
-    < ServicesPageTemplete imgg= './images/FacialCare.png'  alt="FacialCare"
+    < ServicesPageTemplete imgg= './images/FacialCare.png'  alt="FacialCare" servicename="-Skin Care"
         title1="TREATMENTS TO ACHIEVE YOUR SKIN GOALS" Paragraph1=" Wish you could reverse unwanted lines and wrinkles?
          Bothered by hyperpigmented skin caused by years of fun in the sun? Facial Care Centre’s holistic facials, 
          rejuvenation treatments, and laser hair removal will dramatically up your glow game,

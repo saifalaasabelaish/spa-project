@@ -2,14 +2,14 @@ import Navbar from '../common/Navbar'
 import HeaderPage from '../common/HeaderPage'
 import ServicesPageTemplete from './ServicesPageTemplete'
 
-const BackMassge = () =>
+const BodyMassage = () =>
 { 
     return(
     <>
       <Navbar/>
-    <HeaderPage title="Back Massge"/>
+    <HeaderPage title="Body Massage"/>
      <div className="ServicesPageTemplete ">
-    < ServicesPageTemplete imgg= './images/BackMassge.png'  alt="BackMassge"
+    < ServicesPageTemplete imgg= './images/BackMassge.png'  alt="Body Massage" servicename="- Massage"
         title1="What is a Back Massage? " Paragraph1="Put simply, a Back Massage
          is any type of massage that is performed on the back of an individual. 
          The back is the posterior side of the human torso and starts just above the buttocks and ends just below the neck.
@@ -34,4 +34,4 @@ const BackMassge = () =>
     </>)
             }
             
- export default  BackMassge
+ export default  BodyMassage

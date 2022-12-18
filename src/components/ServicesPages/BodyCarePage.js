@@ -2,14 +2,14 @@ import Navbar from '../common/Navbar'
 import HeaderPage from '../common/HeaderPage'
 import ServicesPageTemplete from './ServicesPageTemplete'
 
-const BadyCare = () =>
+const BodyCare = () =>
 { 
     return(
     <>
     <Navbar/>
-    <HeaderPage title="Bady Care"/>
+    <HeaderPage title="Body Care"/>
     <div className="ServicesPageTemplete "> 
-    < ServicesPageTemplete imgg= './images/bady care.png'  alt="Body care"
+    < ServicesPageTemplete imgg= './images/bady care.png'  alt="Body care" servicename="- Skin Care"
         title1="About Us" Paragraph1="  Whether you have oily, normal, sensitive, or dry skin, Savers have all you need to take care of your body from head to toe. 
         You’ll be able to find everything from body moisturiser, moisturising creams and lotions to body oils, body butter and dry scalp treatments
          to help your skin look and feel its best"

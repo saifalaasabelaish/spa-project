@@ -9,7 +9,7 @@ const SkinClean= () =>
     <HeaderPage title="Skin Clean"/>
      <div className="ServicesPageTemplete "> 
      
-    < ServicesPageTemplete imgg= './images/SkinClean.png'  alt="SkinClean"
+    < ServicesPageTemplete imgg= './images/SkinClean.png'  alt="SkinClean" servicename="-Skin Care"
   
         title1="Want to Get Clear Skin? " Paragraph1=" Sometimes it’s hard to know what your skin really needs to be as healthy as possible. Every day we’re bombarded by marketing hype for various skin care and cosmetic products, as well as advice from social media influencers and other beauty gurus.
 

@@ -9,7 +9,7 @@ const PeelingSkin= () =>
       <Navbar/>
     <HeaderPage title=" Peeling Skin"/>
      <div className="ServicesPageTemplete "> 
-    < ServicesPageTemplete imgg= './images/PeelingSkin.png'  alt=" PeelingSkin"
+    < ServicesPageTemplete imgg= './images/PeelingSkin.png'  alt=" PeelingSkin" servicename="-Skin Care"
         title1="Causes" Paragraph1="Your skin is regularly exposed to environmental elements that can irritate 
         and damage it. These include sun, wind, heat, dryness and high humidity. Repeated irritation can lead to
          skin peeling. In babies born past their due date, it's not unusual for them to experience some painless 

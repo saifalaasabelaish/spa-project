@@ -12,7 +12,7 @@ const Sauna= () =>
    
      
     < ServicesPageTemplete 
-   imgg= './images/sauna.png'  alt="sauna"
+   imgg= './images/sauna.png'  alt="sauna" servicename="-Body Care" 
         title1="What Is Sauna Therapy?" Paragraph1="Sauna therapy is exposing your body to high heat in an enclosed space for health purposes. The resulting elevation in core body temperature — hyperthermia — may improve your health.
         Traditional cultures used saunas for ceremonial or spiritual purposes. For example, Native American or shamanic sweat lodges were used for vision questing or purification as a cultural ritual.
         Modern-day sauna therapy is the use of sauna bathing as a health practice. As your body is exposed to heat, your breathing rate increases and your body may begin to sweat.   "
