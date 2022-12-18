@@ -52,7 +52,7 @@ const servicesData = [
         number: 5,
         servimg: "/images/HairCutStyle.jpg",
         altt: "Hair Cut & Style",
-        pagelink: "/SkinCarePage"
+        pagelink: "/HairCutPage"
     }
     ,
     {
@@ -63,7 +63,7 @@ const servicesData = [
         number: 6,
         servimg: "/images/haircolor.jpg",
         altt: "Hair Color",
-        pagelink: "/SkinCarePage"
+        pagelink: "/HairColorPage"
     }
     ,
     {
@@ -85,7 +85,7 @@ const servicesData = [
         number: 8,
         servimg: "/images/nails.jpg",
         altt: "Nails",
-        pagelink: "/SkinCarePage"
+        pagelink: "/NailsPage"
     }
     //message
     ,
@@ -120,7 +120,7 @@ const servicesData = [
         number: 11,
         servimg: "/images/BodyMassage.jpg",
         altt: "Body Massage",
-        pagelink: "/SkinCarePage"
+        pagelink: "/BodyMassagePage"
     }
     ,
     {
@@ -131,7 +131,7 @@ const servicesData = [
         number: 12,
         servimg: "/images/FootMassage.jpg",
         altt: "Foot Massage",
-        pagelink: "/SkinCarePage"
+        pagelink: "/FootMassagePage"
     }
     // body care
     ,
