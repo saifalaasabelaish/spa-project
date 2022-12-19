@@ -16,6 +16,7 @@ const ServicesPage = () => {
       <HeaderPage title =" Services "/>
       <div className="ser container">
         <div className="row">
+       
           <div className="col-12 ">
             <div className="filser w-100 border shadow p-1 group d-flex ">
               <div className="card-body ">

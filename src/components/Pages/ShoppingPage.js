@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import Footer from "../common/Footer";
-import Services from '../ServicesPage/Services';
-import HeaderPage from '../common/HeaderPage';
 import Navbar from '../common/Navbar';
+import HeaderPage from '../common/HeaderPage';
 
 const ServicesPage = () => {
   const [category, setCategory] = useState("skin-care");
@@ -13,9 +12,11 @@ const ServicesPage = () => {
 
   return (
     <>
-   <Navbar/>
-      <HeaderPage title =" Services "/>
-      <div className="ser container">
+      {/* <Shopping /> */}
+<Navbar/>
+<HeaderPage title =" Shopping Page"/>
+      <Cart/>
+      <div className="container">
         <div className="row">
        
           <div className="col-12 ">
