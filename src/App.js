@@ -57,6 +57,7 @@ export default function App() {
           <Route path="/NailsPage" element={<Nails />} />
           <Route path="/BodyMassagePage" element={<BodyMassage/>} />
           <Route path="/FootMassagePage" element={<FootMassage />} /> */}
+           {/* <Route path="/facebook" element={<www.facebook.com />} /> */}
         </Routes>
     
     </Router>
