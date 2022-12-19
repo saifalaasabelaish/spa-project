@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Footer from "../common/Footer";
 import Navbar from '../common/Navbar';
 import HeaderPage from '../common/HeaderPage';
+import ShoppingCart from "../ShoppingCart/ShoppingCart"
 
 const ServicesPage = () => {
   const [category, setCategory] = useState("skin-care");
@@ -15,7 +16,7 @@ const ServicesPage = () => {
       {/* <Shopping /> */}
 <Navbar/>
 <HeaderPage title =" Shopping Page"/>
-      <Cart/>
+      <ShoppingCart/>
       <div className="container">
         <div className="row">
        
