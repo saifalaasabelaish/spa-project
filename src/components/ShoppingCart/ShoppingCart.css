@@ -1,0 +1,12 @@
+#wholePage
+{
+    background: linear-gradient(#c197d5,#78e9d2);
+    font-family: 'TitilliumWeb', sans-serif;
+}
+#buyBtn{
+    color: black;
+    border-color: #78e9d2;
+}
+#buyBtn:hover{
+    background-color: #78e9d2;
+}
