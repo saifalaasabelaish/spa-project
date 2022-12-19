@@ -8,6 +8,7 @@ const Navbar = () => {
           <div className="container-fluid"> 
             <a className="navbar-brand logo">
               <Link to="/"><img src="/images/spalogo.png" alt="Logo" /></Link></a>
+              <div className="justify-content-end">
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon"></span>
             </button>
@@ -33,7 +34,7 @@ const Navbar = () => {
                   <Link to="/">Home</Link>
                 </li>
                 </div>
-            </div>
+            </div></div>
           </div>
           </div>
         </nav>
