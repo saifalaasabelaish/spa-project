@@ -21,12 +21,14 @@ import Sauna from './components/ServicesPages/Sauna';
 import SkinCare from './components/ServicesPages/SkinCarePage';
 import TherapeuticMassage from './components/ServicesPages/TherapeuticMassage';
 import TurkishBath from './components/ServicesPages/TurkishBath';
-// import OfferCarousel from './components/HomePage/OfferHome/OfferCarousel';
-
+// import HairColor from './components/ServicesPages/HairColor';
+// import FootMassage from './components/ServicesPages/FootMassage';
+// import BodyMassage from './components/ServicesPages/BodyMassage';
+// import HairCutAndStyle from './components/ServicesPages/HairCutAndStyle';
+// import Nails from './components/ServicesPages/Nails';
 export default function App() {
   return (
     <Router>
-      
         <Routes>
           <Route path="/About" element={<AboutUsPage  />} />
           <Route path="/" element={<HomePage />} />
@@ -34,7 +36,6 @@ export default function App() {
           <Route path="/ServicesPage" element={<ServicesPage />} />
           <Route path="/ShoppingPage" element={<ShoppingPage />} />
           <Route path="/BookingPage" element={<BookingPage/>} />
-          {/* <Route path="/carouselOffers" element={<OfferCarousel/>} /> */}
           {/* Services Pages */}
           <Route path="/BackandNeckMassagePage" element={<BackandNeckMassage/>} />
           <Route path="/BodyHydrationPage" element={<BodyHydration />} />
@@ -51,6 +52,12 @@ export default function App() {
           <Route path="/SkinCarePage" element={<SkinCare />} />
           <Route path="/TherapeuticMassagePage" element={<TherapeuticMassage/>} />
           <Route path="/TurkishBathPage" element={<TurkishBath />} />
+          {/* <Route path="/HairCutPage" element={<HairCutAndStyle />} />
+          <Route path="/HairColorPage" element={<HairColor />} />
+          <Route path="/NailsPage" element={<Nails />} />
+          <Route path="/BodyMassagePage" element={<BodyMassage/>} />
+          <Route path="/FootMassagePage" element={<FootMassage />} /> */}
+           {/* <Route path="/facebook" element={<www.facebook.com />} /> */}
         </Routes>
     
     </Router>
