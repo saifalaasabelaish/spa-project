@@ -1,35 +1,26 @@
-import Shopping from "../Shopping";
-import './ShoppingPage.css'
-import ShoppingCard from "./ShoppingCard"
+/* eslint-disable no-lone-blocks */
+import '../ShoppingPage/ShoppingPage.css'
 import React, { useState } from "react";
 import Products from "./Products";
-import Footer from "../Footer";
+import { useCart } from 'react-use-cart';
+import Cart from './Cart';
 
-const Cart = (onClick , props) =>
-  {
-  return (
-    <>
-    <div className="cart  justify-content-end d-flex me-4 mt-3">
-      <button  className ="cart-btn " onClick={() => onClick()}>
-      <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAdJJREFUWEftl70uBFEYhp9N0KJW+GloJOIG0GjFFfgp6GQvgJBwAego/NwBrQY3IBENjZ9Cr0ZCXjmzOTO7M3PmzBm7xU63O+f7vme+95v3nKnRYVetw3joAuUpkuzQDvBjBd0At3lJQt5PAtkwUZ0zYCVk0axcLkCKXwQu/gOqlWRR3SlgwfyQdHPtALJrjgAv1h+jwGvVUHmvveZnyUCcA8vtBpoFrg3EB7BfAZAetNH5vA6pvhYPVwASpVR+jcPf5QIkmU4rBHoDNK/OQAOmS/0VQR0A9SJAWmsPd2iu2NvrIpkAkhYQCuoekN81LlcgBcgcZ0KRmDzaktR9L6AqhnsQkJ14ASkopAW0NNoikglIx5PtQLK13LCLAoUa7pj3lJEslAXEvKcskL2/+aqXenIoKlkEUGa4m7ynbIcUX8YCmrwnBFAE1dgUHbVTZ2NGmIzzlcyxfvFlZYCOzNfIM7ABXKWUnwcOgTFzjFnPwvQF0hycWImfgImUQo/AuHVvNet85Qu0CexaRb6AvhSgT6DXurcF7KV1yRdoErgDekziYyBNCkm7ZtZ9A9PAQ2gg5ROUvtveHY64kngIuMyCUVLfDhV/fRwjukB5jeq4Dv0CIkZFJZM8NK0AAAAASUVORK5CYII=" />
-      <span className="badge text-bg-secondary border-5">{ props.datap }</span>
-      </button>
-    </div>
-    </>
-    
-  )
-}
 const ShoppingPage = () => {
+  const {totalItems}=useCart();
   const [category, setCategory] = useState("skincare");
   const eventHandler = (event) =>
   {
-
     setCategory (event.target.id);
-
   }
 
   return (
     <>  
+    <div className="cart  justify-content-end d-flex me-4 mt-3">
+      <button data-bs-toggle="offcanvas" data-bs-target="#offcanvas" aria-controls="offcanvas" className="btn btn-outline-primary">
+          <i className="fas fa-shopping-cart"></i>
+          <div>{totalItems}</div>
+        </button>
+    </div>
       <Cart/>
       <div className="container " >
         <div className="row ">
@@ -51,7 +42,7 @@ const ShoppingPage = () => {
           {/* products */}
           <div className="col-12 col-md-8 col-lg-9 col-xxl-10 ">
             <div className="row mt-5">
-            <Products categorytype = {category} />
+                  <Products categorytype = {category} />
             </div>
         </div>
       </div>

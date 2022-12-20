@@ -5,7 +5,7 @@ const ServicesCard = (props) => {
   return (
     <>
       <div className="ser">
-        <div className="d-flex position-relative ">
+        <div className="d-flex position-relative servicecard p-2">
           <img src={props.ImgServices} className="img-fluid flex-shrink-0 me-3" alt={props.altt} />
           <div>
             <h5 className="mt-0">{props.title}</h5>
