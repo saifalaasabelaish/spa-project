@@ -2,9 +2,11 @@
 	color: #ffffff;
 	font-family: 'Titillium Web', sans-serif;
 }
-.head .imgback{
+
+.head .imgback {
 	background-size: cover;
 }
+
 .head .headbtn {
 	color: #ffffff;
 	background-color: #78e9d2;
@@ -14,9 +16,6 @@
 .head .headbtn:hover {
 	color: #ffffffcb;
 	background-color: #1defc5c9;
-	/* transition: all 0.3s ease;
-  transform: scale(1.1);
-  z-index: 2; */
 }
 
 .head .container {

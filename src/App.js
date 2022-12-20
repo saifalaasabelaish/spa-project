@@ -65,8 +65,6 @@ export default function App() {
         <Route path="/ChartsPage" element={<ChartsPage />} />
         <Route path="/DataBasePage" element={<TablesPage />} />
       </Routes>
-
     </Router>
   );
 }
-

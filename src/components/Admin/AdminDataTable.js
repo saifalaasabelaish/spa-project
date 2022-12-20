@@ -2,7 +2,6 @@ import UserData from './UserData'
 function AdminDataTable() {
     const DisplayData = UserData.map((info) => {
         return (
-            
             <tr>
                 <td>{info.id}</td>
                 <td>{info.name}</td>
@@ -17,11 +16,9 @@ function AdminDataTable() {
                     <button type="submit" > Edit</button>
 
                 </td>
-
             </tr>
         )
     }
-
     )
     return (
         <div>
@@ -46,5 +43,4 @@ function AdminDataTable() {
         </div>
     )
 }
-
 export default AdminDataTable;
