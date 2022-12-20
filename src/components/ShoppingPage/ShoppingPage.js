@@ -1,10 +1,9 @@
 /* eslint-disable no-lone-blocks */
-import './ShoppingPage.css'
+import '../ShoppingPage/ShoppingPage.css'
 import React, { useState } from "react";
 import Products from "./Products";
 import { useCart } from 'react-use-cart';
 import Cart from './Cart';
-import Navbar from '../common/Navbar';
 
 const ShoppingPage = () => {
   const {totalItems}=useCart();
@@ -15,7 +14,7 @@ const ShoppingPage = () => {
   }
 
   return (
-    <>
+    <>  
     <div className="cart  justify-content-end d-flex me-4 mt-3">
       <button data-bs-toggle="offcanvas" data-bs-target="#offcanvas" aria-controls="offcanvas" className="btn btn-outline-primary">
           <i className="fas fa-shopping-cart"></i>
@@ -41,7 +40,7 @@ const ShoppingPage = () => {
             </div>
           </div>
           {/* products */}
-          <div className="col-12 col-md-8 col-lg-9 col-xxl-9 offset-xl-1">
+          <div className="col-12 col-md-8 col-lg-9 col-xxl-10 ">
             <div className="row mt-5">
                   <Products categorytype = {category} />
             </div>
