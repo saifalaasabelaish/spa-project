@@ -19,8 +19,6 @@ const StaffCard = (props) => {
         </div>
       </div>
     </>
-
   )
 }
-
 export default StaffCard

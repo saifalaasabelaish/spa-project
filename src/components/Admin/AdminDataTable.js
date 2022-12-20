@@ -1,10 +1,10 @@
-import React from 'react'
-import JsonData from './data.json'
+import UserData from './UserData'
 function AdminDataTable() {
-    const DisplayData = JsonData.map((info) => {
+    const DisplayData = UserData.map((info) => {
         return (
+            
             <tr>
-                <td>{info.no}</td>
+                <td>{info.id}</td>
                 <td>{info.name}</td>
                 <td>{info.email}</td>
                 <td>{info.address}</td>
@@ -12,11 +12,16 @@ function AdminDataTable() {
                 <td>{info.service}</td>
                 <td>{info.serviceTime}</td>
                 <td>{info.pay}</td>
-                
+                <td>
+                    <button type="submit" > Delete</button>
+                    <button type="submit" > Edit</button>
+
+                </td>
+
             </tr>
         )
     }
-    
+
     )
     return (
         <div>
@@ -31,14 +36,13 @@ function AdminDataTable() {
                         <th> Services Booked</th>
                         <th> Service Time</th>
                         <th>Payment Method</th>
+                        <th>Actions</th>
                     </tr>
                 </thead>
                 <tbody className="table-group-divider">
-
                     {DisplayData}
                 </tbody>
             </table>
-
         </div>
     )
 }

@@ -1,17 +1,17 @@
-import { Bar } from "react-chartjs-2";
+import { Pie } from "react-chartjs-2";
 import {Chart as ChartJS} from "chart.js/auto"
-const BarChart = ({ChartData}) => {
+const PieChart = ({ChartData}) => {
 
     return (
 
         <div className="card mb-4">
             <div className="card-header">
-                Bar Chart Example
+                Pie Chart Example
             </div>
             <div className="card-body">
-            <Bar data={ChartData}/>
+            <Pie data={ChartData}/>
             </div>
         </div>
     )
 }
-export default BarChart;
+export default PieChart;

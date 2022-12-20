@@ -1,17 +1,17 @@
-import { Bar } from "react-chartjs-2";
+import { Line } from "react-chartjs-2";
 import {Chart as ChartJS} from "chart.js/auto"
-const BarChart = ({ChartData}) => {
+const LineChart = ({ChartData}) => {
 
     return (
 
         <div className="card mb-4">
             <div className="card-header">
-                Bar Chart Example
+                Line Chart Example
             </div>
             <div className="card-body">
-            <Bar data={ChartData}/>
+            <Line data={ChartData}/>
             </div>
         </div>
     )
 }
-export default BarChart;
+export default LineChart;

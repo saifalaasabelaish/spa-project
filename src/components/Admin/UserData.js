@@ -1,107 +1,117 @@
-[
+export const UserData =[
 
     {
-        "no":1,
-        "name":"Akshit",
+        "id":1,
+        "name":"Ahmad Faoor",
         "email":"aksri.random@gmail.com",
         "pay":"Cash",
         "address": "Nablus",
         "phone" : "051279498",
         "service":"Massage",
-        "serviceTime":"9:00 AM"
+        "serviceTime":"9:00 AM",
+        "serviceDay":"Sunday"
 
     },
     
     {
-        "no":2,
-        "name":"Nikita",
+        "id":2,
+        "name":"Sami tuffaha",
         "email":"aksri.random@gmail.com",
         "pay":"Cash",
         "address": "Nablus",
         "phone" : "051279498",
         "service":"Massage",
-        "serviceTime":"9:00 AM"
+        "serviceTime":"9:00 AM",
+        "serviceDay":"Sunday"
 
     },
     
     {
-        "no":3,
-        "name":"Deeksha",
+        "id":3,
+        "name":"Rami dale",
         "email":"aksri.random@gmail.com",
-        "address": "Nablus",
+        "address": "Jerusalem",
         "service":"Massage",
         "serviceTime":"9:00 AM",
         "pay":"Cash",
-        "phone" : "051279498"
+        "phone" : "051279498",
+        "serviceDay":"Monday"
         
     },
     
     {
-        "no":4,
-        "name":"Ritesh",
+        "id":4,
+        "name":"Adnan sami",
         "email":"aksri.random@gmail.com",
-        "address": "Nablus",
-        "service":"Massage",
+        "address": "Ramallah",
+        "service":"Hair",
         "pay":"Visa Card",
         "serviceTime":"9:00 AM",
-        "phone" : "051279498"
+        "phone" : "051279498",
+        "serviceDay":"Sunday"
     },
     
     {
-        "no":5,
-        "name":"Somya",
+        "id":5,
+        "name":"Ibraheem sadeq",
         "email":"aksri.random@gmail.com",
         "address": "Nablus",
         "pay":"Cash",
-        "service":"Massage",
+        "service":"Laser",
         "serviceTime":"9:00 AM",
-        "phone" : "051279498"
+        "phone" : "051279498",
+        "serviceDay":"Saturday"
 
     },
     
     {
-        "no":6,
-        "name":"Eshika",
+        "id":6,
+        "name":"Yousef Jarbo",
         "email":"aksri.random@gmail.com",
         "address": "Nablus",
         "service":"Massage",
         "serviceTime":"9:00 AM",
         "pay":"Visa Card",
-        "phone" : "051279498"
+        "phone" : "051279498",
+        "serviceDay":"Sunday"
 
     },
     {
-        "no":7,
-        "name":"Kalpana",
+        "id":7,
+        "name":"Khaled Masri",
         "email":"aksri.random@gmail.com",
-        "address": "Nablus",
+        "address": "Jerico",
         "service":"Massage",
         "serviceTime":"9:00 AM",
         "pay":"Cash",
-        "phone" : "051279498"
+        "phone" : "051279498",
+        "serviceDay":"Thursday"
 
     },
     
     {
-        "no":8,
-        "name":"Parul",
+        "id":8,
+        "name":"Abdullah Ahmad",
         "email":"aksri.random@gmail.com",
-        "address": "Nablus",
-        "service":"Massage",
+        "address": "Hebron",
+        "service":"Laser",
         "pay":"Cash",
         "serviceTime":"9:00 AM",
-        "phone" : "051279498"
+        "phone" : "051279498",
+        "serviceDay":"Thursday"
     },
     
     {
-        "no":9,
-        "name":"Himani",
+        "id":9,
+        "name":"Samer Mosa",
         "email":"aksri.random@gmail.com",
-        "address": "Nablus",
+        "address": "Ramallah",
         "pay":"Cash",
-        "service":"Massage",
+        "service":"Nails",
         "serviceTime":"9:00 AM",
-        "phone" : "051279498"
+        "phone" : "051279498",
+        "serviceDay":"Thursday"
 
     }
 ]
+export default UserData

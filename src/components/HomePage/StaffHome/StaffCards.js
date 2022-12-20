@@ -18,6 +18,5 @@ const StaffCards = () => {
             <StaffCard img='./images/lydia.jpg' alt1="lydia" title="Lydia Smothers" paragraph1="I am Lydia Smothers ,30 years old I have been working in massage for 10 years,Skilled in Swedish Massage, Deep Tissue Massage and Sports Massage."><SocialMedia2 /></StaffCard></div>
         </div></div></div>
   )
-
 }
 export default StaffCards;
