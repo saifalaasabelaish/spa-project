@@ -26,13 +26,17 @@ import BodyMassage from './components/ServicesPages/BodyMassage';
 import HairCutAndStyle from './components/ServicesPages/HairCutAndStyle';
 import Nails from './components/ServicesPages/Nails';
 import SkinClean from './components/ServicesPages/SkinClean';
+import ChartsPage from './components/Admin/ChartsPage';
+import TablesPage from './components/Admin/TablesPage';
+
 export default function App() {
   return (
-    
+
     <Router>
       <Routes>
-        <Route path="/About" element={<AboutUsPage />} />
+        {/* <Route path="/" element={<Admin />} /> to Admin Page*/} 
         <Route path="/" element={<HomePage />} />
+        <Route path="/About" element={<AboutUsPage />} />
         <Route path="/Contact" element={<ContactPage />} />
         <Route path="/ServicesPage" element={<ServicesPage />} />
         <Route path="/ShoppingPage" element={<Shopping />} />
@@ -58,6 +62,8 @@ export default function App() {
         <Route path="/NailsPage" element={<Nails />} />
         <Route path="/BodyMassagePage" element={<BodyMassage />} />
         <Route path="/FootMassagePage" element={<FootMassage />} />
+        <Route path="/ChartsPage" element={<ChartsPage />} />
+        <Route path="/DataBasePage" element={<TablesPage />} />
       </Routes>
 
     </Router>

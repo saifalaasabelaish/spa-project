@@ -14,8 +14,6 @@ const Admin = () => {
         datasets: [{
             label: "service",
             data: ChartData.map((data) => data.number)
-
-
         }],
 
     });

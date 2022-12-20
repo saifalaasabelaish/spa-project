@@ -16,23 +16,25 @@ const ServiceBooking = () => {
                         <option value="laser">laser hair</option>
                         <option value="salon">salon services</option></select></div>
 
-                <div className="row">
+                     <div className="row">
+                  <div className="col">
                     <div className="mb-3">
                         <label htmlFor="date">Pick A Day :</label>
-                        <select name="days" className="col-3 col-md-3 mb-3 mx-3 mt-2">
+                        <select name="days" className="col-6 col-md-6 col-lg-6 mb-3 mx-3 mt-2">
                             <option value="saturday">Saturday</option>
                             <option value="sunday">Sunday</option>
                             <option value="monday">Monday</option>
                             <option value="tuesday">Tuesday</option>
                             <option value="wednesday">Wednesday</option>
                             <option value="thursday">Thursday</option>
-                        </select></div>
+                        </select></div></div>
+                        <div className="col">
                     <div className="mb-3">
                         <label htmlFor="appt">Select a time :</label>
-                        <input type="time" id="appt" name="appt" className="col-3 col-md-3 mx-2 mb-2" />
+                        <input type="time" id="appt" name="appt" className="col-6 col-md-6 col-lg-6 mx-3 mt-2 mb-3" />
                         {/* we will have a selector and options for the day that user choosen before
         "available times in this day" */}
-                    </div></div></div></>
+                  </div></div></div></div></>
     );
 }
 export default ServiceBooking;

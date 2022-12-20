@@ -12,8 +12,6 @@ const ChartsPage = () => {
         datasets: [{
             label: "UserName",
             data: UserData.map((data) => data.id)
-
-
         }],
 
     });
