@@ -6,7 +6,7 @@ const About1 = (props) => {
                 <div className='col col-md-12 col-lg-6 d-flex text-capitalize text-center justify-content-center needInfo'>
                     <div className=' title h4'>{props.title}</div>
                     <p className='lead mx-3'>
-                        {props.Paragraph }
+                        {props.Paragraph}
                     </p>
                 </div>
                 <div className='col col-md-12 col-lg-6 '>
@@ -18,4 +18,4 @@ const About1 = (props) => {
         </div>
     );
 }
-export default  About1 ;
+export default About1;

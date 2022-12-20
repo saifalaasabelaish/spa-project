@@ -5,8 +5,5 @@ const AdminNavbar = () => {
         <a className="navbar-brand ps-3" href="index.html">SPA Admin Panel</a>
     </nav>
     )
-
-
-
 }
 export default AdminNavbar;
