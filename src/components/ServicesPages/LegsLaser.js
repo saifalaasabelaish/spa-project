@@ -1,12 +1,15 @@
-
+import Navbar from '../common/Navbar'
+import HeaderPage from '../common/HeaderPage'
 import ServicesPageTemplete from './ServicesPageTemplete'
 
 const LegsLaser = () =>
 { 
     return(
     <>
+      <Navbar/>
+    <HeaderPage title="Legs Laser"/>
      <div className="ServicesPageTemplete ">
-    < ServicesPageTemplete imgg= './images/legs.png'  alt="legs laser"
+    < ServicesPageTemplete imgg= './images/legs.png'  alt="legs laser" servicename="-Laser Service"
         title4="Shorts or Skirt Ready Always" Paragraph4=" No more last minute shaving or having to wear pants because you ran out of time to shave. 
         You’re always ready to show off your smooth legs! "
         title2="Comfortable Treatments." Paragraph2=" Say Goodbye to the pain of tearing off hot wax strips & razor nicks. Our lasers are gentle enough 
@@ -24,3 +27,4 @@ const LegsLaser = () =>
             }
             
  export default  LegsLaser
+ 

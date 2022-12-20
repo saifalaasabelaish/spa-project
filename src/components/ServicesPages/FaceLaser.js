@@ -1,12 +1,15 @@
-
+import Navbar from '../common/Navbar'
+import HeaderPage from '../common/HeaderPage'
 import ServicesPageTemplete from './ServicesPageTemplete'
 
 const FaceLaser= () =>
 { 
     return(
     <>
+      <Navbar/>
+    <HeaderPage title="Face Laser"/>
      <div className="ServicesPageTemplete "> 
-    < ServicesPageTemplete imgg= './images/FaceLaser.png'  alt="face laser"
+    < ServicesPageTemplete imgg= './images/FaceLaser.png'  alt="face laser" servicename="- Laser Services"
         title1="What is a laser facial?" Paragraph1="It's a treatment that elevates the basic facial, providing a safe and effective means of
          stimulating collagen and evening skin tone. At Skin Laundry, the laser and light facial provides the benefits that one might typically 
          associate with going to a dermatologist, but given in a more accessible setting. "

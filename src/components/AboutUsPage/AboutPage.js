@@ -1,11 +1,10 @@
 import './AboutPage.css'
 import Footer from '../common/Footer'
 import Navbar from '../common/Navbar'
-import AboutCard from './AboutUsCard'
 import About1 from './About1'
 import About2 from './About2'
 import HeaderPage from '../common/HeaderPage'
-const AboutUs = () => {
+const AboutPage = () => {
         return (
                 <>
                         <Navbar />
@@ -68,4 +67,4 @@ Drew has always had a passion for helping people and realizes the importance of 
                 </>
         )
 }
-export default AboutUs;
+export default AboutPage;
