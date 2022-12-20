@@ -12,11 +12,11 @@ var filteredJson = UserData.filter(function (row) {
 });
 
 const Check = () => {
-if (filteredJson)
-    alert("Already Booked , Please Choose another day");
-else 
+if (filteredJson==1){
+    alert("Already Booked , Please Choose another day");}
+else {
 alert("Succesful");
-}
+}}
 
 const BookNowButton = () => {
     return (
