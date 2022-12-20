@@ -10,7 +10,7 @@ const Products = (props) =>
                     )
                 .map((product) => {
                     return (
-                    <div className ="col-12 col-md-6 col-lg-4 col-xxl-3 ">
+                    <div className ="col-12 col-md-6 col-lg-4">
                       <div className = "mb-3">
                         <ShoppingCard photo={product.photo} Content={product.name} Price ={product.price} product={product} key= {product.id}/>
                       </div>
