@@ -11,8 +11,8 @@ const HomeHeader = () => {
           <button data-bs-target="#homeheadercarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
           <button data-bs-target="#homeheadercarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
         </div>
-        <div className="carousel-inner d-flex">
-          <div className="carousel-item active col-sm-3 col-xs-3">
+        <div className="carousel-inner">
+          <div className="carousel-item active">
             <HeadCarousel sentence="Hi there! If you are looking for beauty , you are in the right place! Welcome to SPA center" btntitle="Read More About SPA" link="/About" /></div>
 
           <div className="carousel-item">

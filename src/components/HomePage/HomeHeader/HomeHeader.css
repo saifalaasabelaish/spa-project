@@ -2,7 +2,9 @@
 	color: #ffffff;
 	font-family: 'Titillium Web', sans-serif;
 }
-
+.head .imgback{
+	background-size: cover;
+}
 .head .headbtn {
 	color: #ffffff;
 	background-color: #78e9d2;
