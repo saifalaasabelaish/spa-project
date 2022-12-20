@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import Footer from "../common/Footer";
 import HeaderPage from "../common/HeaderPage";
 import Navbar from "../common/Navbar";

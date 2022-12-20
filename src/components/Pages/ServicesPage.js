@@ -6,18 +6,15 @@ import Navbar from '../common/Navbar';
 
 const ServicesPage = () => {
   const [category, setCategory] = useState("skin-care");
-  const eventHandler = (event) =>
-  {
-    setCategory (event.target.id);
+  const eventHandler = (event) => {
+    setCategory(event.target.id);
   }
-
   return (
     <>
-   <Navbar/>
-      <HeaderPage title =" Services "/>
+      <Navbar />
+      <HeaderPage title=" Services " />
       <div className="ser container">
         <div className="row">
-       
           <div className="col-12 ">
             <div className="filser w-100 border shadow p-1 group d-flex ">
               <div className="card-body ">
@@ -30,19 +27,15 @@ const ServicesPage = () => {
                 </div>
               </div>
             </div>
-          {/* products */}
+            {/* products */}
             <div className="row mt-5">
-            <Services categorytype = {category} />
+              <Services categorytype={category} />
             </div>
+          </div>
         </div>
       </div>
-      </div>
-      <Footer/>
+      <Footer />
     </>
   )
 };
-
-
-
-
 export default ServicesPage;

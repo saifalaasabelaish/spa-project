@@ -28,6 +28,7 @@ import TurkishBath from './components/ServicesPages/TurkishBath';
 // import Nails from './components/ServicesPages/Nails';
 export default function App() {
   return (
+    
     <Router>
         <Routes>
           <Route path="/About" element={<AboutUsPage  />} />
