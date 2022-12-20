@@ -1,11 +1,8 @@
-import { Link } from "react-router-dom";
 import Footer from "../common/Footer";
 import HeaderPage from "../common/HeaderPage";
 import Navbar from "../common/Navbar";
 import "./Contact.css"
-
 const Contact = () => {
-
   return (
     <>
       <Navbar />
@@ -37,7 +34,7 @@ const Contact = () => {
               </form>
             </div>
             <div className="col-12 col-md-6 col-lg-6 col-xxl-6 ">
-              <iframe className="gmap_iframe w-100 h-100 mapframe" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=najah&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+              <iframe title ="map" className="gmap_iframe w-100 h-100 mapframe" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=najah&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
             </div>
           </div>
         </div>

@@ -7,7 +7,7 @@ const StaffCards = () => {
     <div className="staff align-items-center col-12 d-flex p-3 ">
       <h1>MEET OUR BEAUTIFUL TEAM</h1>
       <div className="container d-flex justify-content-center">
-        <div className="row  ">
+        <div className="row ">
           <div className=" col-md-3 col-lg-3 col-xxl-3">
             <StaffCard img='./images/shayne.jpeg' alt1="shayne" title="Shayne Crocker" paragraph1="I'm Shane Crocker,48 years old.work in massage ,Skilled in various modalities of massage including Swedish, Deep Tissue/Neuromuscular"><SocialMedia1 /></StaffCard></div>
           <div className=" col-md-3 col-lg-3 col-xxl-3">

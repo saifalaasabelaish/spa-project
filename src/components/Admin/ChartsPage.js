@@ -1,33 +1,31 @@
 import { useState } from "react";
 import UserData from "./UserData";
 import "./Admin.css"
-import AdminDataTable from "./AdminDataTable";
 import AdminNavbar from "./AdminNavbar"
 import AdminSideNavbar from "./AdminSideNavbar"
 import LineChart from "./LineChart"
 import BarChart from "./BarChart"
-import { ChartData } from "./ChartData";
-
-const Admin = () => {
+import PieChart from "./PieChart"
+const ChartsPage = () => {
     const [userData] = useState({
-        labels: ChartData.map((data) => data.service),
+        labels: UserData.map((data) => data.service),
         datasets: [{
-            label: "service",
-            data: ChartData.map((data) => data.number)
+            label: "UserName",
+            data: UserData.map((data) => data.id)
         }],
 
     });
     return (
-        <div className="sb-nav-fixed">
-            <AdminNavbar></AdminNavbar>
-            <div id="layoutSidenav">
-                <div id="layoutSidenav_nav">
-                    <AdminSideNavbar></AdminSideNavbar>
-                </div>
-                <div id="layoutSidenav_content">
-                    <main>
+        <>
+            <div className="sb-nav-fixed">
+                <AdminNavbar></AdminNavbar>
+                <div id="layoutSidenav">
+                    <div id="layoutSidenav_nav">
+                        <AdminSideNavbar></AdminSideNavbar>
+                    </div>
+                    <div id="layoutSidenav_content">
                         <div className="container-fluid px-4">
-                            <h1 className="mt-4">Home Page</h1>
+                            <h1 className="mt-4">Last Month Statistics</h1>
                             <ol className="breadcrumb mb-4">
                                 <li className="breadcrumb-item active">Dashboard</li>
                             </ol>
@@ -38,20 +36,18 @@ const Admin = () => {
                                 <div className="col-xl-6">
                                     <BarChart ChartData={userData} />
                                 </div>
-                            </div>
-                            <div className="card mb-4">
-                                <div className="card-header">
-                                    <i className="fas fa-table me-1" />
-                                    DataTable Example
+                                <div className="col-xl-6">
+                                    <BarChart ChartData={userData} />
                                 </div>
-                                <AdminDataTable></AdminDataTable>
+                                <div className="col-xl-6">
+                                    <PieChart ChartData={userData} />
+                                </div>
                             </div>
                         </div>
-                    </main>
+                    </div>
                 </div>
             </div>
-        </div>
-
-    );
+        </>
+    )
 }
-export default Admin;
+export default ChartsPage;

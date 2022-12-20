@@ -1,12 +1,15 @@
-
+import Navbar from '../common/Navbar'
+import HeaderPage from '../common/HeaderPage'
 import ServicesPageTemplete from './ServicesPageTemplete'
 
-const FeetCare = () =>
+const FootMassage= () =>
 { 
     return(
     <>
+      <Navbar/>
+    <HeaderPage title="Foot Massage"/>
      <div className="ServicesPageTemplete "> 
-    < ServicesPageTemplete imgg= './images/FeetCare.png '  alt="FeetCare"
+    < ServicesPageTemplete imgg= './images/FeetCare.png '  alt="Foot Massage" servicename="-Massage"
         title1="Feet Care Fundings" Paragraph1="All approved services will be funded through the National Disability Insurance Scheme. 
         Our company has a ‘no gap’ payment scheme. This guarantees that every Client can benefit from our services. "
         title2=" Foot Care Specialized Shop in Singapore" Paragraph2="
@@ -31,4 +34,4 @@ const FeetCare = () =>
     </>)
             }
             
- export default FeetCare
+ export default FootMassage

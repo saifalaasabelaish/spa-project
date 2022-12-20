@@ -9,14 +9,14 @@ const Services = (props) =>
           servicesData
           .filter
           (
-              service => (service.cat == typee)
+              service => (service.cat === typee)
           )
           .map(
             (service) => 
           {
               return (
               <div className ="col-12 col-md-6 col-lg-6 col-xxl-8 mb-5">
-              <ServicesCard  ImgServices={service.servimg} altt={service.altt} key= {service.number} title = {service.sername} star={props.stars} content={service.description} price ={service.rate} serlink = {service.pagelink}/>
+              <ServicesCard  ImgServices={service.servimg} altt={service.altt} key= {1} title = {service.sername} star={props.stars} content={service.description} price ={service.rate} serlink = {service.pagelink}/>
               </div>
                )
           }

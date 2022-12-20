@@ -1,19 +1,27 @@
+import UserData from '../Admin/UserData';
 import './Booking.css'
-const BookNowButton = () => {
 
-    const check = () => {
+const day = document.getElementById("day-select");
 
-        let x = document.getElementById("day-selector").value
-        if (x === "saturday")
-            return (alert("error"))
-
-
+var filteredJson = UserData.filter(function (row) {
+    if (row.serviceDay == day) {
+        return true;
+    } else {
+        return false;
     }
+});
 
+const Check = () => {
+if (filteredJson==1){
+    alert("Already Booked , Please Choose another day");}
+else {
+alert("Succesful");
+}}
 
+const BookNowButton = () => {
     return (
         <> <div className='booking'>
-            <button type="submit" className="btn btn-spa" onClick={check}>Book Now</button>
+            <button type="submit" className="btn btn-spa" onClick={Check}>Book Now</button>
         </div>
         </>
     )

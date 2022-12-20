@@ -2,7 +2,7 @@
 { 
     text-align: center;
 }  
-.ServicesPage .title
+.title
 {
     color: #98CFD8; 
     font-family:'Titillium Web',sans-serif;   
@@ -18,7 +18,7 @@
    width: 30%;
    height: 30%;
 } 
-.ServicesPage .buttonn 
+.buttonn
 {
 	color: #ffffff;
 	background-color: #78e9d2;

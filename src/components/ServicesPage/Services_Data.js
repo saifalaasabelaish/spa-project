@@ -8,7 +8,7 @@ const servicesData = [
         number: 1,
         servimg: "/images/skinclean.jpg",
         altt: "Skin Clean",
-        pagelink: "/SkinCarePage"
+        pagelink: "/SkinCleanPage"
     }
     ,
     {
@@ -220,7 +220,6 @@ const servicesData = [
         description: "Our state-of-art laser technology is FDA Approved and a totally safe procedure. The patented ChillTip technology is designed to protect the outer layer of the skin.",
         number: 20,
         servimg: "/images/laserbody.jpg",
-        sername: "Full Body Laser",
         pagelink: "/FullBodyPage"
     }
 ]
