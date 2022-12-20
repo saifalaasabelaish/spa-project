@@ -1,8 +1,8 @@
 import React from 'react';
 import HomePage from "./components/Pages/HomePage"
+import AboutUsPage from "./components/Pages/AboutUsPage"
 import ContactPage from './components/Pages/ContactUsPage';
 import ServicesPage from "./components/Pages/ServicesPage";
-import AboutUsPage from './components/Pages/AboutUsPage';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Shopping from './components/Pages/Shopping';
 import BookingPage from './components/Pages/BookingPage';
@@ -30,6 +30,7 @@ export default function App() {
   return (
     <Router>
       <Routes>
+        
         <Route path="/About" element={<AboutUsPage />} />
         <Route path="/" element={<HomePage />} />
         <Route path="/Contact" element={<ContactPage />} />
