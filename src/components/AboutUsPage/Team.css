@@ -5,7 +5,7 @@
   }
   
   body{
-    background: #81c644;
+    background: #ffffff;
     font-family: sans-serif;
   }
   
@@ -19,7 +19,15 @@
     font-size: 52px;
     margin-bottom: 60px;
     text-align: center;
+    color: rgb(12, 12, 12);
   }
+  .container p{
+    color: #a58e49;
+  }
+  .container button{
+    color: #78e9d2;
+  }
+  
   
   .team{
     display: flex;
@@ -30,7 +38,7 @@
   }
   
   .team .team_member{
-    background: #fff;
+    background: #78e9d2;
     margin: 5px;
     margin-bottom: 50px;
     width: 300px;
@@ -41,16 +49,20 @@
   }
   
   .team .team_member h3{
-    color: #81c644;
+    color: #a58e49;
     font-size: 26px;
     margin-top: 50px;
+    font-family: sans-serif;
+
   }
   
   .team .team_member p.role{
-    color: #ccc;
+    color: rgb(165, 115, 23);
     margin: 12px 0;
     font-size: 12px;
     text-transform: uppercase;
+    font-family: sans-serif;
+
   }
   
   .team .team_member .team_img{
@@ -61,12 +73,13 @@
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    background: #fff;
+    background:#ffffff;
   }
   
   .team .team_member .team_img img{
     width: 100px;
     height: 100px;
     padding: 5px;
+    border-radius: 100%;
   }
   
