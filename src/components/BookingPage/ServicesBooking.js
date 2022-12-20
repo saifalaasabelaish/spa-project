@@ -22,7 +22,7 @@ const ServiceBooking = () => {
                     <div className="col">
                         <div className="mb-3">
                             <label htmlFor="date">Pick A Day :</label>
-                            <select name="days" className="col-6 col-md-6 col-lg-6 mb-3 mx-3 mt-2">
+                            <select name="days" className="col-6 col-md-6 col-lg-6 mb-3 mx-3 mt-2"id='day-select'>
                                 <option value="saturday">Saturday</option>
                                 <option value="sunday">Sunday</option>
                                 <option value="monday">Monday</option>
