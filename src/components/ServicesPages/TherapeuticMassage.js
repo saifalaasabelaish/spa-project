@@ -1,13 +1,17 @@
-
+import Navbar from '../common/Navbar'
+import HeaderPage from '../common/HeaderPage'
 import ServicesPageTemplete from './ServicesPageTemplete'
 
 const TherapeuticMassage= () =>
 { 
     return(
     <>
+      <Navbar/>
+    <HeaderPage title="Therapeutic Massag"/>
      <div className="ServicesPageTemplete "> 
-    < ServicesPageTemplete imgg= './images/TherapeuticMassage.png'  alt="TherapeuticMassage"
+    < ServicesPageTemplete imgg= './images/TherapeuticMassage.png'  alt="TherapeuticMassage" servicename="-Massage"
         title1="What Is Therapeutic Massage?" Paragraph1="Therapeutic massage is a type of complementary and alternative medicine (CAM) practice that is often used to treat muscle pain, injury, and stiffness. Massage therapy has also been used for the treatment of mental and emotional problems, including stress, anxiety, and depression.1
+
         Also considered a relaxation technique, massage therapy may be able to help reduce tension and elicit feelings of calm and deep relaxation. Additionally, massage may be able to curb feelings of fear and anxiety and assist in managing other panic disorder symptoms "
         title2="Types of Therapeutic Massage" Paragraph2="There are many different kinds of massage offered by massage therapists. Depending on the style, massages often vary in pressure and muscle group focus. Some of the most common types of massage include:Swedish massage: Swedish massage is the most popular type of massage therapy and is meant to help relax the body and mind. It involves a total body massage where a person lies on the massage table while the massage therapist slowly works through different muscle groups. Swedish massage also helps circulate blood flow, relieve mental stress, and reduce muscle pain and tension.
         Deep tissue: In deep tissue massage, the massage therapist uses more pressure and intensity when working through the muscles. The massage is aimed at releasing tense and painful muscle knots that are often associated with physical discomfort, stress, and headaches.3

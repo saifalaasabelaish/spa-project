@@ -1,23 +1,20 @@
-import { Link } from 'react-router-dom'
 import Footer from '../common/Footer'
-import Navbar from '../common/Navbar'
 import './ServicesPageTemplete.css'
+import { Link } from 'react-router-dom'
+
 
 const ServicesPageTemplete = (props) => {
   return (
     <>
-    <Navbar/>
-   
       <div className='ServicesPage p-5 w-12 top-50 start-50 bg-white justify-content-center align-items-xl-center align-items-xxl ' >
-        <div className="shadow h-10 w-100 p-4 mb-200 bg-white rounded justify-conten tbg-body callout">
-          <div className=' container start-4 col-12 '>
-
-          <nav aria-label="breadcrumb">
-  <ol className="breadcrumb">
-   <Link to="/ServicesPage"><li className="breadcrumb-item text-dark"><div>Services </div></li></Link>
+        <div className="shadow h-10 w-100 p-4 bg-white rounded justify-content tbg-body callout">
+        <nav aria-label="breadcrumb">
+        <ol className="breadcrumb">
+     <Link to="/ServicesPage"><li className="breadcrumb-item text-dark"><a>Services </a></li></Link>
     <li className="breadcrumb-item active" aria-current="page">{props.servicename}</li>
   </ol>
 </nav>
+          <div className=' container start-4 col-12'>
             <div className="ServicesPageTemplete ">
               <img src={props.imgg} className="img img-fluid " alt={props.alt}></img>
             </div></div>
@@ -42,15 +39,10 @@ const ServicesPageTemplete = (props) => {
               <p>{props.Paragraph4}
               </p>
             </div>
-          </div>
-           <Link to = "/BookingPage"className='btn buttonn p-3'>Do you want to experiment, go ahead?</Link></div></div>
+          </div> <Link to = "/BookingPage"className='btn buttonn p-3'>Do you want to experiment,go ahead?</Link></div></div>
           <Footer/>
-
-
     </>
   )
 }
-
-
 export default ServicesPageTemplete
 

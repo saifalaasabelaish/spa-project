@@ -8,7 +8,7 @@ const servicesData = [
         number: 1,
         servimg: "/images/skinclean.jpg",
         altt: "Skin Clean",
-        pagelink: "/SkinCarePage"
+        pagelink: "/SkinCleanPage"
     }
     ,
     {

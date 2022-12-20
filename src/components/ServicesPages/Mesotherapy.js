@@ -1,12 +1,15 @@
-
+import Navbar from '../common/Navbar'
+import HeaderPage from '../common/HeaderPage'
 import ServicesPageTemplete from './ServicesPageTemplete'
 
 const Mesotherapy= () =>
 { 
     return(
     <>
+      <Navbar/>
+    <HeaderPage title="Mesotherapy"/>
      <div className="ServicesPageTemplete ">
-    < ServicesPageTemplete imgg= './images/Mesotherapy.png'  alt="Mesotherapy"
+    < ServicesPageTemplete imgg= './images/Mesotherapy.png'  alt="Mesotherapy" servicename="-Skin Care"
         title1="What is mesotherapy?" Paragraph1=" Mesotherapy is a technique that uses injections of vitamins, enzymes, hormones, and plant extracts to rejuvenate and tighten skin, as well as remove excess fat.
         Michel Pistor, a doctor in France, developed the technique in 1952. It was originally used to relieve pain. In the years since, it has gained popularity in the United States and other parts of the world."
         title2="Today, mesotherapy is used to:"Paragraph2="remove fat in areas like the stomach, thighs, buttocks, hips, legs, arms, and face
