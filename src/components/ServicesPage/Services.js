@@ -16,7 +16,7 @@ const Services = (props) =>
           {
               return (
               <div className ="col-12 col-md-6 col-lg-6 col-xxl-8 mb-5">
-              <ServicesCard  ImgServices={service.servimg} altt={service.altt} key= {service.number} title = {service.sername} star={props.stars} content={service.description} price ={service.rate} serlink = {service.pagelink}/>
+              <ServicesCard  ImgServices={service.servimg} altt={service.altt} key= {service.numberr} title = {service.sername} star={props.stars} content={service.description} price ={service.rate} serlink = {service.pagelink}/>
               </div>
                )
           }
