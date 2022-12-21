@@ -15,9 +15,9 @@ const Products = (props) =>
             (product) => 
           {
               return (
-              <div className ="col-12 col-md-6 col-lg-4 col-xxl-3 ">
+              <div className ="col-12 col-md-6 col-lg-4 col-xl-3  ">
                 <div className = "mb-3">
-              <ShoppingCard ImgShoping={product.photo} key= {product.id} Content={product.name} Price ={product.price} />
+              <ShoppingCard imgshoping={product.photo} key= {product.id} content={product.name} price ={product.price} />
               </div>
               </div>
                )
