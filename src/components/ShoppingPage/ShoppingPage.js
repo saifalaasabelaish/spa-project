@@ -1,19 +1,18 @@
-/* eslint-disable no-lone-blocks */
 import './ShoppingPage.css'
+import ShoppingCard from "./ShoppingCard"
 import React, { useState } from "react";
 import Products from "./Products";
 import { useCart } from 'react-use-cart';
 import Cart from './Cart';
-import Navbar from '../common/Navbar';
 
+import HeaderPage from "./HeaderPage";
 const ShoppingPage = () => {
   const {totalItems}=useCart();
   const [category, setCategory] = useState("skincare");
   const eventHandler = (event) =>
   {
-    setCategory (event.target.id);
+    setCategory(event.target.id);
   }
-
   return (
     <>
     <div className="cart  justify-content-end d-flex me-4 mt-3">
@@ -23,25 +22,27 @@ const ShoppingPage = () => {
         </button>
     </div>
       <Cart/>
-      <div className="container " >
-        <div className="row ">
+  
+    <HeaderPage title="SHOPING PAGE" />
+      <div className="container" > 
+        <div className="row">
           {/* categories */}
-          <div className="col-12 col-md-4 col-lg-3  col-xxl-2">
-            <div className="card2  border shadow p-3 group d-flex ">
-              <div className="card-body ">
-                <div className=" btn-group-vertical d-flex justify-content-center" role="group" aria-label="Vertical button group" >
-                  < h6 className = "headercategory">PRODUCT <br/> CATEGORIES</h6>
-                  <button type="button" onClick={eventHandler} className="btn p-4 " id="skincare">Skin Care </button>
-                  <button type="button" onClick={eventHandler} className="btn p-4" id="makeup"> Make up</button>
-                  <button type="button" onClick={eventHandler} className="btn p-4" id="body-products">Body products </button>
-                  <button type="button" onClick={eventHandler} className="btn p-4" id="perfumes"> Perfumes </button>
-                  <button type="button" onClick={eventHandler} className="btn p-4" id="hair-products"> Hair products </button>
+          <div className="col-12 col-md-4 col-lg-3">
+            <div className="card border shadow p-3 d-flex w-100 mt-4">
+              <div className="card-body">
+              <div className="h4 text-center headercategory">CATEGORIES</div> {/*put the header as class based in rule*/ }
+                <div className="btn-group-vertical d-flex text-center" role="group" aria-label="Vertical button group" >
+                  <button type="button" onClick={eventHandler} className="btn categorybtn p-4 " id="skincare">Skin Care </button>
+                  <button type="button" onClick={eventHandler} className="btn categorybtn p-4"  id="makeup"> Make up</button>
+                  <button type="button" onClick={eventHandler} className="btn categorybtn p-4"  id="body-products">Body products </button>
+                  <button type="button" onClick={eventHandler} className="btn categorybtn p-4"  id="perfumes"> Perfumes </button>
+                  <button type="button" onClick={eventHandler} className="btn categorybtn p-4 "  id="hair-products"> Hair products </button>
                 </div>
               </div>
-            </div>
+            </div> 
           </div>
           {/* products */}
-          <div className="col-12 col-md-8 col-lg-9 col-xxl-9 offset-xl-1">
+          <div className="col-12 col-md-8 col-lg-9 col-xl-8 offset-xl-1  ">
             <div className="row mt-5">
                   <Products categorytype = {category} />
             </div>
@@ -51,8 +52,4 @@ const ShoppingPage = () => {
     </>
   )
 };
-
-
-
-
 export default ShoppingPage;
