@@ -151,7 +151,7 @@ const servicesData = [
         rate: "150.00$/Hour",
         cat: "body-care",
         description: "A visit to a Turkish bath or Hamam is one of the most memorable experiences you will have in Istanbul. Check out all the authentic baths in Istanbul and compare the prices of Turkish bath and services. Book your hamam ticket online and walk past the queue when you arrive at the bath house.",
-        number: 15,
+        number: 14,
         servimg: "/images/TurkishBath.jpg",
         altt: "Turkish Bath",
         pagelink: "/TurkishBathPage"
@@ -162,7 +162,7 @@ const servicesData = [
         rate: "100.00$/Hour",
         cat: "body-care",
         description: "The Sauna and Steam Room Center has all the right solutions for your Sauna needs. No matter  the size of your space, we can help. Pick from our line of prebuilt Infrared or Traditional saunas.",
-        number: 14,
+        number: 15,
         servimg: "/images/sauna.png",
         altt: "Sauna",
         pagelink: "/SaunaPage"
