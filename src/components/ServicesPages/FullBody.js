@@ -1,12 +1,15 @@
-
+import Navbar from '../common/Navbar'
+import HeaderPage from '../common/HeaderPage'
 import ServicesPageTemplete from './ServicesPageTemplete'
 
 const FullBody= () =>
 { 
     return(
     <>
+      <Navbar/>
+    <HeaderPage title="Full Body"/>
      <div className="ServicesPageTemplete ">
-    < ServicesPageTemplete imgg= './images/full body laser.png'  alt="FullBody"
+    < ServicesPageTemplete imgg= './images/full body laser.png'  alt="FullBody" servicename="-Laser Services"
         title1="Why Might Someone Opt For Full Body Hair Removal?" Paragraph1="Laser hair removal is a fairly new hair removal method. Although it is increasingly popular, still too few research has been conducted on many aspects of the procedure. That is why we advise pregnant women not to undergo laser treatments. Indeed, we do not know how it could impact the fetus.
 
         Although risks are very rare, they still exist. They can however be avoided if the patients strictly follow pre and pot-session care recommendations. The treatment also has a few contraindications. However, laser hair removal remains very safe.

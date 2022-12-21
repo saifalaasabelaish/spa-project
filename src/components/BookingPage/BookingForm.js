@@ -1,6 +1,7 @@
 import './Booking.css'
 import ServiceBooking from './ServicesBooking'
 const BookingForm = (props) => {
+    
     return (
         <><div className='booking'>
             <form className="was-validated">
@@ -20,7 +21,7 @@ const BookingForm = (props) => {
                 </div>
                 <div className="mb-3">
                     <label htmlFor="exampleInputAddress" className="form-label">Address</label>
-                    <input type="address" className="form-control" id="exampleInputAddress" aria-describedby="addressHelp" placeholder="Required Address" required />
+                    <input type="address" className="form-control" id="address" aria-describedby="addressHelp" placeholder="Required Address" required />
                 </div>
                 <ServiceBooking />
                 <div className="form-check form-check-inline">

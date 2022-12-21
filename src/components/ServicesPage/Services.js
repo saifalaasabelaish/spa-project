@@ -9,7 +9,7 @@ const Services = (props) =>
           servicesData
           .filter
           (
-              service => (service.cat == typee)
+              service => (service.cat === typee)
           )
           .map(
             (service) => 

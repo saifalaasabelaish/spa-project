@@ -1,13 +1,16 @@
-
+import Navbar from '../common/Navbar'
+import HeaderPage from '../common/HeaderPage'
 import ServicesPageTemplete from './ServicesPageTemplete'
 
 
-const HairBye = () =>
+const HairColor = () =>
 { 
     return(
     <>
+      <Navbar/>
+    <HeaderPage title="HairColor"/>
      <div className="ServicesPageTemplete "> 
-    < ServicesPageTemplete imgg= './images/Hair dye .png'  alt="Hair dye"
+    < ServicesPageTemplete imgg= './images/Hair dye .png'  alt="HairColor" servicename="-Salon Services"
         title1=" Abstract" Paragraph1="Hair dye cosmetic products are used for colouring hair. These products are mainly classified into
          two categories according to their duration in the hair, i.e., temporary and permanent. This classification
           is in line with the type of active ingredients involved in the dyeing process and with the dyeing process itself,
@@ -41,4 +44,4 @@ const HairBye = () =>
      
     </>)
             }
- export default   HairBye 
+ export default   HairColor 

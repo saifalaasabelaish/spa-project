@@ -1,14 +1,16 @@
-
+import Navbar from '../common/Navbar'
+import HeaderPage from '../common/HeaderPage'
 import ServicesPageTemplete from './ServicesPageTemplete'
 
-const HairCare = () =>
+const HairCutAndStyle = () =>
 { 
     return(
     <>
-   
+     <Navbar/>
+    <HeaderPage title="Hair Cut & Style"/>
     <div className="ServicesPageTemplete "> 
-    < ServicesPageTemplete imgg= './images/Hair care1.png'  alt="Hair care"
-        title1="About Us" Paragraph1=" Hair care is an overall term for hygiene and cosmetology involving the hair which grows from the human scalp,
+    < ServicesPageTemplete imgg= './images/Hair care1.png'  alt="Hair Cut & Style"  servicename="-Salon Services"
+        title1="About Us" Paragraph1="   Hair care is an overall term for hygiene and cosmetology involving the hair which grows from the human scalp,
         and to a lesser extent facial, pubic and other body hair. Hair care routines differ according to an individual's
          culture and the physical characteristics of one's hair. Hair may be colored, trimmed, shaved, plucked or otherwise
           removed with treatments such as waxing, sugaring and threading. Hair care services are offered in salons, barbershops and day spas,
@@ -40,5 +42,5 @@ const HairCare = () =>
                </>)
             }
             
-            export default HairCare
+            export default  HairCutAndStyle
             
