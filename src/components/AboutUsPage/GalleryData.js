@@ -1,88 +1,118 @@
 export const GalleryData = [
     {
         id:1,
-        titile:"nails",
-        
-        image:"./images/n1.png"
+        titile:"SPA ROOMS",
+        image:"./images/na1.png"
     },
     {
         id:2,
-        titile:"nails",
-        image:"./images/n2.png"
+        titile:"SPA ROOMS",
+        image:"./images/na.png"
     },
     {
         id:3,
-        titile:"nails",
-        image:"./images/n3.png"
+        titile:"SPA ROOMS",
+        image:"./images/na3.png"
     },
-    {
-        id:4,
-        titile:"nails",
-        image:"./images/n4.png"
-    },
+   
     {
         id:5,
-        titile:"paraffine",
-        image:"./images/b1.png"
+        titile:"new devices",
+        image:"./images/la1.png"
     },
     {
         id:6,
-        titile:"paraffine",
+        titile:"new devices",
         image:"./images/b2.png"
     },
     {
         id:7,
-        titile:"Hydarafacial",
+        titile:"Hydarafacial Devices",
         image:"./images/s1.png"
     },
     {
         id:8,
-        titile:"Hydarafacial",
+        titile:"Hydarafacial Devices",
         image:"./images/s2.png"
     },
     {
         id:9,
-        titile:"bodycare",
-        image:"./images/s3.png"
+        titile:"Cosmetology certifications",
+        image:"./images/ce.png"
     },
     {
         id:10,
-        titile:"massage",
-        image:"./images/s4.png"
+        titile:"OUR FEEDBACK",
+        image:"./images/f1.png"
     },
     {
         id:11,
-        titile:"massage",
-        image:"./images/s5.png"
+        titile:"OUR FEEDBACK",
+        image:"./images/f2.png"
     },
     {
         id:12,
-        titile:"massage",
-        image:"./images/s6.png"
+        titile:"OUR FEEDBACK",
+        image:"./images/f3.png"
     },
     {
         id:13,
-        titile:"hair",
-        image:"./images/h1.png"
+        titile:"hair devices",
+        image:"./images/hh.png"
     },
     {
         id:14,
-        titile:"hair",
-        image:"./images/h2.png"
+        titile:"hair devices",
+        image:"./images/dd.png"
     },
     {
         id:15,
-        titile:"hair",
-        image:"./images/h3.png"
+        titile:"hair devices",
+        image:"./images/ag.png"
     },
     {
         id:16,
-        titile:"hair",
-        image:"./images/h4.png"
+        titile:"hair devices",
+        image:"./images/z4.png"
     },
     {
         id:17,
-        titile:"hair",
-        image:"./images/h5.png"
+        titile:"hair devices",
+        image:"./images/z5.png"
+    },
+    {
+        id:18,
+        titile:"SPA ROOMS",
+        image:"./images/sp2.png"
+    },
+    {
+        id:19,
+        titile:"SPA ROOMS",
+        image:"./images/sp3.png"
+    },
+    {
+        id:20,
+        titile:"SPA ROOMS",
+        image:"./images/sp1.png"
+    },
+    {
+        id:21,
+        titile:"SPA ROOMS",
+        image:"./images/sp4.png"
+    },
+    {
+        id:22,
+        titile:"new devices",
+        image:"./images/Ha3.png"
+    },
+    {
+        id:23,
+        titile:"new devices",
+        image:"./images/Ha1.png"
+    },
+    {
+        id:24,
+        titile:"Cosmetology certifications",
+        image:"./images/cc.png"
     },
 ]
