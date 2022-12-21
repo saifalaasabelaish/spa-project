@@ -6,7 +6,7 @@
   
   body{
     background: #ffffff;
-    font-family: sans-serif;
+    font-family: 'Titillium Web', sans-serif;
   }
   
   
@@ -15,17 +15,37 @@
   }
   
   .wrapper h1{
-    font-family: sans-serif;
-    font-size: 52px;
+    font-family: 'Titillium Web', sans-serif;
     margin-bottom: 60px;
     text-align: center;
-    color: rgb(12, 12, 12);
+    color: #a58e49;
+    font-size: 115px;
+
+
+  }
+  .wrapper h4{
+    font-family: 'Titillium Web', sans-serif;
+    color: #ffffff;
+    background-color: #c197d5;
+    text-align: center;
+    font-weight: bold;
+
   }
   .container p{
-    color: #a58e49;
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Titillium Web', sans-serif;
+    background-color: #78e9d2;
+
   }
   .container button{
-    color: #78e9d2;
+    color: #000000;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 25px;
+    background-color:#78e9d2;
+
+
   }
   
   
@@ -41,29 +61,36 @@
     background: #78e9d2;
     margin: 5px;
     margin-bottom: 50px;
-    width: 300px;
-    padding: 20px;
+    width: 400px;
+    padding: 50px;
     line-height: 20px;
     color: #a58e49;  
     position: relative;
   }
   
   .team .team_member h3{
-    color: #a58e49;
+    color: #ffffff;
     font-size: 26px;
     margin-top: 50px;
     font-family: sans-serif;
+    background-color:#78e9d2 ;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+
 
   }
   
   .team .team_member p.role{
     color: rgb(165, 115, 23);
     margin: 12px 0;
-    font-size: 12px;
+    font-size: 16px;
     text-transform: uppercase;
-    font-family: sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+
 
   }
+  
   
   .team .team_member .team_img{
     position: absolute;
@@ -77,9 +104,11 @@
   }
   
   .team .team_member .team_img img{
-    width: 100px;
-    height: 100px;
-    padding: 5px;
+    width:130px;
+    height:130px;
+    padding:50;
     border-radius: 100%;
+
+  
   }
   
