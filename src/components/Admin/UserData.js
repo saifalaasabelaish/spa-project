@@ -22,7 +22,7 @@ export const UserData =[
         "phone" : "051279498",
         "service":"Massage",
         "serviceTime":"9:00 AM",
-        "serviceDay":"Sunday"
+        "serviceDay":"sunday"
 
     },
     
