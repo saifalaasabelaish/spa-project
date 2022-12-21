@@ -1,51 +1,5 @@
 import './Team.css'
-/*
-const Team = () => {
-    return (
-     <div className="container">
-    
-     <div className="content">
-         <div className="columan">
-             <h3>TEAM</h3>
-             <p> " He who possesses beauty in the first place is the one who
-                possesses mercy and tolerance in his heart for others 
-                and for himself as well,as this beauty is
-                 what illuminates the heart and enchants the soul."
-               
-             </p>
-             <button type="button">Show More</button>
-             
-         </div>
-         <div className="columan">
-             <div className="Team t1">
-                 <h3>Alma Ali</h3>
-                 <img  src="/images/m1.png" alt="m1" />
 
-                 
-             </div>
-             <div className="Team t2">
-                 <h3>Ella Bader</h3>
-                 <img  src="/images/m2.png" alt="m2" />
-
-             </div>
-             <div className="Team t3">
-                 <h3>Ala Omar</h3>
-                 <img  src="/images/m3.png" alt="m3" />
-
-             </div>
-             <div className="Team t4">
-                 <h3>Hala Anas</h3>
-                 <img  src="/images/m4.png" alt="m4" />
-
-             </div>
-         </div>
-     </div>
- </div>
-              
-    )
- }
- export default Team;
- */
  const Team = () => {
     return (
 <div className="container">
@@ -53,7 +7,7 @@ const Team = () => {
     <div className="content">
         <div className="columan">
           
-            <p> " He who possesses beauty in the first place is the one who
+            <p> "  who possesses beauty in the first place is the one who
                possesses mercy and tolerance in his heart for others 
                and for himself as well,as this beauty is
                 what illuminates the heart and enchants the soul."
@@ -63,7 +17,11 @@ const Team = () => {
             
        
             <div className="wrapper">
+            <h4>
+ " Here we have an elite team that is always brilliant and brilliant in this field of work "
+ </h4>
  <h1>Meet Our Team</h1>
+ 
  <div className="team">
    <div className="team_member">
      <div className="team_img">
