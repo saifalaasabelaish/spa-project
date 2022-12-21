@@ -13,7 +13,7 @@ const BookNowButton = () => {
     });
 
     const Check = () => {
-        if (filteredJson === 1)
+        if (filteredJson === true)
             alert("Already Booked , Please Choose another day");
         else
             alert("Succesful");
