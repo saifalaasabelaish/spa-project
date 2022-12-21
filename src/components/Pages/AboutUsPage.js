@@ -7,10 +7,10 @@ const AboutUsPage = () => {
     return (
         <>
         <Navbar/>
-        <Footer/>
         <HeaderPage/>
         <GalleryAbout/>
         <Team/>
+        <Footer/>
 
         </>
       
