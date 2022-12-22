@@ -1,8 +1,8 @@
-.header2 {
+.headerpage {
     color: white;
     background-color: #c197d5;
-    font-family: PT serif;
-    font-size: 35px;
-    letter-spacing: 0.9rem;
-    padding: 2rem;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: auto;
+    letter-spacing: 0.7rem;
+    padding: 1rem;
 }
