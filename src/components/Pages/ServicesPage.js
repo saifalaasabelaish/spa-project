@@ -25,7 +25,7 @@ const ServicesPage = () => {
                 <button onClick={eventHandler} className="btn" id="laser-servises"> Laser Services </button>
               </div>
             </div>
-            <div className="row mt-5">
+            <div className="row mt-5 col-12 col-md-12 col-lg-12 col-xl-12  ">
               <Services categorytype={category} />
             </div>
           </div>
