@@ -1,82 +1,45 @@
-import { Link } from "react-router-dom";
 import Footer from "../common/Footer";
 import HeaderPage from "../common/HeaderPage";
 import Navbar from "../common/Navbar";
 import "./Contact.css"
-
 const Contact = () => {
-
   return (
     <>
       <Navbar />
-      <HeaderPage title="CONTACT US" />
-    
-        <form class="row g-3 needs-validation" novalidate>
-  <div class="col-md-4">
-    <label for="validationCustom01" class="form-label">First name</label>
-    <input type="text" class="form-control" id="validationCustom01" value="Mark" required/>
-    <div class="valid-feedback">
-      Looks good!
-    </div>
-  </div>
-  <div class="col-md-4">
-    <label for="validationCustom02" class="form-label">Last name</label>
-    <input type="text" class="form-control" id="validationCustom02" value="Otto" required/>
-    <div class="valid-feedback">
-      Looks good!
-    </div>
-  </div>
-  <div class="col-md-4">
-    <label for="validationCustomUsername" class="form-label">Username</label>
-    <div class="input-group has-validation">
-      <span class="input-group-text" id="inputGroupPrepend">@</span>
-      <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required/>
-      <div class="invalid-feedback">
-        Please choose a username.
+      <div className="contact mb-5">
+        <img src='images\contact.png' className="d-block w-100 img-fuild" alt="homeslider" />
+        <HeaderPage title="CONTACT US" />
+        <div className="m-5">
+          <h1>Questions for Our Full-Service Spa and Salon? Contact Us!</h1>
+          <p className="fs-5 mt-4">If you have questions about our salon and spa services, whether they are about massage therapy, manicures and pedicures,
+            or anything in between, our team will gladly offer an answer. With a professional, knowledgeable staff that have distinguished themselves in their
+            fields, we’re confident that no matter what concerns or questions you may have we can provide you with the information that you need.<br />
+            A wellness center offers a well-rounded relaxation and fitness services for tired body and stressed mind. Nevertheless, everyone deserves to relax and rewind from the pressures
+            of modern life. Being treated in a wellness center is a well-deserved.</p>
+        </div>
+        <div className="container">
+          <div className="row">
+            <div className="col-12 col-md-6 col-lg-6 col-xxl-6">
+              <form className="contactform p-3">
+                <div className="row">
+                  <div className="col">
+                    <input type="text" className="form-control" placeholder="Name" name="name" /></div>
+                  <div className="col">
+                    <input type="phone" className="form-control mb-4" placeholder="Phone" name="phone" />
+                  </div>
+                </div>
+                <input type="email" className="form-control mb-4" id="exampleFormControlInput1" placeholder="Email" />
+                <textarea className="form-control mb-4" id="exampleFormControlTextarea1" placeholder="How may we help you?" rows="7"></textarea>
+                <button className="btn contactbtn mb-5" type="submit">SEND MESSAGE</button>
+              </form>
+            </div>
+            <div className="col-12 col-md-6 col-lg-6 col-xxl-6 ">
+              <iframe title ="map" className="gmap_iframe w-100 h-100 mapframe" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=najah&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-  <div class="col-md-6">
-    <label for="validationCustom03" class="form-label">City</label>
-    <input type="text" class="form-control" id="validationCustom03" required/>
-    <div class="invalid-feedback">
-      Please provide a valid city.
-    </div>
-  </div>
-  <div class="col-md-3">
-    <label for="validationCustom04" class="form-label">State</label>
-    <select class="form-select" id="validationCustom04" required>
-      <option selected disabled value="">Choose...</option>
-      <option>...</option>
-    </select>
-    <div class="invalid-feedback">
-      Please select a valid state.
-    </div>
-  </div>
-  <div class="col-md-3">
-    <label for="validationCustom05" class="form-label">Zip</label>
-    <input type="text" class="form-control" id="validationCustom05" required/>
-    <div class="invalid-feedback">
-      Please provide a valid zip.
-    </div>
-  </div>
-  <div class="col-12">
-    <div class="form-check">
-      <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required/>
-      <label class="form-check-label" for="invalidCheck">
-        Agree to terms and conditions
-      </label>
-      <div class="invalid-feedback">
-        You must agree before submitting.
-      </div>
-    </div>
-  </div>
-  <div class="col-12">
-    <button class="btn btn-primary" type="submit">Submit form</button>
-  </div>
-</form>
-  
-        <Footer/>
-   </>)
+      <Footer />
+    </>)
 }
 export default Contact;

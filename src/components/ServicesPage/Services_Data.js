@@ -8,7 +8,7 @@ const servicesData = [
         number: 1,
         servimg: "/images/skinclean.jpg",
         altt: "Skin Clean",
-        pagelink: "/SkinCarePage"
+        pagelink: "/SkinCleanPage"
     }
     ,
     {
@@ -37,9 +37,9 @@ const servicesData = [
         sername: "Cell Regeneration ",
         rate: "30.00$/Hour",
         cat: "skin-care",
-        description: "ermapen is a microneedling treatment to improve scars, acne scars, stretch marks, wrinkles, discoloration, and skin rejuvenation.The benefits of Derma Pen for the face begin the skin's self-healing process by supporting wound-free skin healing and natural collagen production.",
+        description: "ermapen is a microneedling treatment to improve scars, acne scars, stretch marks, wrinkles, discoloration, and skin rejuvenation.The benefits of Derma Pen for the face begin the skin's self-healing.",
         number: 4,
-        servimg: "/images/cell.jpg",
+        servimg: "/images/CellRegeneration.png",
         altt: "Cell Regeneration ",
         pagelink: "/CellRegenerationPage"
     },
@@ -48,22 +48,22 @@ const servicesData = [
         sername: "Hair Cut & Style",
         rate: "50.00$/Hour",
         cat: "salon-services",
-        description: "SPA salon professionals offer you versatile and customized options. Using the latest techniques, you can expect a superior cut and style when you experience Radiance.",
+        description: "Get your hair styled from our professionals, SPA salon professionals offer you versatile and customized options. Using the latest techniques, you can expect a superior cut and style when you experience Radiance.",
         number: 5,
         servimg: "/images/HairCutStyle.jpg",
         altt: "Hair Cut & Style",
-        pagelink: "/SkinCarePage"
+        pagelink: "/HairCutPage"
     }
     ,
     {
         sername: "Hair Color",
         rate: "30.00$/Hour",
         cat: "salon-services",
-        description: "Hair color can be your crowning glory or an expression of your true personality. At Radiance we embrace hair of every color. ",
+        description: "Hair color can be your crowning glory or an expression of your true personality. At Radiance we embrace hair of every color.This process involves in applying color all over to create a new base color.  ",
         number: 6,
         servimg: "/images/haircolor.jpg",
         altt: "Hair Color",
-        pagelink: "/SkinCarePage"
+        pagelink: "/HairColorPage"
     }
     ,
     {
@@ -85,7 +85,7 @@ const servicesData = [
         number: 8,
         servimg: "/images/nails.jpg",
         altt: "Nails",
-        pagelink: "/SkinCarePage"
+        pagelink: "/NailsPage"
     }
     //message
     ,
@@ -120,18 +120,18 @@ const servicesData = [
         number: 11,
         servimg: "/images/BodyMassage.jpg",
         altt: "Body Massage",
-        pagelink: "/SkinCarePage"
+        pagelink: "/BodyMassagePage"
     }
     ,
     {
         sername: "Foot Massage",
         rate: "70.00$/Hour",
         cat: "massage",
-        description: "Although the massage of the feet is often underestimated, it is not so simple. When done properly, it involves applying pressure to certain points on the foot that correspond to and affect various organs and body systems. This technique is very relaxing, especially for people who spend most of their time on foot or just suffer from pain and fatigue in feet.",
+        description: "Although the massage of the feet is often underestimated, it is not so simple. When done properly, it involves applying pressure to certain points on the foot that correspond to and affect various organs and body systems. This technique is very relaxing.",
         number: 12,
         servimg: "/images/FootMassage.jpg",
         altt: "Foot Massage",
-        pagelink: "/SkinCarePage"
+        pagelink: "/FootMassagePage"
     }
     // body care
     ,
@@ -139,22 +139,11 @@ const servicesData = [
         sername: "Body Hydration",
         rate: "100.00$/Hour",
         cat: "body-care",
-        description: "Since ancient times, sea water was used for therapeutic purposes. The term “Thalassotherapy” promotes the healing properties of the sea through an increasingly sought after alternative method for the body. Eliminate stress and daily anxiety and offer your body an experience of relaxation, stimulation and wellness through aromatherapy.",
+        description: "Since ancient times, sea water was used for therapeutic purposes. The term “Thalassotherapy” promotes the healing properties of the sea through an increasingly sought after alternative method for the body. Eliminate stress and daily anxiety and offer your body an experience of relaxation.",
         number: 13,
         servimg: "/images/BodyHydration.jpg",
         altt: "Body Hydration",
         pagelink: "/BodyHydrationPage"
-    }
-    ,
-    {
-        sername: "Sauna",
-        rate: "100.00$/Hour",
-        cat: "body-care",
-        description: "The Sauna and Steam Room Center has all the right solutions for your Sauna needs. No matter  the size of your space, we can help. Pick from our line of prebuilt Infrared or Traditional saunas, you just have to plug them in and they are ready to go.",
-        number: 14,
-        servimg: "/images/Sauna.jpg",
-        altt: "Sauna",
-        pagelink: "/SaunaPage"
     }
     ,
     {
@@ -166,6 +155,17 @@ const servicesData = [
         servimg: "/images/TurkishBath.jpg",
         altt: "Turkish Bath",
         pagelink: "/TurkishBathPage"
+    }
+    ,
+    {
+        sername: "Sauna",
+        rate: "100.00$/Hour",
+        cat: "body-care",
+        description: "The Sauna and Steam Room Center has all the right solutions for your Sauna needs. No matter  the size of your space, we can help. Pick from our line of prebuilt Infrared or Traditional saunas.",
+        number: 14,
+        servimg: "/images/sauna.png",
+        altt: "Sauna",
+        pagelink: "/SaunaPage"
     }
     ,
     {
@@ -217,10 +217,9 @@ const servicesData = [
         sername: "Full Body Laser",
         rate: "200.00$/Hour",
         cat: "laser-servises",
-        description: "our priorities are safety, health and results. Our state-of-art laser technology is FDA Approved and a totally safe procedure. The patented ChillTip technology is designed to protect the outer layer of the skin by decreasing the surface temperature, thus making the procedure highly comfortable.",
+        description: "Our state-of-art laser technology is FDA Approved and a totally safe procedure. The patented ChillTip technology is designed to protect the outer layer of the skin.",
         number: 20,
         servimg: "/images/laserbody.jpg",
-        sername: "Full Body Laser",
         pagelink: "/FullBodyPage"
     }
 ]

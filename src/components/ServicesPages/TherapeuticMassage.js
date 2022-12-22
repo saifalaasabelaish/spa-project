@@ -1,12 +1,15 @@
-
+import Navbar from '../common/Navbar'
+import HeaderPage from '../common/HeaderPage'
 import ServicesPageTemplete from './ServicesPageTemplete'
 
 const TherapeuticMassage= () =>
 { 
     return(
     <>
+      <Navbar/>
+    <HeaderPage title="Therapeutic Massag"/>
      <div className="ServicesPageTemplete "> 
-    < ServicesPageTemplete imgg= './images/TherapeuticMassage.png'  alt="TherapeuticMassage"
+    < ServicesPageTemplete imgg= './images/TherapeuticMassage.png'  alt="TherapeuticMassage" servicename="-Massage"
         title1="What Is Therapeutic Massage?" Paragraph1="Therapeutic massage is a type of complementary and alternative medicine (CAM) practice that is often used to treat muscle pain, injury, and stiffness. Massage therapy has also been used for the treatment of mental and emotional problems, including stress, anxiety, and depression.1
 
         Also considered a relaxation technique, massage therapy may be able to help reduce tension and elicit feelings of calm and deep relaxation. Additionally, massage may be able to curb feelings of fear and anxiety and assist in managing other panic disorder symptoms "
