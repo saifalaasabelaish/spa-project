@@ -28,14 +28,15 @@ import Nails from './components/ServicesPages/Nails';
 import SkinClean from './components/ServicesPages/SkinClean';
 import ChartsPage from './components/Admin/ChartsPage';
 import TablesPage from './components/Admin/TablesPage';
+import Admin from './components/Admin/Admin';
 
 export default function App() {
   return (
 
     <Router>
       <Routes>
-        {/* <Route path="/" element={<Admin />} /> to Admin Page*/} 
-        <Route path="/" element={<HomePage />} />
+       {/* <Route path="/" element={<Admin />} />  */}
+        <Route path="/" element={<HomePage />} /> 
         <Route path="/About" element={<AboutUsPage />} />
         <Route path="/Contact" element={<ContactPage />} />
         <Route path="/ServicesPage" element={<ServicesPage />} />

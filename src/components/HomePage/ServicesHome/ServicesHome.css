@@ -29,11 +29,13 @@
     align-items: center;
     flex-direction: column;
     padding: 8px;
-    box-shadow: 1px 5px 3px 5px rgba(0, 0, 0, 0.145);
+  border-bottom: 4px solid #C197D5;
+    animation: fadeInRight 3s ease forwards;
+    
 }
 
 .services .services-card:hover {
-    box-shadow: 10px 10px 20px 10px rgba(0, 0, 0, 0.253);
+    box-shadow: 3px 3px 5px 4px rgba(0, 0, 0, 0.253);
     transition: all 0.7s ease;
     transform: scale(1.05);
 }

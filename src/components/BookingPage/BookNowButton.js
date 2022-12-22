@@ -1,4 +1,6 @@
+
 import './Booking.css'
+
 const BookNowButton = () => {
 
 

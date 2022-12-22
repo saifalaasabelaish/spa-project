@@ -25,8 +25,24 @@ const BookingForm = (props) => {
                 </div>
                 <ServiceBooking />
                 <div className="form-check form-check-inline">
-                    <input className="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1"></input>
-                    <label className="form-check-label" htmlFor="inlineCheckbox1">remind me</label></div>
+                    <input className="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1" data-bs-toggle="modal" data-bs-target="#exampleModal"></input>
+                    <label className="form-check-label" htmlFor="inlineCheckbox1" data-bs-toggle="modal" data-bs-target="#exampleModal">remind me</label></div>
+                <div className="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div className="modal-dialog">
+                        <div className="modal-content">
+                            <div className="modal-header">
+                                <h1 className="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                                <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div className="modal-body">
+                                We will remind you of the appointment by e-mail one day before the booked date
+                            </div>
+                            <div className="modal-footer">
+                                <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Ok!</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 {props.children}
             </form>
         </div>
