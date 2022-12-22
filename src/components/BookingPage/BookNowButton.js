@@ -10,9 +10,6 @@ const Check=()=>{
     return(
         alert("Already Booked , Please Choose another day")
     )
-
-
-
 }
 const BookNowButton = () => {
 
