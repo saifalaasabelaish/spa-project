@@ -1,7 +1,6 @@
 const servicesData = [
     {
         sername: "Skin Clean",
-        stars :"kj",
         rate: "100.00$/Hour",
         cat: "skin-care",
         description: "If you’re prone to breakouts or have oily skin, don’t skimp on washing your face as part of your morning and evening skin care routine. In a studyTrusted Source that focused specifically on face.",

@@ -17,7 +17,7 @@ const ServicesPage = () => {
         <div className="row">
           <div className="col-12 col-md-12 col-lg-12">
             <div className="filser card border shadow p-4 mt-4">
-              <div class="btn-group align-items-center justify-content-center" role="group" aria-label="Services">
+              <div className="btn-group align-items-center justify-content-center" role="group" aria-label="Services">
                 <button onClick={eventHandler} className="btn" id="skin-care">Skin Care </button>
                 <button onClick={eventHandler} className="btn" id="salon-services">Salon Services </button>
                 <button onClick={eventHandler} className="btn" id="massage">Massage </button>
@@ -25,7 +25,7 @@ const ServicesPage = () => {
                 <button onClick={eventHandler} className="btn" id="laser-servises"> Laser Services </button>
               </div>
             </div>
-            <div className="row mt-5 col-12 col-md-12 col-lg-12 col-xl-12  ">
+            <div className="row mt-5 col-12 col-md-12 col-lg-12 col-xl-12">
               <Services categorytype={category} />
             </div>
           </div>
