@@ -3,7 +3,7 @@ function AdminDataTable() {
     const DisplayData = UserData.map((info) => {
         return (
             
-            <tr key={info.id}>
+            <tr key={info.id}>/
                 <td>{info.id}</td>
                 <td>{info.name}</td>
                 <td>{info.email}</td>
