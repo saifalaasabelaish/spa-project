@@ -50,7 +50,7 @@ photo : "./images/mask3.jpg"
 ,
 {
     name : "Face Oli" ,
-    price : "50.00$" , 
+    price : 50 , 
     cat : "skincare",
     id : 7 , 
     photo : "./images/Hair2.jpg"
@@ -58,7 +58,7 @@ photo : "./images/mask3.jpg"
 ,
 {
     name : " Face Cream" ,
-    price : "19.00$" , 
+    price : 19 , 
     cat : "skincare",
     id : 8, 
     photo : "./images/Hair1.jpg"
@@ -165,7 +165,7 @@ photo : "./images/mask3.jpg"
     //perfumes
     {
         name : "Mademoiselle" ,
-        price : "43.00$" , 
+        price : 43 , 
         cat : "perfumes" ,
         id : 21 ,
         photo : "./images/perfume1.webp"
@@ -190,7 +190,7 @@ photo : "./images/mask3.jpg"
         ,
         {
             name : "Chance Eau" ,
-            price : "18.00$" , 
+            price : 18 , 
             cat : "perfumes",
             id : 24 , 
             photo : "./images/perfume77.webp"
@@ -206,7 +206,7 @@ photo : "./images/mask3.jpg"
         ,
         {
             name : "Gabrielle" ,
-            price : "53.00$" , 
+            price : 53, 
             cat : "perfumes",
             id : 26 , 
             photo : "./images/perfume55.webp"
@@ -239,7 +239,7 @@ photo : "./images/mask3.jpg"
         ,
         {
             name : " Conditioner" ,
-            price : "18.00$" , 
+            price : 18.00 , 
             cat : "hair-products",
             id : 30 , 
             photo : "./images/hair4.jpg"
