@@ -12,22 +12,19 @@ const ServicesPage = () => {
   return (
     <>
       <Navbar />
-      <HeaderPage title=" Services " />
+      <HeaderPage title=" Services" />
       <div className="ser container">
         <div className="row">
-          <div className="col-12 ">
-            <div className="filser w-100 border shadow p-1 group d-flex ">
-              <div className="card-body ">
-                <div className=" btn-group d-flex justify-content-center" role="group" aria-label="button group" >
-                  <button onClick={eventHandler} className="btn p-4 " id="skin-care">Skin Care </button>
-                  <button onClick={eventHandler} className="btn p-4" id="salon-services">Salon Services </button>
-                  <button onClick={eventHandler} className="btn p-4" id="massage">Massage </button>
-                  <button onClick={eventHandler} className="btn p-4" id="body-care"> Body Care </button>
-                  <button onClick={eventHandler} className="btn p-4" id="laser-servises"> Laser Services </button>
-                </div>
+          <div className="col-12 col-md-12 col-lg-12">
+            <div className="filser card border shadow p-4 mt-4">
+              <div class="btn-group align-items-center justify-content-center" role="group" aria-label="Services">
+                <button onClick={eventHandler} className="btn" id="skin-care">Skin Care </button>
+                <button onClick={eventHandler} className="btn" id="salon-services">Salon Services </button>
+                <button onClick={eventHandler} className="btn" id="massage">Massage </button>
+                <button onClick={eventHandler} className="btn" id="body-care"> Body Care </button>
+                <button onClick={eventHandler} className="btn" id="laser-servises"> Laser Services </button>
               </div>
             </div>
-            {/* products */}
             <div className="row mt-5">
               <Services categorytype={category} />
             </div>
