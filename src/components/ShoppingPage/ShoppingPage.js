@@ -1,5 +1,5 @@
-import './ShoppingPage.css'
-import ShoppingCard from "./ShoppingCard"
+/* eslint-disable no-lone-blocks */
+import '../ShoppingPage/ShoppingPage.css'
 import React, { useState } from "react";
 import Products from "./Products";
 import { useCart } from 'react-use-cart';
@@ -14,7 +14,7 @@ const ShoppingPage = () => {
     setCategory(event.target.id);
   }
   return (
-    <>
+    <>  
     <div className="cart  justify-content-end d-flex me-4 mt-3">
       <button data-bs-toggle="offcanvas" data-bs-target="#offcanvas" aria-controls="offcanvas" className="btn btn-outline-primary">
           <i className="fas fa-shopping-cart"></i>

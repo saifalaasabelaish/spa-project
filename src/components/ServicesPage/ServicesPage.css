@@ -1,18 +1,38 @@
-.card:hover {
-    box-shadow: 10px 10px 20px 10px rgba(0, 0, 0, 0.253);
-    transition: all 0.3s ease;
-    transform: scale(1.1);
-    z-index: 2;
+.ser .btnser {
+    background-color: #c197d5;
+    color: rgb(255, 255, 255);
+    border-radius: 3px;
+    font-family: 'Titillium Web', sans-serif;
+    float: right;
 }
 
-.card-text {
-    font-size: .9rem padding 0.4rem 1.9rem
+.ser .btnser:hover {
+    background-color: #a97abd;
+    transition: 0.4s;
 }
 
-.container-fluid.row {
-    padding-top: 6rem;
+.ser .filser {
+    background-color: #c197d5;
+    font-family: 'Titillium Web', sans-serif;
 }
 
-.header-texts {
-    color: rgb(0, 0, 0);
+.ser button {
+    color: #fff;
+}
+
+.ser button:hover {
+    color: rgb(225, 216, 249);
+}
+
+.ser .img-fluid {
+    height: 200px;
+    width: 200px;
+}
+.ser .servicecard{
+    font-family: 'Titillium Web', sans-serif;
+    border: 1px solid #c197d5;
+}
+
+.ser .servicecard:hover{
+    box-shadow: 1px 5px 5px 5px rgba(0, 0, 0, 0.253);
 }

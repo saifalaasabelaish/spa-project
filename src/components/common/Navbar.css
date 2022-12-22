@@ -1,17 +1,3 @@
-.navbarr ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #c197d5;
-}
-
-.navbarr .rightfloat li {
-  float: right;
-  font-size: 18px;
-  font-family: 'Titillium Web', sans-serif;
-}
-
 .navbarr li a,
 .dropbtn {
   display: inline-block;
@@ -32,4 +18,10 @@
   height: 40px;
 }
 
-/* Areen work , class name for navnar & logo & hover & font  */
+.navbarr .bookingbtn{
+	background-color: #78e9d2;
+}
+.navbarr{
+  background-color: #c197d5;
+  font-family: 'Titillium Web', sans-serif;
+}

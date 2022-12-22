@@ -1,44 +1,45 @@
-import { Link } from "react-router-dom";
+import Footer from "../common/Footer";
 import HeaderPage from "../common/HeaderPage";
 import Navbar from "../common/Navbar";
 import "./Contact.css"
-
 const Contact = () => {
-
   return (
     <>
       <Navbar />
-      <HeaderPage title="CONTACT US" />
-      <div className="contact">
-        <img src='images/background.png ' className='d-flex d-block w-100 ' alt="back"></img>
-        <div className='container position-absolute start-50 translate-middle justify-content-center '>
-          <h1 className="d-flex fs-3 fw-semibold justify-content-center text-center mb-4 mt-5"> CONTACT US</h1>
-          <h2 className="d-flex justify-content-center fs-4">ADDRESS OF THE SPA</h2></div>
-        <div className='containerr position-absolute justify-content-center col-6'>
-          <h3> <div className="d-flex form-floating fs-6 rounded-0 shadow">
-            <input type="email" className="d-flex form-control" id="floatingInput" placeholder="name@example.com"></input>
-            <label htmlfor="floatingInput">Email address</label></div></h3>
-          <h3><div className="d-flex form-floating fs-6 rounded-0 ">
-            <input type="password" className="d-flex form-control mb-2" id="floatingPassword" placeholder="Password"></input>
-            <label htmlfor="floatingPassword">Password</label></div></h3>
-          <h3><div className="form-floating fs-6 rounded-0 shadow">
-            <textarea className="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
-            ></textarea>
-            <label htmlfor="floatingTextarea2 text-light">Message</label></div></h3>
-          <h4 className='btn rounded-3 shadow p-3 d-flex justify-content-center fs-4 border'>Send Message</h4>
+      <div className="contact mb-5">
+        <img src='images\contact.png' className="d-block w-100 img-fuild" alt="homeslider" />
+        <HeaderPage title="CONTACT US" />
+        <div className="m-5">
+          <h1>Questions for Our Full-Service Spa and Salon? Contact Us!</h1>
+          <p className="fs-5 mt-4">If you have questions about our salon and spa services, whether they are about massage therapy, manicures and pedicures,
+            or anything in between, our team will gladly offer an answer. With a professional, knowledgeable staff that have distinguished themselves in their
+            fields, we’re confident that no matter what concerns or questions you may have we can provide you with the information that you need.<br />
+            A wellness center offers a well-rounded relaxation and fitness services for tired body and stressed mind. Nevertheless, everyone deserves to relax and rewind from the pressures
+            of modern life. Being treated in a wellness center is a well-deserved.</p>
         </div>
-        {/* Areen Work  */}
-        <footer>
-          <h5 className="container-fluid d-flex justify-content-center">
-            <ul className="navbar-nav mt-5">
-              <li>
-                <Link to="https://www.facebook.com/" className="me-5 text-light">FACEBOOK</Link>
-                <Link to="https://twitter.com/home" className="me-5 text-light">TWITTER </Link>
-                <Link to="https://www.instagram.com/" className="me-5 text-light">INSTAGRAME</Link>
-              </li>
-            </ul>
-          </h5>
-        </footer>
-      </div></>)
+        <div className="container">
+          <div className="row">
+            <div className="col-12 col-md-6 col-lg-6 col-xxl-6">
+              <form className="contactform p-3">
+                <div className="row">
+                  <div className="col">
+                    <input type="text" className="form-control" placeholder="Name" name="name" /></div>
+                  <div className="col">
+                    <input type="phone" className="form-control mb-4" placeholder="Phone" name="phone" />
+                  </div>
+                </div>
+                <input type="email" className="form-control mb-4" id="exampleFormControlInput1" placeholder="Email" />
+                <textarea className="form-control mb-4" id="exampleFormControlTextarea1" placeholder="How may we help you?" rows="7"></textarea>
+                <button className="btn contactbtn mb-5" type="submit">SEND MESSAGE</button>
+              </form>
+            </div>
+            <div className="col-12 col-md-6 col-lg-6 col-xxl-6 ">
+              <iframe title ="map" className="gmap_iframe w-100 h-100 mapframe" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=najah&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+      <Footer />
+    </>)
 }
 export default Contact;
