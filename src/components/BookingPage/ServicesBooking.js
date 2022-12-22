@@ -21,8 +21,8 @@ const ServiceBooking = () => {
                 <div className="row">
                     <div className="col">
                         <div className="mb-3">
-                            <label htmlFor="date">Pick A Day :</label>
-                            <input type="date" id='day-select' />
+                            <label htmlFor="date" >Pick A Day :</label>
+                            <input type="date" id='day-select'required />
                         </div>
                     </div>
                     <div className="col">
