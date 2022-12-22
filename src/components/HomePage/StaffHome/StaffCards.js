@@ -4,7 +4,7 @@ import SocialMedia2 from './SocialMedia2'
 import StaffCard from './StaffCard'
 const StaffCards = () => {
   return (
-    <div className="staff align-items-center col-12 d-flex p-3 ">
+    <div className="staff align-items-center col-12 d-flex p-3">
       <h1>MEET OUR BEAUTIFUL TEAM</h1>
       <div className="container d-flex justify-content-center">
         <div className="row ">
