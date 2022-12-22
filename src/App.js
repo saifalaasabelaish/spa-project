@@ -58,7 +58,6 @@ export default function App() {
         <Route path="/BodyMassagePage" element={<BodyMassage />} />
         <Route path="/FootMassagePage" element={<FootMassage />} />
       </Routes>
-
     </Router>
   );
 }
