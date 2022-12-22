@@ -17,11 +17,9 @@ function AdminDataTable() {
                     <button type="submit" > Edit</button>
 
                 </td>
-
             </tr>
         )
     }
-
     )
     return (
         <div>
@@ -46,5 +44,4 @@ function AdminDataTable() {
         </div>
     )
 }
-
 export default AdminDataTable;

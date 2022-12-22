@@ -1,16 +1,11 @@
-.navbarr li a,
-.dropbtn {
-  display: inline-block;
+.navbarr li a {
   color: rgb(255, 255, 255);
-  text-align: right;
   padding: 20px 20px;
   text-decoration: none;
 }
 
-.navbarr li a:hover,
-.dropdown:hover .dropbtn {
+.navbarr li a:hover {
   background-color: #9a76ab;
-  transform: scale(1.1);
 }
 
 .navbarr .logo img {
@@ -18,10 +13,12 @@
   height: 40px;
 }
 
-.navbarr .bookingbtn{
-	background-color: #78e9d2;
+.navbarr .bookingbtn {
+  background-color: #78e9d2;
 }
-.navbarr{
+
+.navbarr {
   background-color: #c197d5;
   font-family: 'Titillium Web', sans-serif;
+  font-size: 18px;
 }

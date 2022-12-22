@@ -1,7 +1,6 @@
 import { Bar } from "react-chartjs-2";
-import {Chart as ChartJS} from "chart.js/auto"
-const BarChart = ({ChartData}) => {
-
+import { Chart as ChartJS } from "chart.js/auto"
+const BarChart = ({ ChartData }) => {
     return (
 
         <div className="card mb-4">
@@ -9,7 +8,7 @@ const BarChart = ({ChartData}) => {
                 Bar Chart Example
             </div>
             <div className="card-body">
-            <Bar data={ChartData}/>
+                <Bar data={ChartData} />
             </div>
         </div>
     )

@@ -1,5 +1,5 @@
 import './AboutPage.css'
-const About2= (props) => {
+const About2 = (props) => {
     return (
         <div className='container '>
             <div className='row d-sm-flex'>

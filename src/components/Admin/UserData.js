@@ -1,10 +1,10 @@
-export const UserData =[
+export const UserData = [
 
     {
-        "id":1,
-        "name":"Ahmad Faoor",
-        "email":"aksri.random@gmail.com",
-        "pay":"Cash",
+        "id": 1,
+        "name": "Ahmad Faoor",
+        "email": "aksri.random@gmail.com",
+        "pay": "Cash",
         "address": "Nablus",
         "phone" : "051279498",
         "service":"Massage",
@@ -12,12 +12,12 @@ export const UserData =[
         "serviceDay":"2023-01-01"
 
     },
-    
+
     {
-        "id":2,
-        "name":"Sami tuffaha",
-        "email":"aksri.random@gmail.com",
-        "pay":"Cash",
+        "id": 2,
+        "name": "Sami tuffaha",
+        "email": "aksri.random@gmail.com",
+        "pay": "Cash",
         "address": "Nablus",
         "phone" : "051279498",
         "service":"Massage",
@@ -25,11 +25,11 @@ export const UserData =[
         "serviceDay":"2023-01-10"
 
     },
-    
+
     {
-        "id":3,
-        "name":"Rami dale",
-        "email":"aksri.random@gmail.com",
+        "id": 3,
+        "name": "Rami dale",
+        "email": "aksri.random@gmail.com",
         "address": "Jerusalem",
         "service":"Massage",
         "serviceTime":"9:00 AM",
@@ -38,11 +38,11 @@ export const UserData =[
         "serviceDay":"2023-01-27"
         
     },
-    
+
     {
-        "id":4,
-        "name":"Adnan sami",
-        "email":"aksri.random@gmail.com",
+        "id": 4,
+        "name": "Adnan sami",
+        "email": "aksri.random@gmail.com",
         "address": "Ramallah",
         "service":"Hair",
         "pay":"Visa Card",
@@ -50,11 +50,11 @@ export const UserData =[
         "phone" : "051279498",
         "serviceDay":"2023-03-01"
     },
-    
+
     {
-        "id":5,
-        "name":"Ibraheem sadeq",
-        "email":"aksri.random@gmail.com",
+        "id": 5,
+        "name": "Ibraheem sadeq",
+        "email": "aksri.random@gmail.com",
         "address": "Nablus",
         "pay":"Cash",
         "service":"Laser",
@@ -63,11 +63,11 @@ export const UserData =[
         "serviceDay":"2023-02-04"
 
     },
-    
+
     {
-        "id":6,
-        "name":"Yousef Jarbo",
-        "email":"aksri.random@gmail.com",
+        "id": 6,
+        "name": "Yousef Jarbo",
+        "email": "aksri.random@gmail.com",
         "address": "Nablus",
         "service":"Massage",
         "serviceTime":"9:00 AM",
@@ -77,9 +77,9 @@ export const UserData =[
 
     },
     {
-        "id":7,
-        "name":"Khaled Masri",
-        "email":"aksri.random@gmail.com",
+        "id": 7,
+        "name": "Khaled Masri",
+        "email": "aksri.random@gmail.com",
         "address": "Jerico",
         "service":"Massage",
         "serviceTime":"9:00 AM",
@@ -88,11 +88,11 @@ export const UserData =[
         "serviceDay":"2023-02-14"
 
     },
-    
+
     {
-        "id":8,
-        "name":"Abdullah Ahmad",
-        "email":"aksri.random@gmail.com",
+        "id": 8,
+        "name": "Abdullah Ahmad",
+        "email": "aksri.random@gmail.com",
         "address": "Hebron",
         "service":"Laser",
         "pay":"Cash",
@@ -100,11 +100,11 @@ export const UserData =[
         "phone" : "051279498",
         "serviceDay":"2023-02-17"
     },
-    
+
     {
-        "id":9,
-        "name":"Samer Mosa",
-        "email":"aksri.random@gmail.com",
+        "id": 9,
+        "name": "Samer Mosa",
+        "email": "aksri.random@gmail.com",
         "address": "Ramallah",
         "pay":"Cash",
         "service":"Nails",
