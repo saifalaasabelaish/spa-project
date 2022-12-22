@@ -1,4 +1,3 @@
-
 import { useCart } from "react-use-cart"
 import "./Cart.css"
 
@@ -58,8 +57,8 @@ const Cart=()=>{
             {isEmpty!==true &&
             <>
             <div className="ms-auto mb-3 fw-bold fs-5">Cart Total: {Intl.NumberFormat(undefined,{currency:"ILS" ,style:"currency"}).format(cartTotal)}</div>
-            <button className="btncart mb-2 ms-4" onClick={()=>emptyCart()}>Clear Cart</button>
-            <button className="btncart mb-2 ms-4">Buy</button>
+            <button className="btncart mb-2 ms-1" onClick={()=>emptyCart()}>Clear Cart</button>
+            <button className="btncart mb-2 ms-1">Buy</button>
             </>
             }
 
