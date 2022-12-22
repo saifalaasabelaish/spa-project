@@ -8,8 +8,8 @@ export const UserData =[
         "address": "Nablus",
         "phone" : "051279498",
         "service":"Massage",
-        "serviceTime":"9:00 AM",
-        "serviceDay":"sunday"
+        "serviceTime":"12:00PM",
+        "serviceDay":"2023-01-01"
 
     },
     
@@ -22,7 +22,7 @@ export const UserData =[
         "phone" : "051279498",
         "service":"Massage",
         "serviceTime":"9:00 AM",
-        "serviceDay":"sunday"
+        "serviceDay":"2023-01-10"
 
     },
     
@@ -35,7 +35,7 @@ export const UserData =[
         "serviceTime":"9:00 AM",
         "pay":"Cash",
         "phone" : "051279498",
-        "serviceDay":"Monday"
+        "serviceDay":"2023-01-27"
         
     },
     
@@ -48,7 +48,7 @@ export const UserData =[
         "pay":"Visa Card",
         "serviceTime":"9:00 AM",
         "phone" : "051279498",
-        "serviceDay":"Sunday"
+        "serviceDay":"2023-03-01"
     },
     
     {
@@ -60,7 +60,7 @@ export const UserData =[
         "service":"Laser",
         "serviceTime":"9:00 AM",
         "phone" : "051279498",
-        "serviceDay":"Saturday"
+        "serviceDay":"2023-02-04"
 
     },
     
@@ -73,7 +73,7 @@ export const UserData =[
         "serviceTime":"9:00 AM",
         "pay":"Visa Card",
         "phone" : "051279498",
-        "serviceDay":"Sunday"
+        "serviceDay":"2023-07-05"
 
     },
     {
@@ -85,7 +85,7 @@ export const UserData =[
         "serviceTime":"9:00 AM",
         "pay":"Cash",
         "phone" : "051279498",
-        "serviceDay":"Thursday"
+        "serviceDay":"2023-02-14"
 
     },
     
@@ -98,7 +98,7 @@ export const UserData =[
         "pay":"Cash",
         "serviceTime":"9:00 AM",
         "phone" : "051279498",
-        "serviceDay":"Thursday"
+        "serviceDay":"2023-02-17"
     },
     
     {
@@ -110,7 +110,7 @@ export const UserData =[
         "service":"Nails",
         "serviceTime":"9:00 AM",
         "phone" : "051279498",
-        "serviceDay":"Thursday"
+        "serviceDay":"2023-04-21"
 
     }
 ]
