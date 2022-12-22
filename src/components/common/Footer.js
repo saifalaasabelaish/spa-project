@@ -21,27 +21,28 @@ const Footer = () => {
                <div className="col-sm-6 col-md-2">{/*remove ms-5*/}
                   <ul>
                   <li><h6><Link to="/Contact">Contact us</Link></h6></li>
-                     <li><a>Email</a></li>
-                     <li><a>0123456789</a></li>
-                     <li><a>Our Location</a></li>
+                     <li>Email</li>
+                     <li>0123456789</li>
+                     <li>Our Location</li>
                   </ul>
                </div>
                <div className="col-sm-6 col-md-2">
                   <ul>
                   <li><h6><Link to="/About">About us</Link></h6></li>
-                     <li><a>Our story</a></li>
-                     <li><a>Meet our staff</a></li>
+                     <li>Our story</li>
+                     <li>Meet our staff</li>
                   </ul>
                </div>
                <div className="col-sm-6 col-md-2">
                   <ul>
                   <li><h6>Legal</h6></li>
-                     <li><a>Terms & Conditions</a></li>
-                     <li><a>Privacy Policy</a></li>
-                     <li><a>Terms of Use</a></li>
+                     <li>Terms & Conditions</li>
+                     <li>Privacy Policy</li>
+                     <li>Terms of Use</li>
                   </ul>
                </div>
                <div className="social">
+
                   <h6>Follow US</h6>
                   <a title="Facebook">
                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" className="bi bi-facebook" viewBox="0 0 16 16">
