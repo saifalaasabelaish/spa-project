@@ -2,7 +2,6 @@ import "./PaymentForm.css"
 import { useCart } from "react-use-cart"
 
 
-
 const PaymentForm=(props)=>{
   const {cartTotal}=useCart();
   return(
@@ -53,7 +52,7 @@ const PaymentForm=(props)=>{
                       <p className=" mb-3 fw-bold fs-5">Total :</p>
                       <p className=" mb-3 fw-bold fs-5"> {Intl.NumberFormat(undefined,{currency:"ILS" ,style:"currency"}).format(cartTotal+15)}</p>
                     </div>
-                    <button id="buyButton" className="btn btncart btn-block mb-2 ms-1">Buy</button>
+                    <button id="buttonPayment" className="btn-block mb-2 ms-1">Buy</button>
 
                 </div>
             </div>
