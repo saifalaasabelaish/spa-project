@@ -1,12 +1,9 @@
-/* eslint-disable no-lone-blocks */
-import '../ShoppingPage/ShoppingPage.css'
+import './ShoppingPage.css'
 import React, { useState } from "react";
 import Products from "./Products";
 import { useCart } from 'react-use-cart';
 import Cart from './Cart';
 import HeaderPage from '../common/HeaderPage';
-
-
 const ShoppingPage = () => {
   const {totalItems}=useCart();
   const [category, setCategory] = useState("skincare");
@@ -33,14 +30,14 @@ const ShoppingPage = () => {
               <div className="card-body">
               <div className="h4 text-center headercategory">CATEGORIES</div> {/*put the header as class based in rule*/ }
                 <div className="btn-group-vertical d-flex text-center" role="group" aria-label="Vertical button group" >
-                  <button type="button" onClick={eventHandler} className="btn categorybtn p-4 " id="skincare">Skin Care </button>
-                  <button type="button" onClick={eventHandler} className="btn categorybtn p-4"  id="makeup"> Make up</button>
-                  <button type="button" onClick={eventHandler} className="btn categorybtn p-4"  id="body-products">Body products </button>
-                  <button type="button" onClick={eventHandler} className="btn categorybtn p-4"  id="perfumes"> Perfumes </button>
-                  <button type="button" onClick={eventHandler} className="btn categorybtn p-4 "  id="hair-products"> Hair products </button>
+                  <button  onClick={eventHandler} className="btn categorybtn p-4 " id="skincare">Skin Care </button>
+                  <button  onClick={eventHandler} className="btn categorybtn p-4"  id="makeup"> Make up</button>
+                  <button  onClick={eventHandler} className="btn categorybtn p-4"  id="body-products">Body products </button>
+                  <button  onClick={eventHandler} className="btn categorybtn p-4"  id="perfumes"> Perfumes </button>
+                  <button  onClick={eventHandler} className="btn categorybtn p-4 "  id="hair-products"> Hair products </button>
                 </div>
               </div>
-            </div> 
+            </div>
           </div>
           {/* products */}
           <div className="col-12 col-md-8 col-lg-9 col-xl-8 offset-xl-1">

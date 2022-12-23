@@ -1,6 +1,7 @@
-.head h1 {
+.head .h1 {
 	color: #ffffff;
 	font-family: 'Titillium Web', sans-serif;
+	font-size:auto;
 }
 
 .head .imgback {
@@ -18,11 +19,11 @@
 	background-color: #1defc5c9;
 }
 
-.head .container {
+.head .cont {
 	flex-direction: column;
 }
 
-.head .carousel-item.active h1 {
+.head .carousel-item.active .h1 {
 	animation: fadeInLeft 1s ease forwards;
 }
 
@@ -33,7 +34,7 @@
 @keyframes fadeInLeft {
 	0% {
 		opacity: 0;
-		transform: translateX(-50px);
+		transform: translateX(-300px);
 	}
 
 	100% {
@@ -45,7 +46,7 @@
 @keyframes fadeInRight {
 	0% {
 		opacity: 0;
-		transform: translateX(50px);
+		transform: translateX(300px);
 	}
 
 	100% {
