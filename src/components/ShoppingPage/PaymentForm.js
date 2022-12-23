@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import "./PaymentForm.css"
 import { useCart } from "react-use-cart"
 
