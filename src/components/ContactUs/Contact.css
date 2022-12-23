@@ -1,12 +1,15 @@
 .contact img {
     height: 330px;
+
 }
 .contact h1 {
     color: #C197D5;
     font-weight: bold;
+
 }
 .contact {
     font-family: 'Titillium Web', sans-serif;
+    
 }
 .contact .contactbtn {
     background-color: #C197D5;
@@ -19,6 +22,7 @@
 .contact .contactform {
     box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.253);
     border: 1px solid #C197D5;
+    
 }
 .contact .mapframe {
     box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.253);

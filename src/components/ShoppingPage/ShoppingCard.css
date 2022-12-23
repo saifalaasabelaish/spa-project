@@ -3,6 +3,7 @@
 
     font-family: 'Titillium Web', sans-serif;
     font-size: 20px;
+
 }
 .btncart{ /*For add to cart btn*/
     background-color : #c197d5;
@@ -18,3 +19,10 @@
         background-color: #ab80be;;
         transition: 0.4s; /* To make the change less sudden*/
 }
+
+.card-effect{
+
+    animation:fadeInUp 2s ease forwards;
+
+}
+

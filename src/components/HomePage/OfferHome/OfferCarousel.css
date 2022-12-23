@@ -8,4 +8,5 @@
 
 .offers {
     background-color: #7cd1c5;
+    animation:fadeInDown 3s ease forwards;
 }

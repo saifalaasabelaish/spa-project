@@ -22,7 +22,7 @@ const ShoppingPage = () => {
             <div>{totalItems}</div>
           </button>
       </div>
-      <div className="container" >
+      <div className="container card-effect" >
         <div className='row'>
           {/* categories */}
           <div className="col-12 col-md-4 col-lg-3">
