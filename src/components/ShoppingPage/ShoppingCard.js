@@ -9,7 +9,7 @@ return(
   <div className="card-body">
     <p className=" card-text d-flex justify-content-center productcard">  {props.content}  </p>
     <p className='d-flex justify-content-center'> {Intl.NumberFormat(undefined,{currency:"ILS" ,style:"currency"}).format( props.price)} </p>
-   <div className='text-center'> <button className=" btn btncart" onClick={()=>addItem(props.product)}> Add To Cart </button> </div>
+   <div className='text-center'> <button className=" btncart" onClick={()=>addItem(props.product)}> Add To Cart </button> </div>
   </div>
 </div>
 );
