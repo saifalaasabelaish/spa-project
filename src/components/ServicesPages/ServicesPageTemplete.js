@@ -39,7 +39,7 @@ const ServicesPageTemplete = (props) => {
               <p>{props.Paragraph4}
               </p>
             </div>
-          </div> <Link to = "/BookingPage"className='btn buttonn p-3'>Do you want to experiment,go ahead?</Link></div></div>
+          </div> <Link to = "/BookingPage"className='btn bookbtn p-3'>Do you want to experiment,go ahead?</Link></div></div>
           <Footer/>
     </>
   )

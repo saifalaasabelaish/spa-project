@@ -9,16 +9,16 @@ const OfferCarousel = () => {
         <div className="carousel-item active">
           <div className="container d-flex justify-content-center mb-5">
             <div className="row align-items-center ">
-              <div className="col-12 col-md-4 col-lg-3  col-sm-6 col-xxl-2">
+              <div className="col-12 col-md-4 col-lg-3 col-sm-6 col-xxl-2">
                 <CardOffer imag='images\offer1.jpg ' offers='offer 1' />
               </div>
-              <div className="col-12 col-md-4  col-lg-3 col-sm-6 col-xxl-2">
+              <div className="col-12 col-md-4 col-lg-3 col-sm-6 col-xxl-2">
                 <CardOffer imag='images\offer2.jpg' offers='offer 2' />
               </div>
               <div className="col-12 col-md-4 col-lg-3 col-sm-6  col-xxl-2">
                 <CardOffer imag='images\offer3.jpg' offers='offer 3' />
               </div>
-              <div className="col-12 col-md-4 col-lg-3  col-sm-6 col-xxl-2">
+              <div className="col-12 col-md-4 col-lg-3 col-sm-6 col-xxl-2">
                 <CardOffer imag='images\offer4.jpg' offers='offer 4' />
               </div>
             </div>
