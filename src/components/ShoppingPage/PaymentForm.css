@@ -1,0 +1,14 @@
+#paymentForm{
+    background-color: #c197d5;
+}
+#creditCardForm{
+    border-bottom: 1px solid white;
+}
+#buyButton{
+    background-color: #c281e0;
+}
+#buyButton:hover{
+    background-color: #ab80be;;
+    transition: 0.4s;
+
+}
