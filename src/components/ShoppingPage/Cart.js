@@ -18,13 +18,12 @@ const Cart=()=>{
     const togleSetPayment=()=>{
       setPayment((current)=>!current);
     }
-    console.log(payment)
     
     return(
     <div className="offcanvas offcanvas-end" tabIndex="-1" id="offcanvas" aria-labelledby="off">
         <div className="offcanvas-header">
             <h5 className="offcanvas-title" id="offcanvasLabel">shopping Cart</h5>
-            <button className="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            <button className="btn btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
 
         <div className="offcanvas-body">

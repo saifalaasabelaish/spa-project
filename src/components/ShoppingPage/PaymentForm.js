@@ -1,8 +1,10 @@
 import "./PaymentForm.css"
 import { useCart } from "react-use-cart"
+
+
+
 const PaymentForm=(props)=>{
   const {cartTotal}=useCart();
-  console.log(props.toggleForm)
   return(
   
   (props.toggleForm)===true &&
@@ -22,6 +24,9 @@ const PaymentForm=(props)=>{
                       </div>
                       <div className="form-outline form-white mb-4">
                         <input className="form-control" placeholder="Card Number" maxLength={19}/>
+                      </div>
+                      <div className="form-outline form-white mb-4">
+                        <input className="form-control" placeholder="Location" maxLength={19}/>
                       </div>
                       <div className="hstack gap-2 mb-4">
                         <div className="col-md-6">
@@ -48,7 +53,7 @@ const PaymentForm=(props)=>{
                       <p className=" mb-3 fw-bold fs-5">Total :</p>
                       <p className=" mb-3 fw-bold fs-5"> {Intl.NumberFormat(undefined,{currency:"ILS" ,style:"currency"}).format(cartTotal+15)}</p>
                     </div>
-                    <button id="buyButton" className="btncart btn-block mb-2 ms-1">Buy</button>
+                    <button id="buyButton" className="btn btncart btn-block mb-2 ms-1">Buy</button>
 
                 </div>
             </div>
