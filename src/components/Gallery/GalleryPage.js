@@ -17,14 +17,14 @@ const Gallery = () => {
           <div class="col-6 col-sm-3">
             <div class="col-12 col-sm-3"><Gallery1 img="./images/p2.png" alt="spa" /></div>
             <div class="row">
-              <div class="col-6 col-sm-3"> <img src="./images/p2.png" alt="spa" className='rounded-0 w-100 h-100 img img-fluid '></img></div>
-              <div class="col-6 col-sm-3"> <img src="./images/p2.png" alt="spa" className='rounded-0 img img-fluid '></img></div></div></div>
+              <div class="col-6 col-sm-3"> <img src="./images/p3.png" alt="spa" className='rounded-0 w-100 h-100 img img-fluid '></img></div>
+              <div class="col-6 col-sm-3"> <img src="./images/p4.png" alt="spa" className='rounded-0 img img-fluid '></img></div></div></div>
           <div class="row">
             <div class="col-6 col-sm-3">
               <div class="row">
-                <div class="col-6 col-sm-3"> <img src="./images/p2.png" alt="spa" className='rounded-0 img img-fluid '></img></div>
-                <div class="col-6 col-sm-3"> <img src="./images/p2.png" alt="spa" className='rounded-0 img img-fluid '></img></div></div></div>
-            <div class="col-6 col-sm-3"><Gallery1 img="./images/p2.png" alt="spa" /></div>
+                <div class="col-6 col-sm-3"> <img src="./images/p5.png" alt="spa" className='rounded-0 img img-fluid '></img></div>
+                <div class="col-6 col-sm-3"> <img src="./images/p6.png" alt="spa" className='rounded-0 img img-fluid '></img></div></div></div>
+            <div class="col-6 col-sm-3"><Gallery1 img="./images/p7.png" alt="spa" /></div>
           </div>
         </div>
       </div>
