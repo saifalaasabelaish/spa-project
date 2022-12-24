@@ -15,14 +15,14 @@ const ShoppingPage = () => {
     <>
       <HeaderPage title="SHOPPING PAGE">
       </HeaderPage>
-      <Cart/>
-      <div className="cart  justify-content-end d-flex me-4 mt-3">
-        <button data-bs-toggle="offcanvas" data-bs-target="#offcanvas" aria-controls="offcanvas" className="btn btn-outline-primary">
+      <div className="justify-content-end d-flex me-4 mt-3">
+        <button className="btn btn-outline-primary" data-bs-toggle="offcanvas" data-bs-target="#offcanvas" aria-controls="offcanvas" >
             <i className="fas fa-shopping-cart"></i>
             <div>{totalItems}</div>
-          </button>
+        </button>
       </div>
-      <div className="container card-effect" >
+      <Cart/>
+      <div className="container" > 
         <div className='row'>
           {/* categories */}
           <div className="col-12 col-md-4 col-lg-3">
@@ -48,6 +48,7 @@ const ShoppingPage = () => {
         </div>
       </div>
     </>
-  );
+  )
 }
 export default ShoppingPage;
+

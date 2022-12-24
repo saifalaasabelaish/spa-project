@@ -1,0 +1,8 @@
+.cardoffer {
+transition: 0.5s; 
+margin-top: 30px;
+border-style: none;
+}
+.cardoffer:hover{
+transform: scale(1.1);
+}

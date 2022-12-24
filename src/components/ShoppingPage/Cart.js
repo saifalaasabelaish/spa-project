@@ -1,6 +1,7 @@
 import { useCart } from "react-use-cart"
 import "./Cart.css"
-
+import PaymentForm from "./PaymentForm";
+import { useState } from "react";
 
 const Cart=()=>{
     
@@ -12,12 +13,17 @@ const Cart=()=>{
         removeItem,
         emptyCart,
     }=useCart();
+
+    const [payment, setPayment]=useState(false);
+    const togleSetPayment=()=>{
+      setPayment((current)=>!current);
+    }
     
     return(
     <div className="offcanvas offcanvas-end" tabIndex="-1" id="offcanvas" aria-labelledby="off">
         <div className="offcanvas-header">
             <h5 className="offcanvas-title" id="offcanvasLabel">shopping Cart</h5>
-            <button type="button" className="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            <button className="btn btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
 
         <div className="offcanvas-body">
@@ -56,9 +62,10 @@ const Cart=()=>{
             })}
             {isEmpty!==true &&
             <>
-            <div className="ms-auto mb-3 fw-bold fs-5">Cart Total: {Intl.NumberFormat(undefined,{currency:"ILS" ,style:"currency"}).format(cartTotal)}</div>
+            {(!payment) && <p className=" mb-3 fw-bold fs-5">Cart Total: {Intl.NumberFormat(undefined,{currency:"ILS" ,style:"currency"}).format(cartTotal)}</p>}
             <button className="btncart mb-2 ms-1" onClick={()=>emptyCart()}>Clear Cart</button>
-            <button className="btncart mb-2 ms-1">Buy</button>
+            <button  className="btncart mb-2 ms-1" onClick={togleSetPayment}>{(payment)? "Close Payment form":" Procced to Pay"}</button>
+            <PaymentForm toggleForm={payment}/>
             </>
             }
 

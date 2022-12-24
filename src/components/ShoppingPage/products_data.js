@@ -74,7 +74,7 @@ photo : "./images/mask3.jpg"
     }
     ,
     {
-        name : "Bronzer" ,
+        name : "Face Toner" ,
         price : 28 , 
         cat : "makeup",
         id : 10 , 
@@ -82,7 +82,7 @@ photo : "./images/mask3.jpg"
     }
     ,
     {
-        name : "Foundation" ,
+        name : "Face Cream" ,
         price : 50 , 
         cat : "makeup",
         id : 11, 
@@ -90,7 +90,7 @@ photo : "./images/mask3.jpg"
     }
     ,
     {
-        name : "Eye Liner" ,
+        name : "Face Serum" ,
         price : 18 , 
         cat : "makeup",
         id : 12 , 
@@ -98,7 +98,7 @@ photo : "./images/mask3.jpg"
     }
     ,
     {
-        name : "Lip Gloss" ,
+        name : "Face Scrab" ,
         price : 30 , 
         cat : "makeup",
         id : 13, 
@@ -106,7 +106,7 @@ photo : "./images/mask3.jpg"
     }
     ,
     {
-        name : "Lip Liner" ,
+        name : "Face Oli" ,
         price : 53 , 
         cat : "makeup",
         id : 14 , 
@@ -162,7 +162,6 @@ photo : "./images/mask3.jpg"
             photo : "./images/body9.webp"
     }
     ,
-    //perfumes
     {
         name : "Mademoiselle" ,
         price : 43 , 
@@ -218,6 +217,14 @@ photo : "./images/mask3.jpg"
         cat : "hair-products" ,
         id : 27 ,
         photo : "./images/Hair1.jpg"
+    }
+    , ///makeup
+    {
+        name : "Mario Lipstick" ,
+        price : 43 , 
+        cat : "makeup" ,
+        id : 9 ,
+        photo : "./images/makeup22.webp"
         
         }
         ,
@@ -254,11 +261,110 @@ photo : "./images/mask3.jpg"
         }
         ,
         {
-            name : "Hair Scrub" ,
+            name : "Lip Liner" ,
             price : 53 , 
             cat : "hair-products",
             id : 32 , 
             photo : "./images/hair7.jpg"
         }
-]
-export default productsData;
+        ,
+        //perfumes
+        {
+            name : "Mademoiselle" ,
+            price : 43 , 
+            cat : "perfumes" ,
+            id : 21 ,
+            photo : "./images/perfume1.webp"
+            
+            }
+            ,
+            {
+                name : "Chance" ,
+                price : 20 , 
+                cat : "perfumes",
+                id : 22 , 
+                photo : "./images/perfume2.webp"
+            }
+            ,
+            {
+                name : "CoCo" ,
+                price : 30 , 
+                cat : "perfumes",
+                id : 23 , 
+                photo : "./images/perfume5.webp"
+            }
+            ,
+            {
+                name : "Chance Eau" ,
+                price : 18 , 
+                cat : "perfumes",
+                id : 24 , 
+                photo : "./images/perfume77.webp"
+            }
+            ,
+            {
+                name : "N°5" ,
+                price : 32 , 
+                cat : "perfumes",
+                id : 25, 
+                photo : "./images/perfume99.webp"
+            }
+            ,
+            {
+                name : "Gabrielle" ,
+                price : 53 , 
+                cat : "perfumes",
+                id : 26 , 
+                photo : "./images/perfume55.webp"
+        },
+        //Hair 
+        {
+            name : "Hair Cream" ,
+            price : 43 , 
+            cat : "hair-products" ,
+            id : 27 ,
+            photo : "./images/Hair1.jpg"
+            
+            }
+            ,
+            {
+                name : "Hair Oli" ,
+                price : 20 , 
+                cat : "hair-products",
+                id : 28, 
+                photo : "./images/Hair2.jpg"
+            }
+            ,
+            {
+                name : "Hair Shampoo" ,
+                price : 30 , 
+                cat : "hair-products",
+                id : 29 , 
+                photo : "./images/Hair3.jpg"
+            }
+            ,
+            {
+                name : " Conditioner" ,
+                price : 18 , 
+                cat : "hair-products",
+                id : 30 , 
+                photo : "./images/hair4.jpg"
+            }
+            ,
+            {
+                name : "Hair Mask" ,
+                price : 32 , 
+                cat : "hair-products",
+                id : 31 , 
+                photo : "./images/hair5.jpg"
+            }
+            ,
+            {
+                name : "Hair Scrub" ,
+                price : 53 , 
+                cat : "hair-products",
+                id : 32 , 
+                photo : "./images/hair7.jpg"
+            }
+    ]
+    export default productsData;

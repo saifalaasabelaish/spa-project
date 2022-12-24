@@ -46,6 +46,7 @@ const BookingForm = (props) => {
                 {props.children}
             </form>
         </div>
+        
         </>
     )
 }
