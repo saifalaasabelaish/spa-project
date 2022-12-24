@@ -14,7 +14,7 @@ const servicesData = [
         sername: "Peeling Skin",
         rate: "150.00$/Hour",
         cat: "skin-care",
-        description: "Repeated irritation can lead to skin peeling. In babies born past their due date, it's not unusual for them to experience some painless skin peeling. Skin peeling can also result from a disease.",
+        description: "Repeated irritation can lead to skin peeling. In babies born past their due date, it's not unusual for them to experience some painless skin peeling. Skin peeling can also result a disease.",
         number: 2,
         servimg: "/images/peelingskin.jpg",
         altt: "Peeling Skin",
