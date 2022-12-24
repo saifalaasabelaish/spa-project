@@ -1,5 +1,5 @@
 import { useState } from "react";
-import UserData from "./UserData";
+import ChartData from "./ChartData";
 import "./Admin.css"
 import AdminNavbar from "./AdminNavbar"
 import AdminSideNavbar from "./AdminSideNavbar"
@@ -8,10 +8,10 @@ import BarChart from "./BarChart"
 import PieChart from "./PieChart"
 const ChartsPage = () => {
     const [userData] = useState({
-        labels: UserData.map((data) => data.service),
+        labels: ChartData.map((data) => data.service),
         datasets: [{
-            label: "UserName",
-            data: UserData.map((data) => data.id)
+            label: "Service booked times",
+            data: ChartData.map((data) => data.number)
         }],
 
     });

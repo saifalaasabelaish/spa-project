@@ -12,7 +12,7 @@ const Check = () => {
     console.log(bookedDays);
     if (bookedDays.length !== 0)
         return (
-            alert("Already Booked , Please Choose another day")
+            alert("Already Booked , Please Choose another time or day")
         )
 
 

@@ -1,8 +1,7 @@
 .offers .cardoffer {
-   height: 340px;
     transition: 0.5s;
-    margin-top: 30px;
-    animation:fadeInUp 3s ease forwards;
+    margin-top: 32px;
+    animation:fadeInUp 5s ease forwards;
 
 }
 

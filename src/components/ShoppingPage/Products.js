@@ -1,5 +1,6 @@
 import ShoppingCard from "./ShoppingCard";
 import productsData from "./products_data";
+
 const Products = (props) =>
  {
   // const typee = props.categorytype;
