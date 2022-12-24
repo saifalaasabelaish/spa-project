@@ -4,8 +4,10 @@ import PaymentForm from "./PaymentForm";
 import { useState } from "react";
 
 const Cart=()=>{
+
     
     const {
+    
         isEmpty,
         items,
         cartTotal,
@@ -35,9 +37,9 @@ const Cart=()=>{
             {items.map((product)=>{
                 return(
                     <>
-                    <div className="hstack gap-2 mb-2">
+                    <div className="hstack gap-2 mb-2" >
                         <div className="mb-1">
-                                <img className="img-fluid" id="CartImage" src={product.photo} alt={product.name}/>
+                                <img className="img-fluid" id="CartImage" src={product.photo}  alt={product.name}/>
                         </div>
                         <div className="me-auto">
                             <div>
@@ -59,7 +61,7 @@ const Cart=()=>{
                     </div> 
                 </>
                 )
-            })}
+            } )}
             {isEmpty!==true &&
             <>
             {(!payment) && <p className=" mb-3 fw-bold fs-5">Cart Total: {Intl.NumberFormat(undefined,{currency:"ILS" ,style:"currency"}).format(cartTotal)}</p>}
