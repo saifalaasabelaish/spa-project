@@ -1,21 +1,7 @@
 import './Booking.css'
 import servicesData from "../ServicesPage/Services_Data"
-servicesData.sort();
-servicesData.forEach(function (data) {
-    let newOption = document.createElement("option");
-    let serviceSelect = document.getElementById("service-select");
-    newOption.text = data.sername;
-    newOption.value = data.sername;
-    serviceSelect.appendChild(newOption);
-    serviceSelect.onChange = writeToScreen;
 
 
-});
-
-function writeToScreen() {
-    let result = document.getElementById("result");
-    result.innerText = this.value;
-};
 
 const ServiceBooking = () => {
     return (
@@ -24,7 +10,12 @@ const ServiceBooking = () => {
                 <div className="mb-3 mt-2">
                     <label htmlFor="services">Choose the service you want to book : </label>
                     <select name="services" id='service-select' className="col-3 col-md-3 mx-3 mt-2">
-                        <option value="" > Select Your Service </option>
+                        <option value=""> Select Your Service </option>
+                        {
+                            servicesData.map((data) => (
+                                <option key={data.sername}> {data.sername}</option>
+                            ))
+                        }
                     </select>
                     <span id='result'> </span>
                 </div>
