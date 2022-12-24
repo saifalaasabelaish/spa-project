@@ -1,4 +1,22 @@
 import './Booking.css'
+import servicesData from "../ServicesPage/Services_Data"
+servicesData.sort();
+servicesData.forEach(function (data) {
+    let newOption = document.createElement("option");
+    let serviceSelect = document.getElementById("service-select");
+    newOption.text = data;
+    newOption.value = data;
+    serviceSelect.appendChild(newOption);
+    serviceSelect.onChange = writeToScreen;
+
+
+});
+
+function writeToScreen() {
+    let result = document.getElementById("result");
+
+    result.innerText = result.value;
+};
 
 const ServiceBooking = () => {
     return (
@@ -7,22 +25,16 @@ const ServiceBooking = () => {
                 <div className="mb-3 mt-2">
                     <label htmlFor="services">Choose the service you want to book : </label>
                     <select name="services" id='service-select' className="col-3 col-md-3 mx-3 mt-2">
-                        <option value="Massage">Massage </option>
-                        <option value="Face">Face Care </option>
-                        <option value="Hand">Hand Care </option>
-                        <option value="Body">body care </option>
-                        <option value="Feet">feet care</option>
-                        <option value="Bridal">bridal care</option>
-                        <option value="Laser">laser hair</option>
-                        <option value="Salon">salon services</option>
+                        <option value="" > Select Your Service </option>
                     </select>
+                    <span id='result'> </span>
                 </div>
 
                 <div className="row">
                     <div className="col">
                         <div className="mb-3">
                             <label htmlFor="date" >Pick A Day :</label>
-                            <input type="date" id='day-select'required />
+                            <input type="date" id='day-select' required />
                         </div>
                     </div>
                     <div className="col">
@@ -32,13 +44,18 @@ const ServiceBooking = () => {
                                 <option value="3:00PM">3:00PM</option>
                                 <option value="6:00PM">6:00PM</option>
                                 <option value="9:00PM">9:00PM</option>
-                            
+
                             </select>
                         </div>
                     </div>
                 </div>
             </div>
         </>
+
     );
+
+
 }
+
+
 export default ServiceBooking;
