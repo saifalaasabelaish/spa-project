@@ -34,7 +34,7 @@ const ShoppingPage = () => {
                   <button  onClick={eventHandler} className="btn categorybtn p-4"  id="makeup"> Make up</button>
                   <button  onClick={eventHandler} className="btn categorybtn p-4"  id="body-products">Body products </button>
                   <button  onClick={eventHandler} className="btn categorybtn p-4"  id="perfumes"> Perfumes </button>
-                  <button  onClick={eventHandler} className="btn categorybtn p-4 "  id="hair-products"> Hair products </button>
+                  <button  onClick={eventHandler} className="btn categorybtn p-4 " id="hair-products"> Hair products </button>
                 </div>
               </div>
             </div>
