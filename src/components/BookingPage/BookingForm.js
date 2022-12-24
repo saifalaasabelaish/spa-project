@@ -27,7 +27,7 @@ const BookingForm = (props) => {
                 <div className="form-check form-check-inline">
                     <input className="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1" data-bs-toggle="modal" data-bs-target="#exampleModal"></input>
                     <label className="form-check-label" htmlFor="inlineCheckbox1" data-bs-toggle="modal" data-bs-target="#exampleModal">remind me</label></div>
-                <div className="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div className="modal fade" id="exampleModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div className="modal-dialog">
                         <div className="modal-content">
                             <div className="modal-header">
@@ -46,6 +46,7 @@ const BookingForm = (props) => {
                 {props.children}
             </form>
         </div>
+        
         </>
     )
 }

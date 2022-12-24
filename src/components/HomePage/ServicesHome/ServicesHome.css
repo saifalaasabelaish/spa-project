@@ -46,3 +46,8 @@
     border: 3px solid #fff;
     border-radius: 50%;
 }
+.services-title{
+
+    animation:fadeInUp 2s ease forwards;
+
+}

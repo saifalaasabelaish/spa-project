@@ -13,7 +13,7 @@ const ServicesPage = () => {
     <>
       <Navbar />
       <HeaderPage title=" Services" />
-      <div className="ser container">
+      <div className="ser container card-effect">
         <div className="row">
           <div className="col-12 col-md-12 col-lg-12">
             <div className="filser card border shadow p-4 mt-4">
