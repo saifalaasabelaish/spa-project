@@ -2,7 +2,7 @@
    height: 340px;
     transition: 0.5s;
     margin-top: 30px;
-    animation:fadeInUp 5s ease forwards;
+    animation:fadeInUp 3s ease forwards;
 
 }
 
@@ -14,7 +14,7 @@
 @keyframes fadeInUp {
 	0% {
 		opacity: 0;
-		transform: translateY(300px);
+		transform: translateY(200px);
 	}
 
 }
