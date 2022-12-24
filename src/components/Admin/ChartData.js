@@ -1,18 +1,19 @@
 export const ChartData = [
 
     {
-        "number": 3,
+        "number": 14,
         "service": "massage"
 
     },
     {
-        "number": 5,
+        "number": 8,
         "service": "Laser"
 
     },
     {
-        "number": 1,
+        "number": 14,
         "service": "Hair"
 
     },
 ]
+export default ChartData;
