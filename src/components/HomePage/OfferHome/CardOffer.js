@@ -9,7 +9,7 @@ const CardOffer = (props) => { // props For Dynimc Data
       <div className="cardoffer">
         <Link to="/ShoppingPage">
           <div className="card-body">
-            <img src={props.imag} className="img-fluid offerimg" alt={props.offers} />
+            <img src={props.imag} className="img-fluid" alt={props.offers} />
           </div>
         </Link>
       </div>
