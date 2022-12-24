@@ -11,7 +11,6 @@ function AdminDataTable() {
                 <td>{info.phone}</td>
                 <td>{info.service}</td>
                 <td>{info.serviceTime}</td>
-                <td>{info.pay}</td>
             </tr>
         )
     }
@@ -28,7 +27,6 @@ function AdminDataTable() {
                         <th>Phone Number</th>
                         <th> Services Booked</th>
                         <th> Service Time</th>
-                        <th>Payment Method</th>
                     </tr>
                 </thead>
                 <tbody className="table-group-divider">
