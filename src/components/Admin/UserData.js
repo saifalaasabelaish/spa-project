@@ -4,10 +4,9 @@ export const UserData = [
         "id": 1,
         "name": "Ahmad Faoor",
         "email": "aksri.random@gmail.com",
-        "pay": "Cash",
         "address": "Nablus",
         "phone" : "051279498",
-        "service":"Massage",
+        "service":"Peeling Skin",
         "serviceTime":"12:00PM",
         "serviceDay":"2023-01-01"
 
@@ -17,11 +16,10 @@ export const UserData = [
         "id": 2,
         "name": "Sami tuffaha",
         "email": "aksri.random@gmail.com",
-        "pay": "Cash",
         "address": "Nablus",
         "phone" : "051279498",
-        "service":"Massage",
-        "serviceTime":"9:00 AM",
+        "service":"Body Massage",
+        "serviceTime":"12:00PM",
         "serviceDay":"2023-01-10"
 
     },
@@ -31,9 +29,8 @@ export const UserData = [
         "name": "Rami dale",
         "email": "aksri.random@gmail.com",
         "address": "Jerusalem",
-        "service":"Massage",
-        "serviceTime":"9:00 AM",
-        "pay":"Cash",
+        "service":"Turkish Bath",
+        "serviceTime":"9:00PM",
         "phone" : "051279498",
         "serviceDay":"2023-01-27"
         
@@ -44,9 +41,8 @@ export const UserData = [
         "name": "Adnan sami",
         "email": "aksri.random@gmail.com",
         "address": "Ramallah",
-        "service":"Hair",
-        "pay":"Visa Card",
-        "serviceTime":"9:00 AM",
+        "service":"Hands Laser",
+        "serviceTime":"6:00PM",
         "phone" : "051279498",
         "serviceDay":"2023-03-01"
     },
@@ -56,9 +52,8 @@ export const UserData = [
         "name": "Ibraheem sadeq",
         "email": "aksri.random@gmail.com",
         "address": "Nablus",
-        "pay":"Cash",
-        "service":"Laser",
-        "serviceTime":"9:00 AM",
+        "service":"Hair Cut & Style",
+        "serviceTime":"12:00PM",
         "phone" : "051279498",
         "serviceDay":"2023-02-04"
 
@@ -69,9 +64,8 @@ export const UserData = [
         "name": "Yousef Jarbo",
         "email": "aksri.random@gmail.com",
         "address": "Nablus",
-        "service":"Massage",
-        "serviceTime":"9:00 AM",
-        "pay":"Visa Card",
+        "service":"Peeling Skin",
+        "serviceTime":"6:00PM",
         "phone" : "051279498",
         "serviceDay":"2023-07-05"
 
@@ -81,9 +75,8 @@ export const UserData = [
         "name": "Khaled Masri",
         "email": "aksri.random@gmail.com",
         "address": "Jerico",
-        "service":"Massage",
-        "serviceTime":"9:00 AM",
-        "pay":"Cash",
+        "service":"Body Hydration",
+        "serviceTime":"12:00PM",
         "phone" : "051279498",
         "serviceDay":"2023-02-14"
 
@@ -94,9 +87,8 @@ export const UserData = [
         "name": "Abdullah Ahmad",
         "email": "aksri.random@gmail.com",
         "address": "Hebron",
-        "service":"Laser",
-        "pay":"Cash",
-        "serviceTime":"9:00 AM",
+        "service":"Back & Neck Massage",
+        "serviceTime":"9:00PM",
         "phone" : "051279498",
         "serviceDay":"2023-02-17"
     },
@@ -106,9 +98,8 @@ export const UserData = [
         "name": "Samer Mosa",
         "email": "aksri.random@gmail.com",
         "address": "Ramallah",
-        "pay":"Cash",
-        "service":"Nails",
-        "serviceTime":"9:00 AM",
+        "service":"Peeling Skin",
+        "serviceTime":"3:00PM",
         "phone" : "051279498",
         "serviceDay":"2023-04-21"
 

@@ -25,4 +25,4 @@ const Services = (props) =>
       </>
     )
   }
-export default Services; 
+export default Services;
