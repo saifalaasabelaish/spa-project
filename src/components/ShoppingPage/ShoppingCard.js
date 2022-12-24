@@ -4,7 +4,7 @@ const ShoppingCard =(props)=>
 {
   const {addItem}=useCart()
 return(
-<div className="card border w-100 card-effect">
+<div className="card border w-100 card-effect card-hover">
   <img src ={props.imgshoping}  className="card-img-top img-fluid"  alt="product"/>
   <div className="card-body">
     <p className=" card-text d-flex justify-content-center productcard">  {props.content}  </p>
