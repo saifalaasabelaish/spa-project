@@ -1,32 +1,18 @@
-/* .about {
-  font-family:'Titillium Web',sans-serif;
-}
-.about .img-fluid {
-  height: 350px;
-  width: 350px;
-}
-.about .about-card:hover{
-    box-shadow:10px 10px 20px 10px rgba(0, 0,0, 0.253);
-    transition: all 0.3s ease;
-    transform: scale(1.1);
-    z-index: 2;
-} */
 
-.aboutimg {
-  width: webkit-fill-available;
+.about .aboutimg {
   height: 330px;
 }
 
-.teamimg {
-  box-shadow: 1px 5px 3px 5px rgba(0, 0, 0, 0.145);
-}
-
-.teamimg:hover {
-  transform: skew(3deg);
-  box-shadow: 10px 10px 10px 15px rgba(0, 0, 0, 0.145);
-}
-
-.title {
+.about .title {
   color: #98CFD8;
   font-family: 'Titillium Web', sans-serif;
+}
+.about .fade{
+  animation:fadeInRight 3s ease forwards;
+}
+.about .carousel-control-prev-icon,.about
+.carousel-control-next-icon {
+    height: 50px;
+    width: 50px;
+    background-color:#67158e; 
 }

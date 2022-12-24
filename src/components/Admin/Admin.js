@@ -1,5 +1,4 @@
 import { useState } from "react";
-import UserData from "./UserData";
 import "./Admin.css"
 import AdminDataTable from "./AdminDataTable";
 import AdminNavbar from "./AdminNavbar"

@@ -1,11 +1,10 @@
-.navbarr li a {
+.navbarr .navtext {
   color: rgb(255, 255, 255);
-  padding: 20px 20px;
-  text-decoration: none;
+  text-decoration: none
 }
 
-.navbarr li a:hover {
-  background-color: #9a76ab;
+.navbarr .navtext:hover {
+  color: rgba(255, 255, 255, 0.784);
 }
 
 .navbarr .logo img {
@@ -15,10 +14,11 @@
 
 .navbarr .bookingbtn {
   background-color: #78e9d2;
+  padding: 18px 10px;
 }
 
 .navbarr {
   background-color: #c197d5;
   font-family: 'Titillium Web', sans-serif;
-  font-size: 18px;
+  font-size: 20px;
 }
